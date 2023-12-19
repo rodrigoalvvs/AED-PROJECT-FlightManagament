@@ -1,0 +1,3 @@
+/home/admin1/Documents/flightManagement/cmake-build-debug/CMakeFiles/flightManagement.dir
+/home/admin1/Documents/flightManagement/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/admin1/Documents/flightManagement/cmake-build-debug/CMakeFiles/rebuild_cache.dir
