@@ -1,6 +1,7 @@
 #include <iostream>
+#include "include/NetworkController.h"
 
 int main() {
-    std::cout << "Hello, World!" << std::endl;
+    NetworkController controller;
     return 0;
 }
