@@ -53,6 +53,23 @@ const std::string &AirportVertex::getCountry() const {
     return this->airport->getCountry();
 }
 
+void AirportVertex::setLow(int low_) {
+    this->low = low_;
+}
+
+void AirportVertex::setNum(int num_) {
+    this->num = num_;
+}
+
+int AirportVertex::getLow() const {
+    return this->low;
+}
+
+int AirportVertex::getNum() const {
+    return this->num;
+}
+
+
 
 
 

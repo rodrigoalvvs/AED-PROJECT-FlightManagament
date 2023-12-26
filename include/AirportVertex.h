@@ -17,6 +17,8 @@ class AirportVertex{
 private:
     std::shared_ptr<Airport> airport;
     std::vector<Flight> flights;
+    int low;
+    int num;
     bool visited;
 public:
     // Constructor
@@ -27,10 +29,14 @@ public:
     const std::string& getAirportCode() const;
     const std::string& getCity() const;
     const std::string& getCountry() const;
+    void setLow(int low);
+    void setNum(int num_);
 
     // Setter methods
     void setFlights(const std::vector<Flight> &flights_);
     void addFlight(const std::string& target, std::shared_ptr<AirportVertex> airline);
+    int getLow() const;
+    int getNum() const;
 
     void setVisited(bool visited);
     bool isVisited() const;

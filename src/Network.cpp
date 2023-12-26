@@ -34,7 +34,7 @@ bool Network::addAirport(std::shared_ptr<AirportVertex> airport) {
 void Network::addFlight(const std::string &source, const std::string &target, const std::string &airline) {
     std::shared_ptr<AirportVertex> airportSource = this->findVertex(source);
     std::shared_ptr<AirportVertex> airportTarget = this->findVertex(target);
-    if(airportSource != nullptr){
+    if(airportSource != nullptr && airportTarget != nullptr){
         airportSource->addFlight(airline, airportTarget);
         this->increaseFlightCount();
     }
