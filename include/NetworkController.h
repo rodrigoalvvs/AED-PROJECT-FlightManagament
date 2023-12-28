@@ -12,11 +12,20 @@
 #include <queue>
 #include <unordered_set>
 #include <stack>
+#include <cmath>
 
 #include "Network.h"
 #include "AirportVertex.h"
 #include "Airline.h"
 #include "Flight.h"
+
+
+struct SearchFilter{
+    int limitAirlines = -1; // -1 to use as many as necessary
+    bool filterAirlines = false; // false to not filter the airlines
+    std::unordered_set<std::string> airlinesToUse;
+};
+
 
 class NetworkController{
 private:
@@ -80,6 +89,19 @@ public:
 
     template<class T>
     bool inStack(std::stack<T> stack, T info);
+
+
+    // 4.
+    std::shared_ptr<AirportVertex> findAirportByCode(const std::string& code);
+    std::shared_ptr<AirportVertex> findAirportByName(const std::string& name);
+    std::vector<std::shared_ptr<AirportVertex>> findAirportsInCity(const std::string& city);
+    std::vector<std::pair<double, std::shared_ptr<AirportVertex>>> findAirportsNearPoint(double latitude, double longitude, int firstN);
+    double computeDistance(double latitude, double longitude, std::shared_ptr<AirportVertex>);
+    std::vector<std::vector<std::pair<std::shared_ptr<AirportVertex>, std::string>>>  findBestFlightOption(std::shared_ptr<AirportVertex> source, std::shared_ptr<AirportVertex> destination, SearchFilter filter);
+
+    // 5.
+    bool inSet(std::unordered_set<std::string>, const std::string&);
+    bool checkFilters(std::vector<std::pair<std::shared_ptr<AirportVertex>, std::string>> path, SearchFilter filter);
 
 };
 

@@ -69,6 +69,18 @@ int AirportVertex::getNum() const {
     return this->num;
 }
 
+const std::string &AirportVertex::getName() const {
+    return this->airport->getName();
+}
+
+double AirportVertex::getLatitude() const {
+    return this->airport->getLatitude();
+}
+
+double AirportVertex::getLongitude() const {
+    return this->airport->getLongitude();
+}
+
 
 
 

@@ -3,11 +3,16 @@
 
 
 int main() {
-
     NetworkController controller;
-    for(std::basic_string<char> c: controller.articulationAirports()){
-        std::cout << c << std::endl;
+    SearchFilter filter;
+    for(const auto& vector: controller.findBestFlightOption(controller.findAirportByCode("OPO"), controller.findAirportByCode("CZL"), filter)){
+
+        std::cout << "With " << vector.size() - 2 << " stops" << std:: endl;
+        for(auto current: vector){
+            std::cout << current.first->getName() << " with " << current.second << ", ";
+        }
+        std::cout << std::endl;
     }
-    std::cout << controller.articulationAirports().size();
+
     return 0;
 }

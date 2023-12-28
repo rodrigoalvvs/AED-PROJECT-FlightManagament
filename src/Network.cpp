@@ -47,6 +47,8 @@ std::shared_ptr<AirportVertex> Network::findVertex(const std::string &info) {
     return nullptr;
 }
 
+
+
 int Network::getFlightCount() const {
     return this->flightCount;
 }
@@ -61,7 +63,7 @@ int Network::outDegree(const std::string &airportCode) const {
 }
 
 const std::vector<Flight> &Network::getFlightsFromAirport(const std::string &airportCode) const{
-    if(this->airportSet.find(airportCode) == this->airportSet.end()) return std::vector<Flight>();
+    if(this->airportSet.find(airportCode) == this->airportSet.end()) return {};
     return this->airportSet.find(airportCode)->second->getFlights();
 }
 
@@ -79,4 +81,13 @@ void Network::resetFlags() {
     for(std::pair<std::string, std::shared_ptr<AirportVertex>> airportVertex: this->airportSet){
         airportVertex.second->setVisited(false);
     }
+}
+
+std::shared_ptr<AirportVertex> Network::findAirportByName(const std::string &name) {
+    for(const auto& pair: this->airportSet){
+        if(pair.second->getName() == name){
+            return pair.second;
+        }
+    }
+    return nullptr;
 }

@@ -29,6 +29,9 @@ public:
     const std::string& getAirportCode() const;
     const std::string& getCity() const;
     const std::string& getCountry() const;
+    const std::string& getName() const;
+    double getLatitude() const;
+    double getLongitude() const;
     void setLow(int low);
     void setNum(int num_);
 

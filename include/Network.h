@@ -19,8 +19,8 @@ private:
     int flightCount;
 
     std::unordered_map<std::string, std::shared_ptr<AirportVertex>> airportSet;
-
     std::unordered_map<std::string, std::shared_ptr<Airline>> airlineMap;
+
 public:
     // Constructor
     Network();
@@ -44,6 +44,7 @@ public:
     int outDegree(const std::string& airportCode) const;
 
     std::shared_ptr<AirportVertex> findVertex(const std::string &info);
+    std::shared_ptr<AirportVertex> findAirportByName(const std::string& name);
 
     const std::vector<Flight>& getFlightsFromAirport(const std::string& airportCode) const;
 

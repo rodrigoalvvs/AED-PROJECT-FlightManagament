@@ -17,7 +17,7 @@ THU,Thule Air Base,Thule,Greenland,76.531203,-68.703161
 AEY,Akureyri,Akureyri,Iceland,65.659994,-18.072703
 EGS,Egilsstadir,Egilsstadir,Iceland,65.283333,-14.401389
 IFJ,Isafjordur,Isafjordur,Iceland,66.058056,-23.135278
-KEF,Keflavik International AirportVertex,Keflavik,Iceland,63.985000,-22.605556
+KEF,Keflavik International Airport,Keflavik,Iceland,63.985000,-22.605556
 RKV,Reykjavik,Reykjavik,Iceland,64.130000,-21.940556
 YAM,Sault Ste Marie,Sault Sainte Marie,Canada,46.485001,-84.509445
 YBC,Baie Comeau,Baie Comeau,Canada,49.132500,-68.204444
@@ -237,7 +237,7 @@ LBA,Leeds Bradford,Leeds,United Kingdom,53.865897,-1.660569
 CEG,Hawarden,Hawarden,United Kingdom,53.178056,-2.977778
 IOM,Isle Of Man,Isle Of Man,Isle of Man,54.083333,-4.623889
 NCL,Newcastle,Newcastle,United Kingdom,55.037500,-1.691667
-MME,Durham Tees Valley AirportVertex,Teesside,United Kingdom,54.509189,-1.429406
+MME,Durham Tees Valley Airport,Teesside,United Kingdom,54.509189,-1.429406
 EMA,Nottingham East Midlands,East Midlands,United Kingdom,52.831111,-1.328056
 KOI,Kirkwall,Kirkwall,United Kingdom,58.957778,-2.905000
 LSI,Sumburgh,Sumburgh,United Kingdom,59.878889,-1.295556
@@ -1899,30 +1899,30 @@ DRW,Darwin Intl,Darwin,Australia,-12.408333,130.872660
 URT,Surat Thani,Surat Thani,Thailand,9.132500,99.135556
 NYU,Bagan Intl,Nyuang U,Burma,21.173833,94.924667
 MPH,Godofredo P,Caticlan,Philippines,11.921500,121.953000
-HVN,Tweed-New Haven AirportVertex,New Haven,United States,41.263750,-72.886806
-AVL,Asheville Regional AirportVertex,Asheville,United States,35.436194,-82.541806
+HVN,Tweed-New Haven Airport,New Haven,United States,41.263750,-72.886806
+AVL,Asheville Regional Airport,Asheville,United States,35.436194,-82.541806
 GSO,Piedmont Triad,Greensboro,United States,36.097750,-79.937306
 FSD,Sioux Falls,Sioux Falls,United States,43.582014,-96.741914
 AYQ,Ayers Rock,Uluru,Australia,-25.186111,130.975556
-MHT,Manchester Regional AirportVertex,Manchester NH,United States,42.932556,-71.435667
+MHT,Manchester Regional Airport,Manchester NH,United States,42.932556,-71.435667
 RDN,Redang,Redang,Malaysia,5.765280,103.007000
-SDF,Louisville International AirportVertex,Louisville,United States,38.174086,-85.736499
+SDF,Louisville International Airport,Louisville,United States,38.174086,-85.736499
 CHO,Charlottesville-Albemarle,Charlottesville VA,United States,38.138639,-78.452861
 ROA,Roanoke Regional,Roanoke VA,United States,37.325472,-79.975417
 LEX,Blue Grass,Lexington KY,United States,38.036500,-84.605889
 EVV,Evansville Regional,Evansville,United States,38.036997,-87.532364
 ABQ,Albuquerque International Sunport,Albuquerque,United States,35.040222,-106.609194
 BZN,Gallatin Field,Bozeman,United States,45.777643,-111.160151
-BIL,Billings Logan International AirportVertex,Billings,United States,45.809210,-108.537654
-BTM,Bert Mooney AirportVertex,Butte,United States,45.954806,-112.497472
-TVC,Cherry Capital AirportVertex,Traverse City,United States,44.741445,-85.582235
+BIL,Billings Logan International Airport,Billings,United States,45.809210,-108.537654
+BTM,Bert Mooney Airport,Butte,United States,45.954806,-112.497472
+TVC,Cherry Capital Airport,Traverse City,United States,44.741445,-85.582235
 BHB,Hancock County - Bar Harbor,Bar Harbor,United States,44.449769,-68.361565
-RKD,Knox County Regional AirportVertex,Rockland,United States,44.060111,-69.099230
-JAC,Jackson Hole AirportVertex,Jacksn Hole,United States,43.607333,-110.737750
-RFD,Chicago Rockford International AirportVertex,Rockford,United States,42.195361,-89.097222
+RKD,Knox County Regional Airport,Rockland,United States,44.060111,-69.099230
+JAC,Jackson Hole Airport,Jacksn Hole,United States,43.607333,-110.737750
+RFD,Chicago Rockford International Airport,Rockford,United States,42.195361,-89.097222
 DME,Domododevo,Moscow,Russia,55.408611,37.906111
 SYX,Phoenix International,Sanya,China,18.302897,109.412272
-LJG,Lijiang AirportVertex,Lijiang,China,26.883333,100.233330
+LJG,Lijiang Airport,Lijiang,China,26.883333,100.233330
 GSP,Greenville-Spartanburg International,Greenville,United States,34.895556,-82.218889
 BMI,Central Illinois Rgnl,Bloomington,United States,40.477111,-88.915917
 GPT,Gulfport-Biloxi,Gulfport,United States,30.407278,-89.070111
@@ -1937,8 +1937,8 @@ ATW,Appleton,Appleton,United States,44.257526,-88.507576
 RST,Rochester,Rochester,United States,43.908283,-92.500014
 CMI,Champaign,Champaign,United States,40.039250,-88.278056
 MHK,Manhattan Reigonal,Manhattan,United States,39.140972,-96.670833
-KGC,Kingscote AirportVertex,Kingscote,Australia,-35.713889,137.521389
-HVB,Hervey Bay AirportVertex,Hervey Bay,Australia,-25.318889,152.880278
+KGC,Kingscote Airport,Kingscote,Australia,-35.713889,137.521389
+HVB,Hervey Bay Airport,Hervey Bay,Australia,-25.318889,152.880278
 BSL,EuroAirport Basel-Mulhouse-Freiburg,Basel,Switzerland,47.590000,7.529167
 DLU,Dali,Dali,China,25.649444,100.319444
 JHG,Jinghong,Jinghong,China,21.973914,100.759611
@@ -1960,10 +1960,10 @@ FUN,Funafuti International,Funafuti,Tuvalu,-8.525000,179.196389
 OVB,Tolmachevo,Novosibirsk,Russia,55.012622,82.650656
 XKH,Xieng Khouang,Phon Savan,Laos,19.449997,103.158333
 HUI,Phu Bai,Hue,Vietnam,16.401499,107.702614
-BIS,Bismarck Municipal AirportVertex,Bismarck,United States,46.775842,-100.757931
+BIS,Bismarck Municipal Airport,Bismarck,United States,46.775842,-100.757931
 INC,Yinchuan,Yinchuan,China,38.481944,106.009167
-RAP,Rapid City Regional AirportVertex,Rapid City,United States,44.045278,-103.057222
-CLD,McClellan-Palomar AirportVertex,Carlsbad,United States,33.074200,-117.164800
+RAP,Rapid City Regional Airport,Rapid City,United States,44.045278,-103.057222
+CLD,McClellan-Palomar Airport,Carlsbad,United States,33.074200,-117.164800
 FNT,Bishop International,Flint,United States,42.965424,-83.743629
 DVO,Francisco Bangoy International,Davao,Philippines,7.125522,125.645778
 FNC,Madeira,Funchal,Portugal,32.697889,-16.774453
@@ -1975,28 +1975,28 @@ EUG,Mahlon Sweet Fld,Eugene,United States,44.124583,-123.211972
 IDA,Idaho Falls Rgnl,Idaho Falls,United States,43.514556,-112.070750
 MFR,Rogue Valley Intl Medford,Medford,United States,42.374228,-122.873500
 RDM,Roberts Fld,Redmond-Bend,United States,44.254066,-121.149964
-WDH,Windhoek Hosea Kutako International AirportVertex,Windhoek,Namibia,-22.486667,17.462500
-YWH,Victoria Inner Harbour AirportVertex,Victoria,Canada,48.422778,-123.387500
+WDH,Windhoek Hosea Kutako International Airport,Windhoek,Namibia,-22.486667,17.462500
+YWH,Victoria Inner Harbour Airport,Victoria,Canada,48.422778,-123.387500
 CXH,Vancouver Coal Harbour,Vancouver,Canada,49.289722,-123.115833
 TNA,Jinan,Jinan,China,36.857214,117.215992
 CZX,Changzhou,Changzhou,China,31.941667,119.711667
 YBP,Yibin,Yibin,China,28.800278,104.544444
 TJM,Roschino,Tyumen,Russia,57.189567,65.324300
-CAK,Akron Canton Regional AirportVertex,Akron,United States,40.916083,-81.442194
-HSV,Huntsville International AirportVertex-Carl T Jones Field,Huntsville,United States,34.637194,-86.775056
-PKB,Mid-Ohio Valley Regional AirportVertex,PARKERSBURG,United States,39.345104,-81.439203
-MGM,Montgomery Regional AirportVertex,MONTGOMERY,United States,32.300639,-86.393972
-TRI,Tri-Cities Regional AirportVertex,BRISTOL,United States,36.475222,-82.407417
-PAH,Barkley Regional AirportVertex,PADUCAH,United States,37.060288,-88.772958
+CAK,Akron Canton Regional Airport,Akron,United States,40.916083,-81.442194
+HSV,Huntsville International Airport-Carl T Jones Field,Huntsville,United States,34.637194,-86.775056
+PKB,Mid-Ohio Valley Regional Airport,PARKERSBURG,United States,39.345104,-81.439203
+MGM,Montgomery Regional Airport,MONTGOMERY,United States,32.300639,-86.393972
+TRI,Tri-Cities Regional Airport,BRISTOL,United States,36.475222,-82.407417
+PAH,Barkley Regional Airport,PADUCAH,United States,37.060288,-88.772958
 KUF,Kurumoch,Samara,Russia,53.500000,50.150000
-JIB,Ambouli International AirportVertex,Djibouti,Djibouti,11.547200,43.159400
+JIB,Ambouli International Airport,Djibouti,Djibouti,11.547200,43.159400
 HAK,Meilan,Haikou,China,19.934856,110.458961
-PGA,Page Municipal AirportVertex,Page,United States,36.926100,-111.448300
-SNV,Santa Elena AirportVertex,Santa Elena de Uairen,Venezuela,4.554722,-61.144922
+PGA,Page Municipal Airport,Page,United States,36.926100,-111.448300
+SNV,Santa Elena Airport,Santa Elena de Uairen,Venezuela,4.554722,-61.144922
 FCA,Glacier Park Intl,Kalispell,United States,48.310472,-114.256000
 MBS,Mbs Intl,Saginaw,United States,43.532913,-84.079647
 BGM,Greater Binghamton Edwin A Link Fld,Binghamton,United States,42.208689,-75.979839
-BGW,Baghdad International AirportVertex,Baghdad,Iraq,33.262539,44.234578
+BGW,Baghdad International Airport,Baghdad,Iraq,33.262539,44.234578
 NNT,Nan,Nan,Thailand,18.807914,100.783419
 ROI,Roi Et,Roi Et,Thailand,16.116761,103.773797
 BFV,Buri Ram,Buri Ram,Thailand,15.229539,103.253231
@@ -2006,11 +2006,11 @@ CRK,Diosdado Macapagal International,Angeles City,Philippines,15.185833,120.5602
 SDK,Sandakan,Sandakan,Malaysia,5.900897,118.059486
 LXG,Luang Namtha,Luang Namtha,Laos,20.960556,101.402500
 ODY,Oudomxay,Muang Xay,Laos,20.682700,101.994000
-SHE,Shenyang Taoxian International AirportVertex,Shenyang,China,41.382400,123.290100
-DOY,Dongying AirportVertex,Dongying,China,37.271600,118.281900
+SHE,Shenyang Taoxian International Airport,Shenyang,China,41.382400,123.290100
+DOY,Dongying Airport,Dongying,China,37.271600,118.281900
 PSG,Petersburg James A. Johnson,Petersburg,United States,56.801667,-132.945278
-LYA,Luoyang AirportVertex,Luoyang,China,34.410000,112.280000
-XUZ,Xuzhou Guanyin AirportVertex,Xuzhou,China,34.160000,117.110000
+LYA,Luoyang Airport,Luoyang,China,34.410000,112.280000
+XUZ,Xuzhou Guanyin Airport,Xuzhou,China,34.160000,117.110000
 IFN,Esfahan Shahid Beheshti Intl,Isfahan,Iran,32.750836,51.861267
 DLI,Dalat,Dalat,Vietnam,11.750000,108.367000
 VDH,Dong Hoi,Dong Hoi,Vietnam,17.515000,106.590556
@@ -2023,8 +2023,8 @@ NSI,Yaounde Nsimalen,Yaounde,Cameroon,3.722556,11.553269
 CKY,Conakry,Conakry,Guinea,9.576889,-13.611961
 FKB,Baden Airpark,Karlsruhe/Baden-Baden,Germany,48.779300,8.080480
 SFB,Orlando Sanford Intl,Sanford,United States,28.777639,-81.237489
-PQC,Duong Dong AirportVertex,Phu Quoc,Vietnam,10.227025,103.967169
-JST,John Murtha Johnstown-Cambria County AirportVertex,Johnstown,United States,40.316111,-78.833889
+PQC,Duong Dong Airport,Phu Quoc,Vietnam,10.227025,103.967169
+JST,John Murtha Johnstown-Cambria County Airport,Johnstown,United States,40.316111,-78.833889
 MWX,Muan,Muan,South Korea,34.991389,126.382778
 JTY,Astypalaia,Astypalaia,Greece,36.579886,26.375822
 JIK,Ikaria,Ikaria,Greece,37.682717,26.347061
@@ -2056,14 +2056,14 @@ SRZ,Santa Cruz,Santa Cruz,Bolivia,-17.800000,-63.166667
 KUS,Kulusuk,Kulusuk,Greenland,65.566667,-37.116667
 EGE,Eagle Co Rgnl,Vail,United States,39.642556,-106.917694
 SKN,Skagen,Stokmarknes,Norway,68.580833,15.026111
-CSG,Columbus Metropolitan AirportVertex,Columbus,United States,32.516333,-84.938861
-LAW,Lawton-Fort Sill Regional AirportVertex,Lawton,United States,34.567714,-98.416637
-FLG,Flagstaff Pulliam AirportVertex,Flagstaff,United States,35.140318,-111.669239
-TWF,Magic Valley Regional AirportVertex,Twin Falls,United States,42.481803,-114.487733
+CSG,Columbus Metropolitan Airport,Columbus,United States,32.516333,-84.938861
+LAW,Lawton-Fort Sill Regional Airport,Lawton,United States,34.567714,-98.416637
+FLG,Flagstaff Pulliam Airport,Flagstaff,United States,35.140318,-111.669239
+TWF,Magic Valley Regional Airport,Twin Falls,United States,42.481803,-114.487733
 MCM,Monaco,Monaco,Monaco,43.733333,7.416667
 MVY,Martha\'s Vineyard,Vineyard Haven MA,United States,41.391667,-70.615278
-STC,Saint Cloud Regional AirportVertex,Saint Cloud,United States,45.546556,-94.059889
-GTR,Golden Triangle Regional AirportVertex,Columbus Mississippi,United States,33.450333,-88.591361
+STC,Saint Cloud Regional Airport,Saint Cloud,United States,45.546556,-94.059889
+GTR,Golden Triangle Regional Airport,Columbus Mississippi,United States,33.450333,-88.591361
 GOJ,Nizhny Novgorod,Nizhniy Novgorod,Russia,56.230119,43.784042
 ERI,Erie Intl Tom Ridge Fld,Erie,United States,42.082022,-80.176217
 HYA,Barnstable Muni Boardman Polando Fld,Barnstable,United States,41.669336,-70.280356
@@ -2071,31 +2071,31 @@ SPR,San Pedro,San Pedro,Belize,17.913936,-87.971075
 MGW,Morgantown Muni Walter L Bill Hart Fld,Morgantown,United States,39.642908,-79.916314
 CRW,Yeager,Charleston,United States,38.373147,-81.593189
 AVP,Wilkes Barre Scranton Intl,Scranton,United States,41.338478,-75.723403
-BJI,Bemidji Regional AirportVertex,Bemidji,United States,47.510722,-94.934722
+BJI,Bemidji Regional Airport,Bemidji,United States,47.510722,-94.934722
 BNK,Ballina Byron Gateway,Ballina Byron Bay,Australia,-28.833889,153.562500
-FAR,Hector International AirportVertex,Fargo,United States,46.920650,-96.815764
-GCC,Gillette-Campbell County AirportVertex,Gillette,United States,44.348917,-105.539361
-TOF,Tomsk Bogashevo AirportVertex,Tomsk,Russia,56.380278,85.208333
+FAR,Hector International Airport,Fargo,United States,46.920650,-96.815764
+GCC,Gillette-Campbell County Airport,Gillette,United States,44.348917,-105.539361
+TOF,Tomsk Bogashevo Airport,Tomsk,Russia,56.380278,85.208333
 CJM,Chumphon,Chumphon,Thailand,10.711200,99.361706
 JZH,Jiuzhaigou Huanglong,Jiuzhaigou,China,32.857000,103.683000
-SWA,Wai Sha AirportVertex,Shantou,China,23.400000,116.683000
+SWA,Wai Sha Airport,Shantou,China,23.400000,116.683000
 GEO,Cheddi Jagan Intl,Georgetown,Guyana,6.498553,-58.254119
 AGT,Ciudad del Este,Ciudad del Este,Paraguay,-25.455500,-54.843592
 OGL,Ogle,Georgetown,Guyana,6.806944,-58.104444
-DNH,Dunhuang AirportVertex,Dunhuang,China,40.094000,94.481800
+DNH,Dunhuang Airport,Dunhuang,China,40.094000,94.481800
 AOI,Falconara,Ancona,Italy,43.616389,13.362222
 CPO,Copiapo,Copiapo,Chile,-27.000000,-70.000000
 LYB,Edward Bodden Airfield,Little Cayman,Cayman Islands,19.659167,-80.090833
 BJV,Bodrum - Milas,Bodrum,Turkey,37.249000,27.667000
 SAW,Sabiha Gokcen,Istanbul,Turkey,40.898553,29.309219
-SCE,University Park AirportVertex,State College Pennsylvania,United States,40.849278,-77.848694
+SCE,University Park Airport,State College Pennsylvania,United States,40.849278,-77.848694
 BME,Broome,Broome,Australia,-17.800000,122.200000
-NTL,Newcastle AirportVertex,Newcastle,Australia,-32.780000,151.830000
-KLU,Woerthersee International AirportVertex,Klagenfurt,Austria,46.642514,14.337739
-HFT,Hammerfest AirportVertex,Hammerfest,Norway,70.679722,23.668889
+NTL,Newcastle Airport,Newcastle,Australia,-32.780000,151.830000
+KLU,Woerthersee International Airport,Klagenfurt,Austria,46.642514,14.337739
+HFT,Hammerfest Airport,Hammerfest,Norway,70.679722,23.668889
 HVG,Valan,Honningsvag,Norway,70.990000,25.830000
 MEH,Mehamn,Mehamn,Norway,71.029722,27.826667
-VDS,AirportVertex,Vadso,Norway,70.065000,29.844000
+VDS,Airport,Vadso,Norway,70.065000,29.844000
 IKA,Imam Khomeini,Tehran,Iran,35.416111,51.152222
 MHD,Mashhad,Mashhad,Iran,36.234000,59.643000
 MDG,Mudanjiang,Mudanjiang,China,44.523889,129.568889
@@ -2134,648 +2134,648 @@ ATT,Camp Mabry Austin City,Austin TX,United States,30.316660,-97.766600
 OAJ,Albert J Ellis,Jacksonville NC,United States,34.829164,-77.612139
 DBQ,Dubuque Rgnl,Dubuque IA,United States,42.402000,-90.709472
 FDE,Forde Bringeland,Forde,Norway,61.392000,5.763000
-ATD,Uru Harbour AirportVertex,Atoifi,Solomon Islands,-8.873330,161.011000
-FRE,Fera/Maringe AirportVertex,Fera Island,Solomon Islands,-8.107500,159.577000
-IRA,Ngorangora AirportVertex,Kirakira,Solomon Islands,-10.449700,161.898000
-SCZ,Santa Cruz/Graciosa Bay/Luova AirportVertex,Santa Cruz/Graciosa Bay/Luova,Solomon Islands,-10.720300,165.795000
-MUA,Munda AirportVertex,Munda,Solomon Islands,-8.327970,157.263000
-GZO,Nusatupe AirportVertex,Gizo,Solomon Islands,-8.097780,156.864000
-RNL,Rennell/Tingoa AirportVertex,Rennell Island,Solomon Islands,-11.533900,160.063000
-RUS,Marau AirportVertex,Marau,Solomon Islands,-9.861670,160.825000
-VAO,Suavanao AirportVertex,Suavanao,Solomon Islands,-7.585560,158.731000
-KGE,Kagau Island AirportVertex,Kagau Island,Solomon Islands,-7.333000,157.583000
-RBV,Ramata AirportVertex,Ramata,Solomon Islands,-8.168060,157.643000
-BUA,Buka AirportVertex,Buka Island,Papua New Guinea,-5.422320,154.673000
-CMU,Chimbu AirportVertex,Kundiawa,Papua New Guinea,-6.024290,144.971000
-DAU,Daru AirportVertex,Daru,Papua New Guinea,-9.086760,143.208000
-GUR,Gurney AirportVertex,Gurney,Papua New Guinea,-10.311500,150.334000
-PNP,Girua AirportVertex,Girua,Papua New Guinea,-8.804540,148.309000
-HKN,Kimbe AirportVertex,Hoskins,Papua New Guinea,-5.462170,150.405000
-UNG,Kiunga AirportVertex,Kiunga,Papua New Guinea,-6.125710,141.282000
-KVG,Kavieng AirportVertex,Kavieng,Papua New Guinea,-2.579400,150.808000
-MDU,Mendi AirportVertex,Mendi,Papua New Guinea,-6.147740,143.657000
-MAS,Momote AirportVertex,Momote,Papua New Guinea,-2.061890,147.424000
-MXH,Moro AirportVertex,Moro,Papua New Guinea,-6.363330,143.238000
-MIS,Misima Island AirportVertex,Misima Island,Papua New Guinea,-10.689200,152.838000
-TIZ,Tari AirportVertex,Tari,Papua New Guinea,-5.845000,142.948000
-TBG,Tabubil AirportVertex,Tabubil,Papua New Guinea,-5.278610,141.226000
-RAB,Tokua AirportVertex,Tokua,Papua New Guinea,-4.340460,152.380000
-VAI,Vanimo AirportVertex,Vanimo,Papua New Guinea,-2.697170,141.302000
-WBM,Wapenamanda AirportVertex,Wapenamanda,Papua New Guinea,-5.643300,143.895000
+ATD,Uru Harbour Airport,Atoifi,Solomon Islands,-8.873330,161.011000
+FRE,Fera/Maringe Airport,Fera Island,Solomon Islands,-8.107500,159.577000
+IRA,Ngorangora Airport,Kirakira,Solomon Islands,-10.449700,161.898000
+SCZ,Santa Cruz/Graciosa Bay/Luova Airport,Santa Cruz/Graciosa Bay/Luova,Solomon Islands,-10.720300,165.795000
+MUA,Munda Airport,Munda,Solomon Islands,-8.327970,157.263000
+GZO,Nusatupe Airport,Gizo,Solomon Islands,-8.097780,156.864000
+RNL,Rennell/Tingoa Airport,Rennell Island,Solomon Islands,-11.533900,160.063000
+RUS,Marau Airport,Marau,Solomon Islands,-9.861670,160.825000
+VAO,Suavanao Airport,Suavanao,Solomon Islands,-7.585560,158.731000
+KGE,Kagau Island Airport,Kagau Island,Solomon Islands,-7.333000,157.583000
+RBV,Ramata Airport,Ramata,Solomon Islands,-8.168060,157.643000
+BUA,Buka Airport,Buka Island,Papua New Guinea,-5.422320,154.673000
+CMU,Chimbu Airport,Kundiawa,Papua New Guinea,-6.024290,144.971000
+DAU,Daru Airport,Daru,Papua New Guinea,-9.086760,143.208000
+GUR,Gurney Airport,Gurney,Papua New Guinea,-10.311500,150.334000
+PNP,Girua Airport,Girua,Papua New Guinea,-8.804540,148.309000
+HKN,Kimbe Airport,Hoskins,Papua New Guinea,-5.462170,150.405000
+UNG,Kiunga Airport,Kiunga,Papua New Guinea,-6.125710,141.282000
+KVG,Kavieng Airport,Kavieng,Papua New Guinea,-2.579400,150.808000
+MDU,Mendi Airport,Mendi,Papua New Guinea,-6.147740,143.657000
+MAS,Momote Airport,Momote,Papua New Guinea,-2.061890,147.424000
+MXH,Moro Airport,Moro,Papua New Guinea,-6.363330,143.238000
+MIS,Misima Island Airport,Misima Island,Papua New Guinea,-10.689200,152.838000
+TIZ,Tari Airport,Tari,Papua New Guinea,-5.845000,142.948000
+TBG,Tabubil Airport,Tabubil,Papua New Guinea,-5.278610,141.226000
+RAB,Tokua Airport,Tokua,Papua New Guinea,-4.340460,152.380000
+VAI,Vanimo Airport,Vanimo,Papua New Guinea,-2.697170,141.302000
+WBM,Wapenamanda Airport,Wapenamanda,Papua New Guinea,-5.643300,143.895000
 LLU,Alluitsup Paa Heliport,Alluitsup Paa,Greenland,60.464400,-45.577800
-CNP,Neerlerit Inaat AirportVertex,Neerlerit Inaat,Greenland,70.743300,-22.660600
+CNP,Neerlerit Inaat Airport,Neerlerit Inaat,Greenland,70.743300,-22.660600
 JFR,Paamiut Heliport,Paamiut,Greenland,61.992200,-49.662500
 JJU,Qaqortoq Heliport,Qaqortoq,Greenland,60.715800,-46.029400
-JSU,Maniitsoq AirportVertex,Maniitsoq,Greenland,65.412500,-52.939400
+JSU,Maniitsoq Airport,Maniitsoq,Greenland,65.412500,-52.939400
 JNN,Nanortalik Heliport,Nanortalik,Greenland,60.140000,-45.231700
 JNS,Narsaq Heliport,Narsaq,Greenland,60.916700,-46.058600
-NAQ,Qaanaaq AirportVertex,Qaanaaq,Greenland,77.488600,-69.388700
-JHS,Sisimiut AirportVertex,Sisimiut,Greenland,66.951300,-53.729300
-JUV,Upernavik AirportVertex,Upernavik,Greenland,72.790200,-56.130600
-JQA,Qaarsut AirportVertex,Uummannaq,Greenland,70.734200,-52.696200
-CUK,Caye Caulker AirportVertex,Caye Caulker,Belize,17.734700,-88.032500
-PND,Punta Gorda AirportVertex,Punta Gorda,Belize,16.102400,-88.808300
-YAA,Anahim Lake AirportVertex,Anahim Lake,Canada,52.452500,-125.303000
-YRG,Rigolet AirportVertex,Rigolet,Canada,54.179700,-58.457500
-ZTB,Tete-a-la-Baleine AirportVertex,Tete-a-la-Baleine,Canada,50.674400,-59.383600
-ZLT,La Tabatiere AirportVertex,La Tabatiere,Canada,50.830800,-58.975600
-NTG,Nantong AirportVertex,Nantong,China,32.070800,120.976000
-APO,Apartado AirportVertex,Apartado,Colombia,7.033000,-77.200000
-TCD,Tarapaca AirportVertex,Tarapaca,Colombia,-2.867000,-69.733000
-YAG,Fort Frances Municipal AirportVertex,Fort Frances,Canada,48.654200,-93.439700
-YBX,Lourdes De Blanc Sablon AirportVertex,Lourdes-De-Blanc-Sablon,Canada,51.443600,-57.185300
-YCS,Chesterfield Inlet AirportVertex,Chesterfield Inlet,Canada,63.346900,-90.731100
-YDP,Nain AirportVertex,Nain,Canada,56.549200,-61.680300
-YMN,Makkovik AirportVertex,Makkovik,Canada,55.076900,-59.186400
-YGT,Igloolik AirportVertex,Igloolik,Canada,69.364700,-81.816100
-YGX,Gillam AirportVertex,Gillam,Canada,56.357500,-94.710600
-YGZ,Grise Fiord AirportVertex,Grise Fiord,Canada,76.426100,-82.909200
-YHO,Hopedale AirportVertex,Hopedale,Canada,55.448300,-60.228600
-YHR,Chevery AirportVertex,Chevery,Canada,50.468900,-59.636700
-YLC,Kimmirut AirportVertex,Kimmirut,Canada,62.850000,-69.883300
-YPW,Powell River AirportVertex,Powell River,Canada,49.834200,-124.500000
-YQD,The Pas AirportVertex,The Pas,Canada,53.971400,-101.091000
-YRL,Red Lake AirportVertex,Red Lake,Canada,51.066900,-93.793100
-YSK,Sanikiluaq AirportVertex,Sanikiluaq,Canada,56.537800,-79.246700
-YXN,Whale Cove AirportVertex,Whale Cove,Canada,62.240000,-92.598100
-ZBF,Bathurst AirportVertex,Bathurst,Canada,47.629700,-65.738900
-ZMT,Masset AirportVertex,Masset,Canada,54.027500,-132.125000
-BLJ,Batna AirportVertex,Batna,Algeria,35.752106,6.308589
-CBH,Bechar Boudghene Ben Ali Lotfi AirportVertex,Bechar,Algeria,31.645700,-2.269860
-BMW,Bordj Badji Mokhtar AirportVertex,Bordj Badji Mokhtar,Algeria,21.375000,0.923889
-ELU,Guemar AirportVertex,Guemar,Algeria,33.511400,6.776790
-KMS,Kumasi AirportVertex,Kumasi,Ghana,6.714560,-1.590820
-HDF,Heringsdorf AirportVertex,Heringsdorf,Germany,53.878706,14.152347
-DSA,Robin Hood Doncaster Sheffield AirportVertex, Sheffield,United Kingdom,53.474722,-1.004444
-CAL,Campbeltown AirportVertex,Campbeltown,United Kingdom,55.437200,-5.686390
-EOI,Eday AirportVertex,Eday,United Kingdom,59.190600,-2.772220
-NRL,North Ronaldsay AirportVertex,North Ronaldsay,United Kingdom,59.367500,-2.434440
-PPW,Papa Westray AirportVertex,Papa Westray,United Kingdom,59.351700,-2.900280
-SOY,Stronsay AirportVertex,Stronsay,United Kingdom,59.155300,-2.641390
-NDY,Sanday AirportVertex,Sanday,United Kingdom,59.250300,-2.576670
-WRY,Westray AirportVertex,Westray,United Kingdom,59.350300,-2.950000
-BRR,Barra AirportVertex,Barra,United Kingdom,57.022800,-7.443060
-CFN,Donegal AirportVertex,Dongloe,Ireland,55.044192,-8.341000
-LKN,Leknes AirportVertex,Leknes,Norway,68.152500,13.609400
-OSY,Namsos Hoknesora AirportVertex,Namsos,Norway,64.472200,11.578600
-MQN,Rossvoll AirportVertex,Mo i Rana,Norway,66.363900,14.301400
-RVK,Ryum AirportVertex,Rorvik,Norway,64.838300,11.146100
-RET,Rost AirportVertex,Rost,Norway,67.527800,12.103300
-SDN,Anda AirportVertex,Sandane,Norway,61.830000,6.105830
-SOG,Sogndal AirportVertex,Sogndal,Norway,61.156100,7.137780
-SVJ,Svolvaer Helle AirportVertex,Svolvaer,Norway,68.243300,14.669200
-SOJ,Sorkjosen AirportVertex,Sorkjosen,Norway,69.786800,20.959400
-VAW,Svartnes AirportVertex,Vardo,Norway,70.355392,31.044889
-BZG,Bydgoszcz Ignacy Jan Paderewski AirportVertex,Bydgoszcz,Poland,53.096800,17.977700
-OSD,Ostersund AirportVertex,Ostersund,Sweden,63.194400,14.500300
-KSD,Karlstad AirportVertex,Karlstad,Sweden,59.444700,13.337400
-AGH,Angelholm-Helsingborg AirportVertex,Angelholm,Sweden,56.296100,12.847100
-HMV,Hemavan AirportVertex,Hemavan,Sweden,65.806111,15.082778
-SHC,Shire Inda Selassie AirportVertex,Shire Indasilase,Ethiopia,14.078100,38.272500
-MQP,Kruger Mpumalanga International AirportVertex,Mpumalanga,South Africa,-25.383200,31.105600
-CBT,Catumbela AirportVertex,Catumbela,Angola,-12.479200,13.486900
-VPE,Ondjiva Pereira AirportVertex,Ondjiva,Angola,-17.043464,15.683822
-MSZ,Namibe AirportVertex,Mocamedes,Angola,-15.261222,12.146756
-LUD,Luderitz AirportVertex,Luderitz,Namibia,-26.687400,15.242900
-OMD,Oranjemund AirportVertex,Oranjemund,Namibia,-28.584700,16.446700
-TSH,Tshikapa AirportVertex,Tshikapa,Congo (Kinshasa),-6.438330,20.794700
-LJA,Lodja AirportVertex,Lodja,Congo (Kinshasa),-3.417000,23.450000
-GMZ,La Gomera AirportVertex,La Gomera,Spain,28.029600,-17.214600
-OXB,Osvaldo Vieira International AirportVertex,Bissau,Guinea-Bissau,11.894850,-15.653681
-VIL,Dakhla AirportVertex,Dakhla,Western Sahara,23.718300,-15.932000
-ESU,Mogador AirportVertex,Essadouira,Morocco,31.397500,-9.681667
-EUN,Hassan I AirportVertex,El Aaiun,Western Sahara,27.151700,-13.219200
-NDR,El Aroui AirportVertex,El Aroui,Morocco,34.988800,-3.028210
-RAI,Praia International AirportVertex,Praia,Cape Verde,14.924500,-23.493500
-SFL,Sao Filipe AirportVertex,Sao Filipe,Cape Verde,14.885000,-24.480000
-GDE,Gode AirportVertex,Gode,Ethiopia,5.935128,43.578567
-MGQ,Aden Adde International AirportVertex,Mogadishu,Somalia,2.014440,45.304700
-ATZ,Asyut International AirportVertex,Asyut,Egypt,27.046508,31.011983
-ASV,Amboseli AirportVertex,Amboseli National Park,Kenya,-2.645050,37.253100
-LKG,Lokichoggio AirportVertex,Lokichoggio,Kenya,4.204117,34.348186
-MYD,Malindi AirportVertex,Malindi,Kenya,-3.229310,40.101700
-SRX,Gardabya AirportVertex,Sirt,Libya,31.063500,16.595000
-TOB,Gamal Abdel Nasser AirportVertex,Tobruk,Libya,31.861000,23.907000
-LAQ,La Abraq AirportVertex,Al Bayda',Libya,32.788673,21.964333
-UYL,Nyala AirportVertex,Nyala,Sudan,12.053500,24.956200
-PZU,Port Sudan New International AirportVertex,Port Sudan,Sudan,19.433600,37.234100
-BKZ,Bukoba AirportVertex,Bukoba,Tanzania,-1.300000,31.800000
-DIU,Diu AirportVertex,Diu,India,20.713100,70.921100
-GSM,Gheshm AirportVertex,Gheshm,Iran,26.948700,56.268800
-ABR,Aberdeen Regional AirportVertex,Aberdeen,United States,45.449100,-98.421800
-ABY,Southwest Georgia Regional AirportVertex,Albany,United States,31.535500,-84.194500
-AHN,Athens Ben Epps AirportVertex,Athens,United States,33.948600,-83.326300
-ALO,Waterloo Regional AirportVertex,Waterloo,United States,42.557100,-92.400300
-ALW,Walla Walla Regional AirportVertex,Walla Walla,United States,46.094900,-118.288000
-APN,Alpena County Regional AirportVertex,Alpena,United States,45.078100,-83.560300
-ATY,Watertown Regional AirportVertex,Watertown,United States,44.914000,-97.154700
-BFD,Bradford Regional AirportVertex,Bradford,United States,41.803100,-78.640100
-BFF,Western Nebraska Regional AirportVertex,Scottsbluff,United States,41.874000,-103.596000
-BKW,Raleigh County Memorial AirportVertex,Beckley,United States,37.787300,-81.124200
-BQK,Brunswick Golden Isles AirportVertex,Brunswick,United States,31.258800,-81.466500
-CEC,Del Norte County AirportVertex,Crescent City,United States,41.780200,-124.237000
-CGI,Cape Girardeau Regional AirportVertex,Cape Girardeau,United States,37.225300,-89.570800
-CIU,Chippewa County International AirportVertex,Sault Ste Marie,United States,46.250800,-84.472400
-CKB,Harrison Marion Regional AirportVertex,Clarksburg,United States,39.296600,-80.228100
-CMX,Houghton County Memorial AirportVertex,Hancock,United States,47.168400,-88.489100
-DDC,Dodge City Regional AirportVertex,Dodge City,United States,37.763400,-99.965600
-DUJ,DuBois Regional AirportVertex,Du Bois,United States,41.178300,-78.898700
-EAU,Chippewa Valley Regional AirportVertex,Eau Claire,United States,44.865800,-91.484300
-EKO,Elko Regional AirportVertex,Elko,United States,40.824900,-115.792000
-EWB,New Bedford Regional AirportVertex,New Bedford,United States,41.676100,-70.956900
+NAQ,Qaanaaq Airport,Qaanaaq,Greenland,77.488600,-69.388700
+JHS,Sisimiut Airport,Sisimiut,Greenland,66.951300,-53.729300
+JUV,Upernavik Airport,Upernavik,Greenland,72.790200,-56.130600
+JQA,Qaarsut Airport,Uummannaq,Greenland,70.734200,-52.696200
+CUK,Caye Caulker Airport,Caye Caulker,Belize,17.734700,-88.032500
+PND,Punta Gorda Airport,Punta Gorda,Belize,16.102400,-88.808300
+YAA,Anahim Lake Airport,Anahim Lake,Canada,52.452500,-125.303000
+YRG,Rigolet Airport,Rigolet,Canada,54.179700,-58.457500
+ZTB,Tete-a-la-Baleine Airport,Tete-a-la-Baleine,Canada,50.674400,-59.383600
+ZLT,La Tabatiere Airport,La Tabatiere,Canada,50.830800,-58.975600
+NTG,Nantong Airport,Nantong,China,32.070800,120.976000
+APO,Apartado Airport,Apartado,Colombia,7.033000,-77.200000
+TCD,Tarapaca Airport,Tarapaca,Colombia,-2.867000,-69.733000
+YAG,Fort Frances Municipal Airport,Fort Frances,Canada,48.654200,-93.439700
+YBX,Lourdes De Blanc Sablon Airport,Lourdes-De-Blanc-Sablon,Canada,51.443600,-57.185300
+YCS,Chesterfield Inlet Airport,Chesterfield Inlet,Canada,63.346900,-90.731100
+YDP,Nain Airport,Nain,Canada,56.549200,-61.680300
+YMN,Makkovik Airport,Makkovik,Canada,55.076900,-59.186400
+YGT,Igloolik Airport,Igloolik,Canada,69.364700,-81.816100
+YGX,Gillam Airport,Gillam,Canada,56.357500,-94.710600
+YGZ,Grise Fiord Airport,Grise Fiord,Canada,76.426100,-82.909200
+YHO,Hopedale Airport,Hopedale,Canada,55.448300,-60.228600
+YHR,Chevery Airport,Chevery,Canada,50.468900,-59.636700
+YLC,Kimmirut Airport,Kimmirut,Canada,62.850000,-69.883300
+YPW,Powell River Airport,Powell River,Canada,49.834200,-124.500000
+YQD,The Pas Airport,The Pas,Canada,53.971400,-101.091000
+YRL,Red Lake Airport,Red Lake,Canada,51.066900,-93.793100
+YSK,Sanikiluaq Airport,Sanikiluaq,Canada,56.537800,-79.246700
+YXN,Whale Cove Airport,Whale Cove,Canada,62.240000,-92.598100
+ZBF,Bathurst Airport,Bathurst,Canada,47.629700,-65.738900
+ZMT,Masset Airport,Masset,Canada,54.027500,-132.125000
+BLJ,Batna Airport,Batna,Algeria,35.752106,6.308589
+CBH,Bechar Boudghene Ben Ali Lotfi Airport,Bechar,Algeria,31.645700,-2.269860
+BMW,Bordj Badji Mokhtar Airport,Bordj Badji Mokhtar,Algeria,21.375000,0.923889
+ELU,Guemar Airport,Guemar,Algeria,33.511400,6.776790
+KMS,Kumasi Airport,Kumasi,Ghana,6.714560,-1.590820
+HDF,Heringsdorf Airport,Heringsdorf,Germany,53.878706,14.152347
+DSA,Robin Hood Doncaster Sheffield Airport, Sheffield,United Kingdom,53.474722,-1.004444
+CAL,Campbeltown Airport,Campbeltown,United Kingdom,55.437200,-5.686390
+EOI,Eday Airport,Eday,United Kingdom,59.190600,-2.772220
+NRL,North Ronaldsay Airport,North Ronaldsay,United Kingdom,59.367500,-2.434440
+PPW,Papa Westray Airport,Papa Westray,United Kingdom,59.351700,-2.900280
+SOY,Stronsay Airport,Stronsay,United Kingdom,59.155300,-2.641390
+NDY,Sanday Airport,Sanday,United Kingdom,59.250300,-2.576670
+WRY,Westray Airport,Westray,United Kingdom,59.350300,-2.950000
+BRR,Barra Airport,Barra,United Kingdom,57.022800,-7.443060
+CFN,Donegal Airport,Dongloe,Ireland,55.044192,-8.341000
+LKN,Leknes Airport,Leknes,Norway,68.152500,13.609400
+OSY,Namsos Hoknesora Airport,Namsos,Norway,64.472200,11.578600
+MQN,Rossvoll Airport,Mo i Rana,Norway,66.363900,14.301400
+RVK,Ryum Airport,Rorvik,Norway,64.838300,11.146100
+RET,Rost Airport,Rost,Norway,67.527800,12.103300
+SDN,Anda Airport,Sandane,Norway,61.830000,6.105830
+SOG,Sogndal Airport,Sogndal,Norway,61.156100,7.137780
+SVJ,Svolvaer Helle Airport,Svolvaer,Norway,68.243300,14.669200
+SOJ,Sorkjosen Airport,Sorkjosen,Norway,69.786800,20.959400
+VAW,Svartnes Airport,Vardo,Norway,70.355392,31.044889
+BZG,Bydgoszcz Ignacy Jan Paderewski Airport,Bydgoszcz,Poland,53.096800,17.977700
+OSD,Ostersund Airport,Ostersund,Sweden,63.194400,14.500300
+KSD,Karlstad Airport,Karlstad,Sweden,59.444700,13.337400
+AGH,Angelholm-Helsingborg Airport,Angelholm,Sweden,56.296100,12.847100
+HMV,Hemavan Airport,Hemavan,Sweden,65.806111,15.082778
+SHC,Shire Inda Selassie Airport,Shire Indasilase,Ethiopia,14.078100,38.272500
+MQP,Kruger Mpumalanga International Airport,Mpumalanga,South Africa,-25.383200,31.105600
+CBT,Catumbela Airport,Catumbela,Angola,-12.479200,13.486900
+VPE,Ondjiva Pereira Airport,Ondjiva,Angola,-17.043464,15.683822
+MSZ,Namibe Airport,Mocamedes,Angola,-15.261222,12.146756
+LUD,Luderitz Airport,Luderitz,Namibia,-26.687400,15.242900
+OMD,Oranjemund Airport,Oranjemund,Namibia,-28.584700,16.446700
+TSH,Tshikapa Airport,Tshikapa,Congo (Kinshasa),-6.438330,20.794700
+LJA,Lodja Airport,Lodja,Congo (Kinshasa),-3.417000,23.450000
+GMZ,La Gomera Airport,La Gomera,Spain,28.029600,-17.214600
+OXB,Osvaldo Vieira International Airport,Bissau,Guinea-Bissau,11.894850,-15.653681
+VIL,Dakhla Airport,Dakhla,Western Sahara,23.718300,-15.932000
+ESU,Mogador Airport,Essadouira,Morocco,31.397500,-9.681667
+EUN,Hassan I Airport,El Aaiun,Western Sahara,27.151700,-13.219200
+NDR,El Aroui Airport,El Aroui,Morocco,34.988800,-3.028210
+RAI,Praia International Airport,Praia,Cape Verde,14.924500,-23.493500
+SFL,Sao Filipe Airport,Sao Filipe,Cape Verde,14.885000,-24.480000
+GDE,Gode Airport,Gode,Ethiopia,5.935128,43.578567
+MGQ,Aden Adde International Airport,Mogadishu,Somalia,2.014440,45.304700
+ATZ,Asyut International Airport,Asyut,Egypt,27.046508,31.011983
+ASV,Amboseli Airport,Amboseli National Park,Kenya,-2.645050,37.253100
+LKG,Lokichoggio Airport,Lokichoggio,Kenya,4.204117,34.348186
+MYD,Malindi Airport,Malindi,Kenya,-3.229310,40.101700
+SRX,Gardabya Airport,Sirt,Libya,31.063500,16.595000
+TOB,Gamal Abdel Nasser Airport,Tobruk,Libya,31.861000,23.907000
+LAQ,La Abraq Airport,Al Bayda',Libya,32.788673,21.964333
+UYL,Nyala Airport,Nyala,Sudan,12.053500,24.956200
+PZU,Port Sudan New International Airport,Port Sudan,Sudan,19.433600,37.234100
+BKZ,Bukoba Airport,Bukoba,Tanzania,-1.300000,31.800000
+DIU,Diu Airport,Diu,India,20.713100,70.921100
+GSM,Gheshm Airport,Gheshm,Iran,26.948700,56.268800
+ABR,Aberdeen Regional Airport,Aberdeen,United States,45.449100,-98.421800
+ABY,Southwest Georgia Regional Airport,Albany,United States,31.535500,-84.194500
+AHN,Athens Ben Epps Airport,Athens,United States,33.948600,-83.326300
+ALO,Waterloo Regional Airport,Waterloo,United States,42.557100,-92.400300
+ALW,Walla Walla Regional Airport,Walla Walla,United States,46.094900,-118.288000
+APN,Alpena County Regional Airport,Alpena,United States,45.078100,-83.560300
+ATY,Watertown Regional Airport,Watertown,United States,44.914000,-97.154700
+BFD,Bradford Regional Airport,Bradford,United States,41.803100,-78.640100
+BFF,Western Nebraska Regional Airport,Scottsbluff,United States,41.874000,-103.596000
+BKW,Raleigh County Memorial Airport,Beckley,United States,37.787300,-81.124200
+BQK,Brunswick Golden Isles Airport,Brunswick,United States,31.258800,-81.466500
+CEC,Del Norte County Airport,Crescent City,United States,41.780200,-124.237000
+CGI,Cape Girardeau Regional Airport,Cape Girardeau,United States,37.225300,-89.570800
+CIU,Chippewa County International Airport,Sault Ste Marie,United States,46.250800,-84.472400
+CKB,Harrison Marion Regional Airport,Clarksburg,United States,39.296600,-80.228100
+CMX,Houghton County Memorial Airport,Hancock,United States,47.168400,-88.489100
+DDC,Dodge City Regional Airport,Dodge City,United States,37.763400,-99.965600
+DUJ,DuBois Regional Airport,Du Bois,United States,41.178300,-78.898700
+EAU,Chippewa Valley Regional Airport,Eau Claire,United States,44.865800,-91.484300
+EKO,Elko Regional Airport,Elko,United States,40.824900,-115.792000
+EWB,New Bedford Regional Airport,New Bedford,United States,41.676100,-70.956900
 FAY,Fayetteville Regional Grannis Field,Fayetteville,United States,34.991200,-78.880300
-GGW,Wokal Field Glasgow International AirportVertex,Glasgow,United States,48.212500,-106.615000
-GRI,Central Nebraska Regional AirportVertex,Grand Island,United States,40.967500,-98.309600
+GGW,Wokal Field Glasgow International Airport,Glasgow,United States,48.212500,-106.615000
+GRI,Central Nebraska Regional Airport,Grand Island,United States,40.967500,-98.309600
 HOT,Memorial Field,Hot Springs,United States,34.478000,-93.096200
 HTS,Tri State Milton J Ferguson Field,Huntington,United States,38.366700,-82.558000
-IRK,Kirksville Regional AirportVertex,Kirksville,United States,40.093500,-92.544900
-LAR,Laramie Regional AirportVertex,Laramie,United States,41.312100,-105.675000
-LBE,Arnold Palmer Regional AirportVertex,Latrobe,United States,40.275900,-79.404800
-LBF,North Platte Regional AirportVertex Lee Bird Field,North Platte,United States,41.126200,-100.684000
-LEB,Lebanon Municipal AirportVertex,Lebanon,United States,43.626100,-72.304200
-LMT,Klamath Falls AirportVertex,Klamath Falls,United States,42.156100,-121.733000
-LNS,Lancaster AirportVertex,Lancaster,United States,40.121700,-76.296100
+IRK,Kirksville Regional Airport,Kirksville,United States,40.093500,-92.544900
+LAR,Laramie Regional Airport,Laramie,United States,41.312100,-105.675000
+LBE,Arnold Palmer Regional Airport,Latrobe,United States,40.275900,-79.404800
+LBF,North Platte Regional Airport Lee Bird Field,North Platte,United States,41.126200,-100.684000
+LEB,Lebanon Municipal Airport,Lebanon,United States,43.626100,-72.304200
+LMT,Klamath Falls Airport,Klamath Falls,United States,42.156100,-121.733000
+LNS,Lancaster Airport,Lancaster,United States,40.121700,-76.296100
 LYH,Lynchburg Regional Preston Glenn Field,Lynchburg,United States,37.326700,-79.200400
-MKG,Muskegon County AirportVertex,Muskegon,United States,43.169500,-86.238200
-OTH,Southwest Oregon Regional AirportVertex,North Bend,United States,43.417100,-124.246000
-OWB,Owensboro Daviess County AirportVertex,Owensboro,United States,37.740100,-87.166800
-PIH,Pocatello Regional AirportVertex,Pocatello,United States,42.909800,-112.596000
-PIR,Pierre Regional AirportVertex,Pierre,United States,44.382700,-100.286000
-PLN,Pellston Regional AirportVertex of Emmet County AirportVertex,Pellston,United States,45.570900,-84.796700
+MKG,Muskegon County Airport,Muskegon,United States,43.169500,-86.238200
+OTH,Southwest Oregon Regional Airport,North Bend,United States,43.417100,-124.246000
+OWB,Owensboro Daviess County Airport,Owensboro,United States,37.740100,-87.166800
+PIH,Pocatello Regional Airport,Pocatello,United States,42.909800,-112.596000
+PIR,Pierre Regional Airport,Pierre,United States,44.382700,-100.286000
+PLN,Pellston Regional Airport of Emmet County Airport,Pellston,United States,45.570900,-84.796700
 PSM,Pease International Tradeport,Portsmouth,United States,43.077900,-70.823300
-RHI,Rhinelander Oneida County AirportVertex,Rhinelander,United States,45.631200,-89.467500
-RKS,Rock Springs Sweetwater County AirportVertex,Rock Springs,United States,41.594200,-109.065000
-RUT,Rutland State AirportVertex,Rutland,United States,43.529400,-72.949600
-SBP,San Luis County Regional AirportVertex,San Luis Obispo,United States,35.236800,-120.642000
-SHR,Sheridan County AirportVertex,Sheridan,United States,44.769200,-106.980000
-SLK,Adirondack Regional AirportVertex,Saranac Lake,United States,44.385300,-74.206200
-SLN,Salina Municipal AirportVertex,Salina,United States,38.791000,-97.652200
-SMX,Santa Maria Pub Cpt G Allan Hancock AirportVertex,Santa Maria,United States,34.898900,-120.457000
+RHI,Rhinelander Oneida County Airport,Rhinelander,United States,45.631200,-89.467500
+RKS,Rock Springs Sweetwater County Airport,Rock Springs,United States,41.594200,-109.065000
+RUT,Rutland State Airport,Rutland,United States,43.529400,-72.949600
+SBP,San Luis County Regional Airport,San Luis Obispo,United States,35.236800,-120.642000
+SHR,Sheridan County Airport,Sheridan,United States,44.769200,-106.980000
+SLK,Adirondack Regional Airport,Saranac Lake,United States,44.385300,-74.206200
+SLN,Salina Municipal Airport,Salina,United States,38.791000,-97.652200
+SMX,Santa Maria Pub Cpt G Allan Hancock Airport,Santa Maria,United States,34.898900,-120.457000
 UIN,Quincy Regional Baldwin Field,Quincy,United States,39.942700,-91.194600
-VCT,Victoria Regional AirportVertex,Victoria,United States,28.852600,-96.918500
-VLD,Valdosta Regional AirportVertex,Valdosta,United States,30.782500,-83.276700
-WRL,Worland Municipal AirportVertex,Worland,United States,43.965700,-107.951000
+VCT,Victoria Regional Airport,Victoria,United States,28.852600,-96.918500
+VLD,Valdosta Regional Airport,Valdosta,United States,30.782500,-83.276700
+WRL,Worland Municipal Airport,Worland,United States,43.965700,-107.951000
 YKM,Yakima Air Terminal McAllister Field,Yakima,United States,46.568200,-120.544000
-ECN,Ercan International AirportVertex,Nicosia,Cyprus,35.154700,33.496100
-RJL,Logrono-Agoncillo AirportVertex,Logrono-Agoncillo,Spain,42.454200,-2.320830
-JSY,Syros AirportVertex,Syros Island,Greece,37.422792,24.950936
-CVU,Corvo AirportVertex,Corvo,Portugal,39.671500,-31.113600
-BNX,Banja Luka International AirportVertex,Banja Luka,Bosnia and Herzegovina,44.941444,17.297501
-KSY,Kars AirportVertex,Kars,Turkey,40.562222,43.115002
-KCM,Kahramanmaras AirportVertex,Kahramanmaras,Turkey,37.539000,36.953400
-AJI,Agri AirportVertex,Agri,Turkey,39.654600,43.027100
-ADF,Adiyaman AirportVertex,Adiyaman,Turkey,37.731400,38.468900
-ISE,Isparta Suleyman Demirel AirportVertex,Isparta,Turkey,37.855400,30.368400
-EDO,Balikesir Korfez AirportVertex,Balikesir Korfez,Turkey,39.554600,27.013800
-MRA,Misratah AirportVertex,Misratah,Libya,32.325000,15.061000
-QUB,Ubari AirportVertex,Ubari,Libya,26.567500,12.823100
-GDT,JAGS McCartney International AirportVertex,Cockburn Town,Turks and Caicos Islands,21.444500,-71.142300
-SLX,Salt Cay AirportVertex,Salt Cay,Turks and Caicos Islands,21.333000,-71.200000
-AZS,Samana El Catey International AirportVertex,Samana,Dominican Republic,19.267000,-69.742000
-PEU,Puerto Lempira AirportVertex,Puerto Lempira,Honduras,15.262200,-83.781200
-JAL,Lencero AirportVertex,Jalapa,Mexico,19.475083,-96.797506
-JQE,Jaque AirportVertex,Jaque,Panama,7.517780,-78.157200
-TTQ,Aerotortuguero AirportVertex,Roxana,Costa Rica,10.569000,-83.514800
-TNO,Cabo Velas AirportVertex,Nicoya,Costa Rica,10.355700,-85.852892
-PJM,Puerto Jimenez AirportVertex,Puerto Jimenez,Costa Rica,8.533330,-83.300000
-SYQ,Tobias Bolanos International AirportVertex,San Jose,Costa Rica,9.957053,-84.139797
-CCC,Cayo Coco AirportVertex,Cayo Coco,Cuba,22.513200,-78.511000
-LBP,Long Banga AirportVertex,Long Banga,Malaysia,3.184950,115.454000
-ATC,Arthurs Town AirportVertex,Arthur's Town,Bahamas,24.629417,-75.673775
-CRI,Colonel Hill AirportVertex,Colonel Hill,Bahamas,22.745561,-74.182353
-AIU,Atiu Island AirportVertex,Atiu Island,Cook Islands,-19.967800,-158.119000
-MGS,Mangaia Island AirportVertex,Mangaia Island,Cook Islands,-21.895600,-157.905000
-MUK,Mauke AirportVertex,Mauke Island,Cook Islands,-20.136100,-157.345000
-MOI,Mitiaro Island AirportVertex,Mitiaro Island,Cook Islands,-19.842500,-157.703000
-ICI,Cicia AirportVertex,Cicia,Fiji,-17.743300,-179.342000
-KDV,Vunisea AirportVertex,Vunisea,Fiji,-19.058100,178.157000
-LKB,Lakeba Island AirportVertex,Lakeba Island,Fiji,-18.199200,-178.817000
-LBS,Labasa AirportVertex,Lambasa,Fiji,-16.466749,179.339860
-TVU,Matei AirportVertex,Matei,Fiji,-16.690600,-179.877000
-RTA,Rotuma AirportVertex,Rotuma,Fiji,-12.482500,177.071000
-SVU,Savusavu AirportVertex,Savusavu,Fiji,-16.802800,179.341000
-VBV,Vanua Balavu AirportVertex,Vanua Balavu,Fiji,-17.269000,-178.976000
-IUE,Niue International AirportVertex,Alofi,Niue,-19.080028,-169.925639
-FUT,Pointe Vele AirportVertex,Futuna Island,Wallis and Futuna,-14.311400,-178.066000
-AHE,Ahe AirportVertex,Ahe,French Polynesia,-14.428100,-146.257000
-AUQ,Hiva Oa-Atuona AirportVertex,Hiva-oa,French Polynesia,-9.768794,-139.011256
-UAP,Ua Pou AirportVertex,Ua Pou,French Polynesia,-9.351670,-140.078000
-UAH,Ua Huka AirportVertex,Ua Huka,French Polynesia,-8.936110,-139.552000
-MTV,Mota Lava AirportVertex,Ablow,Vanuatu,-13.666000,167.712000
-SLH,Sola AirportVertex,Sola,Vanuatu,-13.851700,167.537000
+ECN,Ercan International Airport,Nicosia,Cyprus,35.154700,33.496100
+RJL,Logrono-Agoncillo Airport,Logrono-Agoncillo,Spain,42.454200,-2.320830
+JSY,Syros Airport,Syros Island,Greece,37.422792,24.950936
+CVU,Corvo Airport,Corvo,Portugal,39.671500,-31.113600
+BNX,Banja Luka International Airport,Banja Luka,Bosnia and Herzegovina,44.941444,17.297501
+KSY,Kars Airport,Kars,Turkey,40.562222,43.115002
+KCM,Kahramanmaras Airport,Kahramanmaras,Turkey,37.539000,36.953400
+AJI,Agri Airport,Agri,Turkey,39.654600,43.027100
+ADF,Adiyaman Airport,Adiyaman,Turkey,37.731400,38.468900
+ISE,Isparta Suleyman Demirel Airport,Isparta,Turkey,37.855400,30.368400
+EDO,Balikesir Korfez Airport,Balikesir Korfez,Turkey,39.554600,27.013800
+MRA,Misratah Airport,Misratah,Libya,32.325000,15.061000
+QUB,Ubari Airport,Ubari,Libya,26.567500,12.823100
+GDT,JAGS McCartney International Airport,Cockburn Town,Turks and Caicos Islands,21.444500,-71.142300
+SLX,Salt Cay Airport,Salt Cay,Turks and Caicos Islands,21.333000,-71.200000
+AZS,Samana El Catey International Airport,Samana,Dominican Republic,19.267000,-69.742000
+PEU,Puerto Lempira Airport,Puerto Lempira,Honduras,15.262200,-83.781200
+JAL,Lencero Airport,Jalapa,Mexico,19.475083,-96.797506
+JQE,Jaque Airport,Jaque,Panama,7.517780,-78.157200
+TTQ,Aerotortuguero Airport,Roxana,Costa Rica,10.569000,-83.514800
+TNO,Cabo Velas Airport,Nicoya,Costa Rica,10.355700,-85.852892
+PJM,Puerto Jimenez Airport,Puerto Jimenez,Costa Rica,8.533330,-83.300000
+SYQ,Tobias Bolanos International Airport,San Jose,Costa Rica,9.957053,-84.139797
+CCC,Cayo Coco Airport,Cayo Coco,Cuba,22.513200,-78.511000
+LBP,Long Banga Airport,Long Banga,Malaysia,3.184950,115.454000
+ATC,Arthurs Town Airport,Arthur's Town,Bahamas,24.629417,-75.673775
+CRI,Colonel Hill Airport,Colonel Hill,Bahamas,22.745561,-74.182353
+AIU,Atiu Island Airport,Atiu Island,Cook Islands,-19.967800,-158.119000
+MGS,Mangaia Island Airport,Mangaia Island,Cook Islands,-21.895600,-157.905000
+MUK,Mauke Airport,Mauke Island,Cook Islands,-20.136100,-157.345000
+MOI,Mitiaro Island Airport,Mitiaro Island,Cook Islands,-19.842500,-157.703000
+ICI,Cicia Airport,Cicia,Fiji,-17.743300,-179.342000
+KDV,Vunisea Airport,Vunisea,Fiji,-19.058100,178.157000
+LKB,Lakeba Island Airport,Lakeba Island,Fiji,-18.199200,-178.817000
+LBS,Labasa Airport,Lambasa,Fiji,-16.466749,179.339860
+TVU,Matei Airport,Matei,Fiji,-16.690600,-179.877000
+RTA,Rotuma Airport,Rotuma,Fiji,-12.482500,177.071000
+SVU,Savusavu Airport,Savusavu,Fiji,-16.802800,179.341000
+VBV,Vanua Balavu Airport,Vanua Balavu,Fiji,-17.269000,-178.976000
+IUE,Niue International Airport,Alofi,Niue,-19.080028,-169.925639
+FUT,Pointe Vele Airport,Futuna Island,Wallis and Futuna,-14.311400,-178.066000
+AHE,Ahe Airport,Ahe,French Polynesia,-14.428100,-146.257000
+AUQ,Hiva Oa-Atuona Airport,Hiva-oa,French Polynesia,-9.768794,-139.011256
+UAP,Ua Pou Airport,Ua Pou,French Polynesia,-9.351670,-140.078000
+UAH,Ua Huka Airport,Ua Huka,French Polynesia,-8.936110,-139.552000
+MTV,Mota Lava Airport,Ablow,Vanuatu,-13.666000,167.712000
+SLH,Sola Airport,Sola,Vanuatu,-13.851700,167.537000
 TOH,Torres Airstrip,Loh/Linua,Vanuatu,-13.328000,166.638000
-EAE,Sangafa AirportVertex,Sangafa,Vanuatu,-17.090300,168.343000
-CCV,Craig Cove AirportVertex,Craig Cove,Vanuatu,-16.265000,167.924000
-LOD,Longana AirportVertex,Longana,Vanuatu,-15.306700,167.967000
-SSR,Sara AirportVertex,Pentecost Island,Vanuatu,-15.470800,168.152000
-PBJ,Tavie AirportVertex,Paama Island,Vanuatu,-16.439000,168.257000
-LPM,Lamap AirportVertex,Lamap,Vanuatu,-16.454000,167.823000
-LNB,Lamen Bay AirportVertex,Lamen Bay,Vanuatu,-16.584200,168.159000
-MWF,Naone AirportVertex,Maewo Island,Vanuatu,-15.000000,168.083000
-LNE,Lonorore AirportVertex,Lonorore,Vanuatu,-15.865600,168.172000
-NUS,Norsup AirportVertex,Norsup,Vanuatu,-16.079700,167.401000
-ZGU,Gaua Island AirportVertex,Gaua Island,Vanuatu,-14.218100,167.587000
-SON,Santo Pekoa International AirportVertex,Santo,Vanuatu,-15.505033,167.219742
-TGH,Tongoa Island AirportVertex,Tongoa Island,Vanuatu,-16.891100,168.551000
-ULB,Ulei AirportVertex,Ambryn Island,Vanuatu,-16.333000,168.283000
-VLS,Valesdir AirportVertex,Valesdir,Vanuatu,-16.796100,168.177000
-SWJ,Southwest Bay AirportVertex,Malekula Island,Vanuatu,-16.495000,167.438000
-AUY,Anelghowhat AirportVertex,Anelghowhat,Vanuatu,-20.249200,169.771000
-AWD,Aniwa AirportVertex,Aniwa,Vanuatu,-19.240000,169.605000
-DLY,Dillon's Bay AirportVertex,Dillon's Bay,Vanuatu,-18.769400,169.001000
-FTA,Futuna AirportVertex,Futuna Island,Vanuatu,-19.516400,170.232000
-IPA,Ipota AirportVertex,Ipota,Vanuatu,-18.878300,169.308000
-DWD,Dawadmi Domestic AirportVertex,Dawadmi,Saudi Arabia,24.500000,44.400000
-AJF,Al-Jawf Domestic AirportVertex,Al-Jawf,Saudi Arabia,29.785133,40.100006
-KHD,Khoram Abad AirportVertex,Khorram Abad,Iran,33.435378,48.282889
-BXR,Bam AirportVertex,Bam,Iran,29.084169,58.450042
-BJB,Bojnourd AirportVertex,Bojnourd,Iran,37.492958,57.308219
-AFZ,Sabzevar National AirportVertex,Sabzevar,Iran,36.168083,57.595183
-NSH,Noshahr AirportVertex,Noshahr,Iran,36.663333,51.464722
-SRY,Sari Dasht E Naz AirportVertex,Dasht-e-naz,Iran,36.635833,53.193611
-LRR,Lar AirportVertex,Lar,Iran,27.674725,54.383278
-ADU,Ardabil AirportVertex,Ardabil,Iran,38.325678,48.424356
-OMH,Uromiyeh AirportVertex,Uromiyeh,Iran,37.668100,45.068700
-AAN,Al Ain International AirportVertex,Al Ain,United Arab Emirates,24.261667,55.609167
-BHV,Bahawalpur AirportVertex,Bahawalpur,Pakistan,29.348100,71.717981
-CJL,Chitral AirportVertex,Chitral,Pakistan,35.886592,71.800578
-DBA,Dalbandin AirportVertex,Dalbandin,Pakistan,28.878300,64.399800
-DEA,Dera Ghazi Khan AirportVertex,Dera Ghazi Khan,Pakistan,29.961011,70.485925
-DSK,Dera Ismael Khan AirportVertex,Dera Ismael Khan,Pakistan,31.909422,70.896639
-KDU,Skardu AirportVertex,Skardu,Pakistan,35.335508,75.536047
-TUK,Turbat International AirportVertex,Turbat,Pakistan,25.986369,63.030167
-ISU,Sulaymaniyah International AirportVertex,Sulaymaniyah,Iraq,35.560800,45.314700
-GXF,Sayun International AirportVertex,Sayun Intl,Yemen,15.966111,48.788300
-BFQ,Bahia Pina AirportVertex,Bahia Pina,Panama,7.583000,-78.200000
-OTD,Contadora AirportVertex,Contadora Island,Panama,8.628760,-79.034700
-SAX,Sambu AirportVertex,Boca de Sabalo,Panama,8.017000,-78.200000
-ADK,Adak AirportVertex,Adak Island,United States,51.878000,-176.646000
-GST,Gustavus AirportVertex,Gustavus,United States,58.425300,-135.707000
-SGY,Skagway AirportVertex,Skagway,United States,59.460100,-135.316000
-HCR,Holy Cross AirportVertex,Holy Cross,United States,62.188300,-159.775000
-HNS,Haines AirportVertex,Haines,United States,59.243800,-135.524000
-KLG,Kalskag AirportVertex,Kalskag,United States,61.536300,-160.341000
-MCG,McGrath AirportVertex,Mcgrath,United States,62.952900,-155.606000
-MOU,Mountain Village AirportVertex,Mountain Village,United States,62.095400,-163.682000
-ANI,Aniak AirportVertex,Aniak,United States,61.581600,-159.543000
-VAK,Chevak AirportVertex,Chevak,United States,61.533800,-165.584000
-WRG,Wrangell AirportVertex,Wrangell,United States,56.484300,-132.370000
-LNV,Londolovit AirportVertex,Londolovit,Papua New Guinea,-3.043610,152.629000
-LSA,Losuia AirportVertex,Losuia,Papua New Guinea,-8.505820,151.081000
-TFI,Tufi AirportVertex,Tufi,Papua New Guinea,-9.075950,149.320000
-KUH,Kushiro AirportVertex,Kushiro,Japan,43.041000,144.193000
-HSG,Saga AirportVertex,Saga,Japan,33.149700,130.302000
-IWJ,Iwami AirportVertex,Iwami,Japan,34.676400,131.790000
-FKS,Fukushima AirportVertex,Fukushima,Japan,37.227400,140.431000
-ONJ,Odate Noshiro AirportVertex,Odate Noshiro,Japan,40.191900,140.371000
-SYO,Shonai AirportVertex,Shonai,Japan,38.812222,139.787222
+EAE,Sangafa Airport,Sangafa,Vanuatu,-17.090300,168.343000
+CCV,Craig Cove Airport,Craig Cove,Vanuatu,-16.265000,167.924000
+LOD,Longana Airport,Longana,Vanuatu,-15.306700,167.967000
+SSR,Sara Airport,Pentecost Island,Vanuatu,-15.470800,168.152000
+PBJ,Tavie Airport,Paama Island,Vanuatu,-16.439000,168.257000
+LPM,Lamap Airport,Lamap,Vanuatu,-16.454000,167.823000
+LNB,Lamen Bay Airport,Lamen Bay,Vanuatu,-16.584200,168.159000
+MWF,Naone Airport,Maewo Island,Vanuatu,-15.000000,168.083000
+LNE,Lonorore Airport,Lonorore,Vanuatu,-15.865600,168.172000
+NUS,Norsup Airport,Norsup,Vanuatu,-16.079700,167.401000
+ZGU,Gaua Island Airport,Gaua Island,Vanuatu,-14.218100,167.587000
+SON,Santo Pekoa International Airport,Santo,Vanuatu,-15.505033,167.219742
+TGH,Tongoa Island Airport,Tongoa Island,Vanuatu,-16.891100,168.551000
+ULB,Ulei Airport,Ambryn Island,Vanuatu,-16.333000,168.283000
+VLS,Valesdir Airport,Valesdir,Vanuatu,-16.796100,168.177000
+SWJ,Southwest Bay Airport,Malekula Island,Vanuatu,-16.495000,167.438000
+AUY,Anelghowhat Airport,Anelghowhat,Vanuatu,-20.249200,169.771000
+AWD,Aniwa Airport,Aniwa,Vanuatu,-19.240000,169.605000
+DLY,Dillon's Bay Airport,Dillon's Bay,Vanuatu,-18.769400,169.001000
+FTA,Futuna Airport,Futuna Island,Vanuatu,-19.516400,170.232000
+IPA,Ipota Airport,Ipota,Vanuatu,-18.878300,169.308000
+DWD,Dawadmi Domestic Airport,Dawadmi,Saudi Arabia,24.500000,44.400000
+AJF,Al-Jawf Domestic Airport,Al-Jawf,Saudi Arabia,29.785133,40.100006
+KHD,Khoram Abad Airport,Khorram Abad,Iran,33.435378,48.282889
+BXR,Bam Airport,Bam,Iran,29.084169,58.450042
+BJB,Bojnourd Airport,Bojnourd,Iran,37.492958,57.308219
+AFZ,Sabzevar National Airport,Sabzevar,Iran,36.168083,57.595183
+NSH,Noshahr Airport,Noshahr,Iran,36.663333,51.464722
+SRY,Sari Dasht E Naz Airport,Dasht-e-naz,Iran,36.635833,53.193611
+LRR,Lar Airport,Lar,Iran,27.674725,54.383278
+ADU,Ardabil Airport,Ardabil,Iran,38.325678,48.424356
+OMH,Uromiyeh Airport,Uromiyeh,Iran,37.668100,45.068700
+AAN,Al Ain International Airport,Al Ain,United Arab Emirates,24.261667,55.609167
+BHV,Bahawalpur Airport,Bahawalpur,Pakistan,29.348100,71.717981
+CJL,Chitral Airport,Chitral,Pakistan,35.886592,71.800578
+DBA,Dalbandin Airport,Dalbandin,Pakistan,28.878300,64.399800
+DEA,Dera Ghazi Khan Airport,Dera Ghazi Khan,Pakistan,29.961011,70.485925
+DSK,Dera Ismael Khan Airport,Dera Ismael Khan,Pakistan,31.909422,70.896639
+KDU,Skardu Airport,Skardu,Pakistan,35.335508,75.536047
+TUK,Turbat International Airport,Turbat,Pakistan,25.986369,63.030167
+ISU,Sulaymaniyah International Airport,Sulaymaniyah,Iraq,35.560800,45.314700
+GXF,Sayun International Airport,Sayun Intl,Yemen,15.966111,48.788300
+BFQ,Bahia Pina Airport,Bahia Pina,Panama,7.583000,-78.200000
+OTD,Contadora Airport,Contadora Island,Panama,8.628760,-79.034700
+SAX,Sambu Airport,Boca de Sabalo,Panama,8.017000,-78.200000
+ADK,Adak Airport,Adak Island,United States,51.878000,-176.646000
+GST,Gustavus Airport,Gustavus,United States,58.425300,-135.707000
+SGY,Skagway Airport,Skagway,United States,59.460100,-135.316000
+HCR,Holy Cross Airport,Holy Cross,United States,62.188300,-159.775000
+HNS,Haines Airport,Haines,United States,59.243800,-135.524000
+KLG,Kalskag Airport,Kalskag,United States,61.536300,-160.341000
+MCG,McGrath Airport,Mcgrath,United States,62.952900,-155.606000
+MOU,Mountain Village Airport,Mountain Village,United States,62.095400,-163.682000
+ANI,Aniak Airport,Aniak,United States,61.581600,-159.543000
+VAK,Chevak Airport,Chevak,United States,61.533800,-165.584000
+WRG,Wrangell Airport,Wrangell,United States,56.484300,-132.370000
+LNV,Londolovit Airport,Londolovit,Papua New Guinea,-3.043610,152.629000
+LSA,Losuia Airport,Losuia,Papua New Guinea,-8.505820,151.081000
+TFI,Tufi Airport,Tufi,Papua New Guinea,-9.075950,149.320000
+KUH,Kushiro Airport,Kushiro,Japan,43.041000,144.193000
+HSG,Saga Airport,Saga,Japan,33.149700,130.302000
+IWJ,Iwami Airport,Iwami,Japan,34.676400,131.790000
+FKS,Fukushima Airport,Fukushima,Japan,37.227400,140.431000
+ONJ,Odate Noshiro Airport,Odate Noshiro,Japan,40.191900,140.371000
+SYO,Shonai Airport,Shonai,Japan,38.812222,139.787222
 KUV,Kunsan Air Base,Kunsan,South Korea,35.903756,126.615906
-WJU,Wonju AirportVertex,Wonju,South Korea,37.438081,127.960383
-YNY,Yangyang International AirportVertex,Sokcho / Gangneung,South Korea,38.061311,128.669164
+WJU,Wonju Airport,Wonju,South Korea,37.438081,127.960383
+YNY,Yangyang International Airport,Sokcho / Gangneung,South Korea,38.061311,128.669164
 HIN,Sacheon Air Base,Sacheon,South Korea,35.088543,128.070370
-CJJ,Cheongju International AirportVertex,Chongju,South Korea,36.716600,127.499119
-GES,General Santos International AirportVertex,General Santos City,Philippines,6.106439,125.235300
-CGM,Camiguin AirportVertex,Camiguin,Philippines,9.253520,124.707000
-JOL,Jolo AirportVertex,Jolo,Philippines,6.053670,121.011000
-SUG,Surigao AirportVertex,Sangley Point,Philippines,9.757567,125.479328
-WNP,Naga AirportVertex,Naga,Philippines,13.584886,123.270239
-BSO,Basco AirportVertex,Basco,Philippines,20.451322,121.979883
-TUG,Tuguegarao AirportVertex,Tuguegarao,Philippines,17.638311,121.730614
-VRC,Virac AirportVertex,Virac,Philippines,13.576439,124.205672
-CYP,Calbayog AirportVertex,Calbayog City,Philippines,12.072706,124.545092
-CRM,Catarman National AirportVertex,Catarman,Philippines,12.502417,124.635778
-MBT,Masbate AirportVertex,Masbate,Philippines,12.369400,123.629000
-RXS,Roxas AirportVertex,Roxas City,Philippines,11.597669,122.751669
-JDO,Orlando Bezerra de Menezes AirportVertex,Juazeiro Do Norte,Brazil,-7.218958,-39.270100
-LEC,Chapada Diamantina AirportVertex,Lencois,Brazil,-12.482300,-41.277000
-MEA,Macae AirportVertex,Macae,Brazil,-22.343000,-41.766000
-MII,Marilia AirportVertex,Marilia,Brazil,-22.196892,-49.926400
-VDC,Vitoria da Conquista AirportVertex,Vitoria Da Conquista,Brazil,-14.862761,-40.863106
-RIA,Santa Maria AirportVertex,Santa Maria,Brazil,-29.711358,-53.688153
-SCY,San Cristobal AirportVertex,San Cristobal,Ecuador,-0.910206,-89.617450
-LOH,Camilo Ponce Enriquez AirportVertex,La Toma (Catamayo),Ecuador,-3.995890,-79.371900
-ESM,General Rivadeneira AirportVertex,Esmeraldas,Ecuador,0.978519,-79.626600
-LQM,Caucaya AirportVertex,Puerto Leguizamo,Colombia,-0.180000,-74.770000
-LPD,La Pedrera AirportVertex,La Pedrera,Colombia,-1.330000,-69.580000
-NQU,Reyes Murillo AirportVertex,Nuqui,Colombia,5.700000,-77.280000
-PDA,Obando AirportVertex,Puerto Inirida,Colombia,3.850000,-67.910000
-EYP,El Alcaravan AirportVertex,Yopal,Colombia,5.319114,-72.383975
-GYA,Capitan de Av. Emilio Beltran AirportVertex,Guayaramerin,Bolivia,-10.820600,-65.345600
-RIB,Capitan Av. Selin Zeitun Lopez AirportVertex,Riberalta,Bolivia,-11.000000,-66.000000
-CJA,Mayor General FAP Armando Revoredo Iglesias AirportVertex,Cajamarca,Peru,-7.139183,-78.489400
-HUU,Alferez Fap David Figueroa Fernandini AirportVertex,Huanuco,Peru,-9.878811,-76.204797
-VIG,Juan Pablo Perez Alfonso AirportVertex,El Vigia,Venezuela,8.624100,-71.672819
-JPR,Ji-Parana AirportVertex,Ji-Parana,Brazil,-10.870800,-61.846500
-NEV,Vance Winkworth Amory International AirportVertex,Charlestown,Saint Kitts and Nevis,17.205678,-62.589869
-VIJ,Virgin Gorda AirportVertex,Spanish Town,British Virgin Islands,18.446400,-64.427500
-KOV,Kokshetau AirportVertex,Kokshetau,Kazakhstan,53.329100,69.594600
-PPK,Petropavlosk South AirportVertex,Petropavlosk,Kazakhstan,54.774700,69.183900
-DZN,Zhezkazgan AirportVertex,Zhezkazgan,Kazakhstan,47.708333,67.733333
-UKK,Ust Kamenogorsk AirportVertex,Ust Kamenogorsk,Kazakhstan,50.036600,82.494200
-KSN,Kostanay West AirportVertex,Kostanay,Kazakhstan,53.206944,63.550278
-KVD,Ganja AirportVertex,Ganja,Azerbaijan,40.737700,46.317600
-NAJ,Nakhchivan AirportVertex,Nakhchivan,Azerbaijan,39.188800,45.458400
-PYJ,Poliarny AirportVertex,Yakutia,Russia,66.400431,112.030325
-CKH,Chokurdakh AirportVertex,Chokurdah,Russia,70.623100,147.902000
-CYX,Cherskiy AirportVertex,Cherskiy,Russia,68.740600,161.338000
-IKS,Tiksi AirportVertex,Tiksi,Russia,71.697700,128.903000
-DYR,Ugolny AirportVertex,Anadyr,Russia,64.734950,177.741483
-OZH,Zaporizhzhia International AirportVertex,Zaporozhye,Ukraine,47.867000,35.315700
-HRK,Osnova International AirportVertex,Kharkov,Ukraine,49.924786,36.289986
-IFO,Ivano Frankivsk International AirportVertex,Ivano-Frankivsk,Ukraine,48.884167,24.686111
-UDJ,Uzhhorod International AirportVertex,Uzhgorod,Ukraine,48.634278,22.263356
-CSH,Solovki AirportVertex,Solovetsky Islands,Russia,65.030000,35.733300
-NOZ,Spichenkovo AirportVertex,Novokuznetsk,Russia,53.811400,86.877200
-OGZ,Beslan AirportVertex,Beslan,Russia,43.205100,44.606600
-EAR,Kearney Municipal AirportVertex,Kearney,United States,40.727000,-99.006800
-IGM,Kingman AirportVertex,Kingman,United States,35.259500,-113.938000
-PSC,Tri Cities AirportVertex,Pasco,United States,46.264700,-119.119000
-SVC,Grant County AirportVertex,Silver City,United States,32.636500,-108.156000
-SLY,Salekhard AirportVertex,Salekhard,Russia,66.590753,66.611042
-HMA,Khanty Mansiysk AirportVertex,Khanty-Mansiysk,Russia,61.028479,69.086067
-NYA,Nyagan AirportVertex,Nyagan,Russia,62.110000,65.615000
-OVS,Sovetsky Tyumenskaya AirportVertex,Sovetskiy,Russia,61.320000,63.604400
-NYM,Nadym AirportVertex,Nadym,Russia,65.480900,72.698900
-LBD,Khudzhand AirportVertex,Khudzhand,Tajikistan,40.215400,69.694700
-AZN,Andizhan AirportVertex,Andizhan,Uzbekistan,40.727700,72.294000
-FEG,Fergana AirportVertex,Fergana,Uzbekistan,40.358800,71.745000
-NMA,Namangan AirportVertex,Namangan,Uzbekistan,40.984600,71.556700
-NCU,Nukus AirportVertex,Nukus,Uzbekistan,42.488400,59.623300
-UGC,Urgench AirportVertex,Urgench,Uzbekistan,41.584300,60.641700
-KSQ,Karshi Khanabad AirportVertex,Khanabad,Uzbekistan,38.833600,65.921500
-TMJ,Termez AirportVertex,Termez,Uzbekistan,37.286667,67.310000
-EGO,Belgorod International AirportVertex,Belgorod,Russia,50.643800,36.590100
-UUA,Bugulma AirportVertex,Bugulma,Russia,54.640000,52.801700
-OSW,Orsk AirportVertex,Orsk,Russia,51.072500,58.595600
-HBX,Hubli AirportVertex,Hubli,India,15.361700,75.084900
-KCT,Koggala AirportVertex,Koggala,Sri Lanka,5.993680,80.320300
-SHL,Shillong AirportVertex,Shillong,India,25.703600,91.978700
-GAU,Lokpriya Gopinath Bordoloi International AirportVertex,Guwahati,India,26.106092,91.585939
-DMU,Dimapur AirportVertex,Dimapur,India,25.883900,93.771100
-BZL,Barisal AirportVertex,Barisal,Bangladesh,22.801000,90.301200
-MAQ,Mae Sot AirportVertex,Tak,Thailand,16.699856,98.545056
-BMV,Buon Ma Thuot AirportVertex,Buonmethuot,Vietnam,12.668311,108.120272
-HPH,Cat Bi International AirportVertex,Haiphong,Vietnam,20.819386,106.724989
-CXR,Cam Ranh AirportVertex,Nha Trang,Vietnam,11.998153,109.219372
-VCS,Co Ong AirportVertex,Conson,Vietnam,8.731831,106.632589
-VCA,Tra Noc AirportVertex,Can Tho,Vietnam,10.085119,105.711922
-DIN,Dien Bien Phu AirportVertex,Dienbienphu,Vietnam,21.397481,103.007831
-UIH,Phu Cat AirportVertex,Phucat,Vietnam,13.954986,109.042267
-PXU,Pleiku AirportVertex,Pleiku,Vietnam,14.004522,108.017158
-VII,Vinh AirportVertex,Vinh,Vietnam,18.737569,105.670764
-TMC,Tambolaka AirportVertex,Waikabubak-Sumba Island,Indonesia,-9.409717,119.244494
-BEJ,Barau(Kalimaru) AirportVertex,Tanjung Redep-Borneo Island,Indonesia,2.155497,117.432256
-LUV,Dumatubun AirportVertex,Langgur-Kei Islands,Indonesia,-5.661619,132.731431
-LGL,Long Lellang AirportVertex,Long Datih,Malaysia,3.421000,115.154000
-ODN,Long Seridan AirportVertex,Long Seridan,Malaysia,3.967000,115.050000
-MKM,Mukah AirportVertex,Mukah,Malaysia,2.906390,112.080000
-BKM,Bakalalan AirportVertex,Bakalalan,Malaysia,3.974000,115.618000
-LWY,Lawas AirportVertex,Lawas,Malaysia,4.849170,115.408000
-BBN,Bario AirportVertex,Bario,Malaysia,3.733890,115.479000
-KUD,Kudat AirportVertex,Kudat,Malaysia,6.922500,116.836000
-TKG,Radin Inten II (Branti) AirportVertex,Bandar Lampung-Sumatra Island,Indonesia,-5.242339,105.178939
-NTX,Ranai AirportVertex,Ranai-Natuna Besar Island,Indonesia,3.908714,108.387897
-KBU,Stagen AirportVertex,Laut Island,Indonesia,-3.294720,116.165000
-ALH,Albany AirportVertex,Albany,Australia,-34.943300,117.809000
-AUU,Aurukun AirportVertex,Aurukun,Australia,-13.353900,141.721000
-BCI,Barcaldine AirportVertex,Barcaldine,Australia,-23.565300,145.307000
-BVI,Birdsville AirportVertex,Birdsville,Australia,-25.897500,139.348000
-BHQ,Broken Hill AirportVertex,Broken Hill,Australia,-32.001400,141.472000
-HTI,Hamilton Island AirportVertex,Hamilton Island,Australia,-20.358100,148.952000
-BEU,Bedourie AirportVertex,Bedourie,Australia,-24.346100,139.460000
-BUC,Burketown AirportVertex,Burketown,Australia,-17.748600,139.534000
-BQL,Boulia AirportVertex,Boulia,Australia,-22.913300,139.900000
-BHS,Bathurst AirportVertex,Bathurst,Australia,-33.409400,149.652000
-CPD,Coober Pedy AirportVertex,Coober Pedy,Australia,-29.040000,134.721000
-CNJ,Cloncurry AirportVertex,Cloncurry,Australia,-20.668600,140.504000
-CED,Ceduna AirportVertex,Ceduna,Australia,-32.130600,133.710000
-CMA,Cunnamulla AirportVertex,Cunnamulla,Australia,-28.030000,145.622000
-CUQ,Coen AirportVertex,Coen,Australia,-13.760800,143.114000
-DMD,Doomadgee AirportVertex,Doomadgee,Australia,-17.940300,138.822000
-DPO,Devonport AirportVertex,Devonport,Australia,-41.169700,146.430000
-ELC,Elcho Island AirportVertex,Elcho Island,Australia,-12.019400,135.571000
-EPR,Esperance AirportVertex,Esperance,Australia,-33.684400,121.823000
-FLS,Flinders Island AirportVertex,Flinders Island,Australia,-40.091700,147.993000
-GET,Geraldton AirportVertex,Geraldton,Australia,-28.796100,114.707000
-GLT,Gladstone AirportVertex,Gladstone,Australia,-23.869700,151.223000
-GTE,Groote Eylandt AirportVertex,Groote Eylandt,Australia,-13.975000,136.460000
-GFF,Griffith AirportVertex,Griffith,Australia,-34.250800,146.067000
-HID,Horn Island AirportVertex,Horn Island,Australia,-10.586400,142.290000
-JCK,Julia Creek AirportVertex,Julia Creek,Australia,-20.668300,141.723000
-KNS,King Island AirportVertex,King Island,Australia,-39.877500,143.878000
-KWM,Kowanyama AirportVertex,Kowanyama,Australia,-15.485600,141.751000
-LDH,Lord Howe Island AirportVertex,Lord Howe Island,Australia,-31.538300,159.077000
-IRG,Lockhart River AirportVertex,Lockhart River,Australia,-12.786900,143.305000
-LSY,Lismore AirportVertex,Lismore,Australia,-28.830300,153.260000
-LRE,Longreach AirportVertex,Longreach,Australia,-23.434200,144.280000
-MIM,Merimbula AirportVertex,Merimbula,Australia,-36.908600,149.901000
-MGT,Milingimbi AirportVertex,Milingimbi,Australia,-12.094400,134.894000
-MNG,Maningrida AirportVertex,Maningrida,Australia,-12.056100,134.234000
-MCV,McArthur River Mine AirportVertex,McArthur River Mine,Australia,-16.442500,136.084000
-MQL,Mildura AirportVertex,Mildura,Australia,-34.229200,142.086000
-MRZ,Moree AirportVertex,Moree,Australia,-29.498900,149.845000
-MOV,Moranbah AirportVertex,Moranbah,Australia,-22.057800,148.077000
-MYA,Moruya AirportVertex,Moruya,Australia,-35.897800,150.144000
-MGB,Mount Gambier AirportVertex,Mount Gambier,Australia,-37.745600,140.785000
-ONG,Mornington Island AirportVertex,Mornington Island,Australia,-16.662500,139.178000
-NRA,Narrandera AirportVertex,Narrandera,Australia,-34.702200,146.512000
-NTN,Normanton AirportVertex,Normanton,Australia,-17.683600,141.070000
-ZNE,Newman AirportVertex,Newman,Australia,-23.417800,119.803000
-OLP,Olympic Dam AirportVertex,Olympic Dam,Australia,-30.485000,136.877000
-PUG,Port Augusta AirportVertex,Argyle,Australia,-32.506944,137.716667
-PBO,Paraburdoo AirportVertex,Paraburdoo,Australia,-23.171100,117.745000
-CCK,Cocos Keeling Island AirportVertex,Cocos Keeling Island,Cocos (Keeling) Islands,-12.188300,96.833900
-GOV,Gove AirportVertex,Gove,Australia,-12.269400,136.818000
-PKE,Parkes AirportVertex,Parkes,Australia,-33.131400,148.239000
-PLO,Port Lincoln AirportVertex,Port Lincoln,Australia,-34.605300,135.880000
-EDR,Pormpuraaw AirportVertex,Pormpuraaw,Australia,-14.896700,141.609000
-PQQ,Port Macquarie AirportVertex,Port Macquarie,Australia,-31.435800,152.863000
-PTJ,Portland AirportVertex,Portland,Australia,-38.318100,141.471000
-ULP,Quilpie AirportVertex,Quilpie,Australia,-26.612200,144.253000
-RMA,Roma AirportVertex,Roma,Australia,-26.545000,148.775000
-SGO,St George AirportVertex,St George,Australia,-28.049700,148.595000
-XTG,Thargomindah AirportVertex,Thargomindah,Australia,-27.986400,143.811000
-WNR,Windorah AirportVertex,Windorah,Australia,-25.413100,142.667000
-WYA,Whyalla AirportVertex,Whyalla,Australia,-33.058900,137.514000
-WIN,Winton AirportVertex,Winton,Australia,-22.363600,143.086000
-BWT,Wynyard AirportVertex,Burnie,Australia,-40.998900,145.731000
-NAY,Beijing Nanyuan AirportVertex,Beijing,China,39.782500,116.387778
-CIF,Chifeng AirportVertex,Chifeng,China,42.235000,118.908000
-CIH,Changzhi AirportVertex,Changzhi,China,36.247500,113.126000
-DAT,Datong AirportVertex,Datong,China,40.060300,113.482000
-HET,Baita AirportVertex,Hohhot,China,40.851422,111.824103
-BAV,Baotou AirportVertex,Baotou,China,40.560000,109.997000
-SJW,Shijiazhuang Daguocun International AirportVertex,Shijiazhuang,China,38.280686,114.697300
-TGO,Tongliao AirportVertex,Tongliao,China,43.556700,122.200000
-HLH,Ulanhot AirportVertex,Ulanhot,China,46.083000,122.017000
-XIL,Xilinhot AirportVertex,Xilinhot,China,43.915600,115.964000
-BHY,Beihai AirportVertex,Beihai,China,21.539400,109.294000
-CGD,Changde AirportVertex,Changde,China,28.918900,111.640000
-DYG,Dayong AirportVertex,Dayong,China,29.102800,110.443000
-MXZ,Meixian AirportVertex,Meixian,China,24.350000,116.133000
-ZUH,Zhuhai AirportVertex,Zhuhai,China,22.006400,113.376000
-LZH,Bailian AirportVertex,Liuzhou,China,24.207500,109.391000
-ZHA,Zhanjiang AirportVertex,Zhanjiang,China,21.214400,110.358000
-ENH,Enshi AirportVertex,Enshi,China,30.320300,109.485000
-NNY,Nanyang AirportVertex,Nanyang,China,32.980800,112.615000
-XFN,Xiangfan AirportVertex,Xiangfan,China,32.150600,112.291000
-YIH,Yichang AirportVertex,Yichang,China,30.671000,111.441000
-GOQ,Golmud AirportVertex,Golmud,China,34.633000,98.867000
-IQN,Qingyang AirportVertex,Qingyang,China,35.799700,107.603000
-XNN,Xining Caojiabu AirportVertex,Xining,China,36.527500,102.043000
-ENY,Yan'an AirportVertex,Yan'an,China,36.636900,109.554000
-UYN,Yulin AirportVertex,Yulin,China,38.269200,109.731000
-LTI,Altai AirportVertex,Altai,Mongolia,46.376400,96.221100
-BYN,Bayankhongor AirportVertex,Bayankhongor,Mongolia,46.163300,100.704000
-DLZ,Dalanzadgad AirportVertex,Dalanzadgad,Mongolia,43.591700,104.430000
-HVD,Khovd AirportVertex,Khovd,Mongolia,47.954100,91.628200
-MXV,Muren AirportVertex,Muren,Mongolia,49.663300,100.099000
-DIG,Diqing AirportVertex,Shangri-La,China,27.793600,99.677200
-LUM,Mangshi AirportVertex,Luxi,China,24.401100,98.531700
-SYM,Simao AirportVertex,Simao,China,22.793300,100.959000
-ZAT,Zhaotong AirportVertex,Zhaotong,China,27.325600,103.755000
-KOW,Ganzhou AirportVertex,Ganzhou,China,25.825800,114.912000
-JDZ,Jingdezhen AirportVertex,Jingdezhen,China,29.338600,117.176000
-JIU,Jiujiang Lushan AirportVertex,Jiujiang,China,29.733000,115.983000
-JUZ,Quzhou AirportVertex,Quzhou,China,28.965800,118.899000
-LYG,Lianyungang AirportVertex,Lianyungang,China,34.550000,119.250000
-HYN,Huangyan Luqiao AirportVertex,Huangyan,China,28.562200,121.429000
-LYI,Shubuling AirportVertex,Linyi,China,35.046100,118.412000
-JJN,Quanzhou AirportVertex,Quanzhou,China,24.796400,118.590000
-TXN,Tunxi International AirportVertex,Huangshan,China,29.733300,118.256000
-WEF,Weifang AirportVertex,Weifang,China,36.646700,119.119000
-WUX,Wuxi AirportVertex,Wuxi,China,31.494400,120.429000
-WUS,Nanping Wuyishan AirportVertex,Wuyishan,China,27.701900,118.001000
-WNZ,Wenzhou Yongqiang AirportVertex,Wenzhou,China,27.912200,120.852000
-YNZ,Yancheng AirportVertex,Yancheng,China,33.385600,120.125000
-YIW,Yiwu AirportVertex,Yiwu,China,29.344700,120.032000
-HSN,Zhoushan AirportVertex,Zhoushan,China,29.934200,122.362000
-BPX,Qamdo Bangda AirportVertex,Bangda,China,30.553600,97.108300
-DAX,Dachuan AirportVertex,Dazhou,China,31.300000,107.500000
-GYS,Guangyuan AirportVertex,Guangyuan,China,32.391100,105.702000
-LZO,Luzhou AirportVertex,Luzhou,China,28.852200,105.393000
-MIG,Mianyang AirportVertex,Mianyang,China,31.428100,104.741000
-NAO,Nanchong AirportVertex,Nanchong,China,30.754000,106.062000
-LZY,Nyingchi AirportVertex,Nyingchi,China,29.303300,94.335300
-WXN,Wanxian AirportVertex,Wanxian,China,30.836100,108.406000
-AKU,Aksu AirportVertex,Aksu,China,41.262500,80.291700
-KCA,Kuqa AirportVertex,Kuqa,China,41.718100,82.986900
-KRL,Korla AirportVertex,Korla,China,41.697800,86.128900
-KRY,Karamay AirportVertex,Karamay,China,45.617000,84.883000
-YIN,Yining AirportVertex,Yining,China,43.955800,81.330300
-HEK,Heihe AirportVertex,Heihe,China,50.250000,127.300000
-JMU,Jiamusi AirportVertex,Jiamusi,China,46.843394,130.465389
-JNZ,Jinzhou AirportVertex,Jinzhou,China,41.101400,121.062000
-NDG,Qiqihar Sanjiazi AirportVertex,Qiqihar,China,47.239628,123.918131
-YNJ,Yanji AirportVertex,Yanji,China,42.882800,129.451258
-ORH,Worcester Regional AirportVertex,Worcester,United States,42.267300,-71.875700
-AQG,Anqing AirportVertex,Anqing,China,30.582200,117.050200
-JGS,Jing Gang Shan AirportVertex,Ji An,China,26.899700,114.737500
-SHP,Shanhaiguan AirportVertex,Qinhuangdao,China,39.968100,119.731000
+CJJ,Cheongju International Airport,Chongju,South Korea,36.716600,127.499119
+GES,General Santos International Airport,General Santos City,Philippines,6.106439,125.235300
+CGM,Camiguin Airport,Camiguin,Philippines,9.253520,124.707000
+JOL,Jolo Airport,Jolo,Philippines,6.053670,121.011000
+SUG,Surigao Airport,Sangley Point,Philippines,9.757567,125.479328
+WNP,Naga Airport,Naga,Philippines,13.584886,123.270239
+BSO,Basco Airport,Basco,Philippines,20.451322,121.979883
+TUG,Tuguegarao Airport,Tuguegarao,Philippines,17.638311,121.730614
+VRC,Virac Airport,Virac,Philippines,13.576439,124.205672
+CYP,Calbayog Airport,Calbayog City,Philippines,12.072706,124.545092
+CRM,Catarman National Airport,Catarman,Philippines,12.502417,124.635778
+MBT,Masbate Airport,Masbate,Philippines,12.369400,123.629000
+RXS,Roxas Airport,Roxas City,Philippines,11.597669,122.751669
+JDO,Orlando Bezerra de Menezes Airport,Juazeiro Do Norte,Brazil,-7.218958,-39.270100
+LEC,Chapada Diamantina Airport,Lencois,Brazil,-12.482300,-41.277000
+MEA,Macae Airport,Macae,Brazil,-22.343000,-41.766000
+MII,Marilia Airport,Marilia,Brazil,-22.196892,-49.926400
+VDC,Vitoria da Conquista Airport,Vitoria Da Conquista,Brazil,-14.862761,-40.863106
+RIA,Santa Maria Airport,Santa Maria,Brazil,-29.711358,-53.688153
+SCY,San Cristobal Airport,San Cristobal,Ecuador,-0.910206,-89.617450
+LOH,Camilo Ponce Enriquez Airport,La Toma (Catamayo),Ecuador,-3.995890,-79.371900
+ESM,General Rivadeneira Airport,Esmeraldas,Ecuador,0.978519,-79.626600
+LQM,Caucaya Airport,Puerto Leguizamo,Colombia,-0.180000,-74.770000
+LPD,La Pedrera Airport,La Pedrera,Colombia,-1.330000,-69.580000
+NQU,Reyes Murillo Airport,Nuqui,Colombia,5.700000,-77.280000
+PDA,Obando Airport,Puerto Inirida,Colombia,3.850000,-67.910000
+EYP,El Alcaravan Airport,Yopal,Colombia,5.319114,-72.383975
+GYA,Capitan de Av. Emilio Beltran Airport,Guayaramerin,Bolivia,-10.820600,-65.345600
+RIB,Capitan Av. Selin Zeitun Lopez Airport,Riberalta,Bolivia,-11.000000,-66.000000
+CJA,Mayor General FAP Armando Revoredo Iglesias Airport,Cajamarca,Peru,-7.139183,-78.489400
+HUU,Alferez Fap David Figueroa Fernandini Airport,Huanuco,Peru,-9.878811,-76.204797
+VIG,Juan Pablo Perez Alfonso Airport,El Vigia,Venezuela,8.624100,-71.672819
+JPR,Ji-Parana Airport,Ji-Parana,Brazil,-10.870800,-61.846500
+NEV,Vance Winkworth Amory International Airport,Charlestown,Saint Kitts and Nevis,17.205678,-62.589869
+VIJ,Virgin Gorda Airport,Spanish Town,British Virgin Islands,18.446400,-64.427500
+KOV,Kokshetau Airport,Kokshetau,Kazakhstan,53.329100,69.594600
+PPK,Petropavlosk South Airport,Petropavlosk,Kazakhstan,54.774700,69.183900
+DZN,Zhezkazgan Airport,Zhezkazgan,Kazakhstan,47.708333,67.733333
+UKK,Ust Kamenogorsk Airport,Ust Kamenogorsk,Kazakhstan,50.036600,82.494200
+KSN,Kostanay West Airport,Kostanay,Kazakhstan,53.206944,63.550278
+KVD,Ganja Airport,Ganja,Azerbaijan,40.737700,46.317600
+NAJ,Nakhchivan Airport,Nakhchivan,Azerbaijan,39.188800,45.458400
+PYJ,Poliarny Airport,Yakutia,Russia,66.400431,112.030325
+CKH,Chokurdakh Airport,Chokurdah,Russia,70.623100,147.902000
+CYX,Cherskiy Airport,Cherskiy,Russia,68.740600,161.338000
+IKS,Tiksi Airport,Tiksi,Russia,71.697700,128.903000
+DYR,Ugolny Airport,Anadyr,Russia,64.734950,177.741483
+OZH,Zaporizhzhia International Airport,Zaporozhye,Ukraine,47.867000,35.315700
+HRK,Osnova International Airport,Kharkov,Ukraine,49.924786,36.289986
+IFO,Ivano Frankivsk International Airport,Ivano-Frankivsk,Ukraine,48.884167,24.686111
+UDJ,Uzhhorod International Airport,Uzhgorod,Ukraine,48.634278,22.263356
+CSH,Solovki Airport,Solovetsky Islands,Russia,65.030000,35.733300
+NOZ,Spichenkovo Airport,Novokuznetsk,Russia,53.811400,86.877200
+OGZ,Beslan Airport,Beslan,Russia,43.205100,44.606600
+EAR,Kearney Municipal Airport,Kearney,United States,40.727000,-99.006800
+IGM,Kingman Airport,Kingman,United States,35.259500,-113.938000
+PSC,Tri Cities Airport,Pasco,United States,46.264700,-119.119000
+SVC,Grant County Airport,Silver City,United States,32.636500,-108.156000
+SLY,Salekhard Airport,Salekhard,Russia,66.590753,66.611042
+HMA,Khanty Mansiysk Airport,Khanty-Mansiysk,Russia,61.028479,69.086067
+NYA,Nyagan Airport,Nyagan,Russia,62.110000,65.615000
+OVS,Sovetsky Tyumenskaya Airport,Sovetskiy,Russia,61.320000,63.604400
+NYM,Nadym Airport,Nadym,Russia,65.480900,72.698900
+LBD,Khudzhand Airport,Khudzhand,Tajikistan,40.215400,69.694700
+AZN,Andizhan Airport,Andizhan,Uzbekistan,40.727700,72.294000
+FEG,Fergana Airport,Fergana,Uzbekistan,40.358800,71.745000
+NMA,Namangan Airport,Namangan,Uzbekistan,40.984600,71.556700
+NCU,Nukus Airport,Nukus,Uzbekistan,42.488400,59.623300
+UGC,Urgench Airport,Urgench,Uzbekistan,41.584300,60.641700
+KSQ,Karshi Khanabad Airport,Khanabad,Uzbekistan,38.833600,65.921500
+TMJ,Termez Airport,Termez,Uzbekistan,37.286667,67.310000
+EGO,Belgorod International Airport,Belgorod,Russia,50.643800,36.590100
+UUA,Bugulma Airport,Bugulma,Russia,54.640000,52.801700
+OSW,Orsk Airport,Orsk,Russia,51.072500,58.595600
+HBX,Hubli Airport,Hubli,India,15.361700,75.084900
+KCT,Koggala Airport,Koggala,Sri Lanka,5.993680,80.320300
+SHL,Shillong Airport,Shillong,India,25.703600,91.978700
+GAU,Lokpriya Gopinath Bordoloi International Airport,Guwahati,India,26.106092,91.585939
+DMU,Dimapur Airport,Dimapur,India,25.883900,93.771100
+BZL,Barisal Airport,Barisal,Bangladesh,22.801000,90.301200
+MAQ,Mae Sot Airport,Tak,Thailand,16.699856,98.545056
+BMV,Buon Ma Thuot Airport,Buonmethuot,Vietnam,12.668311,108.120272
+HPH,Cat Bi International Airport,Haiphong,Vietnam,20.819386,106.724989
+CXR,Cam Ranh Airport,Nha Trang,Vietnam,11.998153,109.219372
+VCS,Co Ong Airport,Conson,Vietnam,8.731831,106.632589
+VCA,Tra Noc Airport,Can Tho,Vietnam,10.085119,105.711922
+DIN,Dien Bien Phu Airport,Dienbienphu,Vietnam,21.397481,103.007831
+UIH,Phu Cat Airport,Phucat,Vietnam,13.954986,109.042267
+PXU,Pleiku Airport,Pleiku,Vietnam,14.004522,108.017158
+VII,Vinh Airport,Vinh,Vietnam,18.737569,105.670764
+TMC,Tambolaka Airport,Waikabubak-Sumba Island,Indonesia,-9.409717,119.244494
+BEJ,Barau(Kalimaru) Airport,Tanjung Redep-Borneo Island,Indonesia,2.155497,117.432256
+LUV,Dumatubun Airport,Langgur-Kei Islands,Indonesia,-5.661619,132.731431
+LGL,Long Lellang Airport,Long Datih,Malaysia,3.421000,115.154000
+ODN,Long Seridan Airport,Long Seridan,Malaysia,3.967000,115.050000
+MKM,Mukah Airport,Mukah,Malaysia,2.906390,112.080000
+BKM,Bakalalan Airport,Bakalalan,Malaysia,3.974000,115.618000
+LWY,Lawas Airport,Lawas,Malaysia,4.849170,115.408000
+BBN,Bario Airport,Bario,Malaysia,3.733890,115.479000
+KUD,Kudat Airport,Kudat,Malaysia,6.922500,116.836000
+TKG,Radin Inten II (Branti) Airport,Bandar Lampung-Sumatra Island,Indonesia,-5.242339,105.178939
+NTX,Ranai Airport,Ranai-Natuna Besar Island,Indonesia,3.908714,108.387897
+KBU,Stagen Airport,Laut Island,Indonesia,-3.294720,116.165000
+ALH,Albany Airport,Albany,Australia,-34.943300,117.809000
+AUU,Aurukun Airport,Aurukun,Australia,-13.353900,141.721000
+BCI,Barcaldine Airport,Barcaldine,Australia,-23.565300,145.307000
+BVI,Birdsville Airport,Birdsville,Australia,-25.897500,139.348000
+BHQ,Broken Hill Airport,Broken Hill,Australia,-32.001400,141.472000
+HTI,Hamilton Island Airport,Hamilton Island,Australia,-20.358100,148.952000
+BEU,Bedourie Airport,Bedourie,Australia,-24.346100,139.460000
+BUC,Burketown Airport,Burketown,Australia,-17.748600,139.534000
+BQL,Boulia Airport,Boulia,Australia,-22.913300,139.900000
+BHS,Bathurst Airport,Bathurst,Australia,-33.409400,149.652000
+CPD,Coober Pedy Airport,Coober Pedy,Australia,-29.040000,134.721000
+CNJ,Cloncurry Airport,Cloncurry,Australia,-20.668600,140.504000
+CED,Ceduna Airport,Ceduna,Australia,-32.130600,133.710000
+CMA,Cunnamulla Airport,Cunnamulla,Australia,-28.030000,145.622000
+CUQ,Coen Airport,Coen,Australia,-13.760800,143.114000
+DMD,Doomadgee Airport,Doomadgee,Australia,-17.940300,138.822000
+DPO,Devonport Airport,Devonport,Australia,-41.169700,146.430000
+ELC,Elcho Island Airport,Elcho Island,Australia,-12.019400,135.571000
+EPR,Esperance Airport,Esperance,Australia,-33.684400,121.823000
+FLS,Flinders Island Airport,Flinders Island,Australia,-40.091700,147.993000
+GET,Geraldton Airport,Geraldton,Australia,-28.796100,114.707000
+GLT,Gladstone Airport,Gladstone,Australia,-23.869700,151.223000
+GTE,Groote Eylandt Airport,Groote Eylandt,Australia,-13.975000,136.460000
+GFF,Griffith Airport,Griffith,Australia,-34.250800,146.067000
+HID,Horn Island Airport,Horn Island,Australia,-10.586400,142.290000
+JCK,Julia Creek Airport,Julia Creek,Australia,-20.668300,141.723000
+KNS,King Island Airport,King Island,Australia,-39.877500,143.878000
+KWM,Kowanyama Airport,Kowanyama,Australia,-15.485600,141.751000
+LDH,Lord Howe Island Airport,Lord Howe Island,Australia,-31.538300,159.077000
+IRG,Lockhart River Airport,Lockhart River,Australia,-12.786900,143.305000
+LSY,Lismore Airport,Lismore,Australia,-28.830300,153.260000
+LRE,Longreach Airport,Longreach,Australia,-23.434200,144.280000
+MIM,Merimbula Airport,Merimbula,Australia,-36.908600,149.901000
+MGT,Milingimbi Airport,Milingimbi,Australia,-12.094400,134.894000
+MNG,Maningrida Airport,Maningrida,Australia,-12.056100,134.234000
+MCV,McArthur River Mine Airport,McArthur River Mine,Australia,-16.442500,136.084000
+MQL,Mildura Airport,Mildura,Australia,-34.229200,142.086000
+MRZ,Moree Airport,Moree,Australia,-29.498900,149.845000
+MOV,Moranbah Airport,Moranbah,Australia,-22.057800,148.077000
+MYA,Moruya Airport,Moruya,Australia,-35.897800,150.144000
+MGB,Mount Gambier Airport,Mount Gambier,Australia,-37.745600,140.785000
+ONG,Mornington Island Airport,Mornington Island,Australia,-16.662500,139.178000
+NRA,Narrandera Airport,Narrandera,Australia,-34.702200,146.512000
+NTN,Normanton Airport,Normanton,Australia,-17.683600,141.070000
+ZNE,Newman Airport,Newman,Australia,-23.417800,119.803000
+OLP,Olympic Dam Airport,Olympic Dam,Australia,-30.485000,136.877000
+PUG,Port Augusta Airport,Argyle,Australia,-32.506944,137.716667
+PBO,Paraburdoo Airport,Paraburdoo,Australia,-23.171100,117.745000
+CCK,Cocos Keeling Island Airport,Cocos Keeling Island,Cocos (Keeling) Islands,-12.188300,96.833900
+GOV,Gove Airport,Gove,Australia,-12.269400,136.818000
+PKE,Parkes Airport,Parkes,Australia,-33.131400,148.239000
+PLO,Port Lincoln Airport,Port Lincoln,Australia,-34.605300,135.880000
+EDR,Pormpuraaw Airport,Pormpuraaw,Australia,-14.896700,141.609000
+PQQ,Port Macquarie Airport,Port Macquarie,Australia,-31.435800,152.863000
+PTJ,Portland Airport,Portland,Australia,-38.318100,141.471000
+ULP,Quilpie Airport,Quilpie,Australia,-26.612200,144.253000
+RMA,Roma Airport,Roma,Australia,-26.545000,148.775000
+SGO,St George Airport,St George,Australia,-28.049700,148.595000
+XTG,Thargomindah Airport,Thargomindah,Australia,-27.986400,143.811000
+WNR,Windorah Airport,Windorah,Australia,-25.413100,142.667000
+WYA,Whyalla Airport,Whyalla,Australia,-33.058900,137.514000
+WIN,Winton Airport,Winton,Australia,-22.363600,143.086000
+BWT,Wynyard Airport,Burnie,Australia,-40.998900,145.731000
+NAY,Beijing Nanyuan Airport,Beijing,China,39.782500,116.387778
+CIF,Chifeng Airport,Chifeng,China,42.235000,118.908000
+CIH,Changzhi Airport,Changzhi,China,36.247500,113.126000
+DAT,Datong Airport,Datong,China,40.060300,113.482000
+HET,Baita Airport,Hohhot,China,40.851422,111.824103
+BAV,Baotou Airport,Baotou,China,40.560000,109.997000
+SJW,Shijiazhuang Daguocun International Airport,Shijiazhuang,China,38.280686,114.697300
+TGO,Tongliao Airport,Tongliao,China,43.556700,122.200000
+HLH,Ulanhot Airport,Ulanhot,China,46.083000,122.017000
+XIL,Xilinhot Airport,Xilinhot,China,43.915600,115.964000
+BHY,Beihai Airport,Beihai,China,21.539400,109.294000
+CGD,Changde Airport,Changde,China,28.918900,111.640000
+DYG,Dayong Airport,Dayong,China,29.102800,110.443000
+MXZ,Meixian Airport,Meixian,China,24.350000,116.133000
+ZUH,Zhuhai Airport,Zhuhai,China,22.006400,113.376000
+LZH,Bailian Airport,Liuzhou,China,24.207500,109.391000
+ZHA,Zhanjiang Airport,Zhanjiang,China,21.214400,110.358000
+ENH,Enshi Airport,Enshi,China,30.320300,109.485000
+NNY,Nanyang Airport,Nanyang,China,32.980800,112.615000
+XFN,Xiangfan Airport,Xiangfan,China,32.150600,112.291000
+YIH,Yichang Airport,Yichang,China,30.671000,111.441000
+GOQ,Golmud Airport,Golmud,China,34.633000,98.867000
+IQN,Qingyang Airport,Qingyang,China,35.799700,107.603000
+XNN,Xining Caojiabu Airport,Xining,China,36.527500,102.043000
+ENY,Yan'an Airport,Yan'an,China,36.636900,109.554000
+UYN,Yulin Airport,Yulin,China,38.269200,109.731000
+LTI,Altai Airport,Altai,Mongolia,46.376400,96.221100
+BYN,Bayankhongor Airport,Bayankhongor,Mongolia,46.163300,100.704000
+DLZ,Dalanzadgad Airport,Dalanzadgad,Mongolia,43.591700,104.430000
+HVD,Khovd Airport,Khovd,Mongolia,47.954100,91.628200
+MXV,Muren Airport,Muren,Mongolia,49.663300,100.099000
+DIG,Diqing Airport,Shangri-La,China,27.793600,99.677200
+LUM,Mangshi Airport,Luxi,China,24.401100,98.531700
+SYM,Simao Airport,Simao,China,22.793300,100.959000
+ZAT,Zhaotong Airport,Zhaotong,China,27.325600,103.755000
+KOW,Ganzhou Airport,Ganzhou,China,25.825800,114.912000
+JDZ,Jingdezhen Airport,Jingdezhen,China,29.338600,117.176000
+JIU,Jiujiang Lushan Airport,Jiujiang,China,29.733000,115.983000
+JUZ,Quzhou Airport,Quzhou,China,28.965800,118.899000
+LYG,Lianyungang Airport,Lianyungang,China,34.550000,119.250000
+HYN,Huangyan Luqiao Airport,Huangyan,China,28.562200,121.429000
+LYI,Shubuling Airport,Linyi,China,35.046100,118.412000
+JJN,Quanzhou Airport,Quanzhou,China,24.796400,118.590000
+TXN,Tunxi International Airport,Huangshan,China,29.733300,118.256000
+WEF,Weifang Airport,Weifang,China,36.646700,119.119000
+WUX,Wuxi Airport,Wuxi,China,31.494400,120.429000
+WUS,Nanping Wuyishan Airport,Wuyishan,China,27.701900,118.001000
+WNZ,Wenzhou Yongqiang Airport,Wenzhou,China,27.912200,120.852000
+YNZ,Yancheng Airport,Yancheng,China,33.385600,120.125000
+YIW,Yiwu Airport,Yiwu,China,29.344700,120.032000
+HSN,Zhoushan Airport,Zhoushan,China,29.934200,122.362000
+BPX,Qamdo Bangda Airport,Bangda,China,30.553600,97.108300
+DAX,Dachuan Airport,Dazhou,China,31.300000,107.500000
+GYS,Guangyuan Airport,Guangyuan,China,32.391100,105.702000
+LZO,Luzhou Airport,Luzhou,China,28.852200,105.393000
+MIG,Mianyang Airport,Mianyang,China,31.428100,104.741000
+NAO,Nanchong Airport,Nanchong,China,30.754000,106.062000
+LZY,Nyingchi Airport,Nyingchi,China,29.303300,94.335300
+WXN,Wanxian Airport,Wanxian,China,30.836100,108.406000
+AKU,Aksu Airport,Aksu,China,41.262500,80.291700
+KCA,Kuqa Airport,Kuqa,China,41.718100,82.986900
+KRL,Korla Airport,Korla,China,41.697800,86.128900
+KRY,Karamay Airport,Karamay,China,45.617000,84.883000
+YIN,Yining Airport,Yining,China,43.955800,81.330300
+HEK,Heihe Airport,Heihe,China,50.250000,127.300000
+JMU,Jiamusi Airport,Jiamusi,China,46.843394,130.465389
+JNZ,Jinzhou Airport,Jinzhou,China,41.101400,121.062000
+NDG,Qiqihar Sanjiazi Airport,Qiqihar,China,47.239628,123.918131
+YNJ,Yanji Airport,Yanji,China,42.882800,129.451258
+ORH,Worcester Regional Airport,Worcester,United States,42.267300,-71.875700
+AQG,Anqing Airport,Anqing,China,30.582200,117.050200
+JGS,Jing Gang Shan Airport,Ji An,China,26.899700,114.737500
+SHP,Shanhaiguan Airport,Qinhuangdao,China,39.968100,119.731000
 YCU,Zhangxiao,Yuncheng,China,35.018000,110.993000
-LHW,Lanzhou AirportVertex,Lanzhou,China,36.117000,103.617000
-JGN,Jiayuguan AirportVertex,Jiayuguan,China,39.856900,98.341400
+LHW,Lanzhou Airport,Lanzhou,China,36.117000,103.617000
+JGN,Jiayuguan Airport,Jiayuguan,China,39.856900,98.341400
 DDG,Dandong,Dandong,China,40.025500,124.286600
 DSN,Ordos Ejin Horo,Dongsheng,China,39.850000,110.033000
 PZI,Panzhihua,Panzhihua,China,26.540000,101.799000
-DIB,Dibrugarh AirportVertex,Dibrugarh,India,27.483900,95.016900
+DIB,Dibrugarh Airport,Dibrugarh,India,27.483900,95.016900
 PVC,Provincetown Muni,Provincetown,United States,42.071945,-70.221390
 LKE,Kenmore Air Harbor Seaplane Base,Seattle,United States,47.629000,-122.339000
 SBH,Saint Barthelemy,Gustavia,France,17.902300,-62.832400
-TZA,Belize City Municipal AirportVertex,Belize,Belize,17.534400,-88.298000
-FSZ,Mt. Fuji Shizuoka AirportVertex,Shizuoka,Japan,34.796111,138.189444
-NVI,Navoi AirportVertex,Navoi,Uzbekistan,40.117200,65.170800
-QSF,Ain Arnat AirportVertex,Setif,Algeria,36.178100,5.324490
+TZA,Belize City Municipal Airport,Belize,Belize,17.534400,-88.298000
+FSZ,Mt. Fuji Shizuoka Airport,Shizuoka,Japan,34.796111,138.189444
+NVI,Navoi Airport,Navoi,Uzbekistan,40.117200,65.170800
+QSF,Ain Arnat Airport,Setif,Algeria,36.178100,5.324490
 LRH,La Rochelle-Ile de Re,La Rochelle,France,46.179200,-1.195280
 AZA,Phoenix-Mesa Gateway,Mesa,United States,33.307833,-111.655000
 ZQW,Zweibruecken,Zweibruecken,Germany,49.209445,7.401323
-AKP,Anaktuvuk Pass AirportVertex,Anaktuvuk Pass,United States,68.133600,-151.743000
-ANV,Anvik AirportVertex,Anvik,United States,62.646700,-160.191000
-ATK,Atqasuk Edward Burnell Sr Memorial AirportVertex,Atqasuk,United States,70.467300,-157.436000
-GAM,Gambell AirportVertex,Gambell,United States,63.766800,-171.733000
-HPB,Hooper Bay AirportVertex,Hooper Bay,United States,61.523900,-166.147000
-KAL,Kaltag AirportVertex,Kaltag,United States,64.319100,-158.741000
-KSM,St Marys AirportVertex,St Mary's,United States,62.060500,-163.302000
-KVL,Kivalina AirportVertex,Kivalina,United States,67.736200,-164.563000
-MYU,Mekoryuk AirportVertex,Mekoryuk,United States,60.371400,-166.271000
-PHO,Point Hope AirportVertex,Point Hope,United States,68.348800,-166.799000
-RBY,Ruby AirportVertex,Ruby,United States,64.727200,-155.470000
-SHH,Shishmaref AirportVertex,Shishmaref,United States,66.249600,-166.089000
-SVA,Savoonga AirportVertex,Savoonga,United States,63.686400,-170.493000
-WTK,Noatak AirportVertex,Noatak,United States,67.566100,-162.975000
-ARC,Arctic Village AirportVertex,Arctic Village,United States,68.114700,-145.579000
-FON,Arenal AirportVertex,La Fortuna/San Carlos,Costa Rica,10.478000,-84.634500
-TMU,Tambor AirportVertex,Nicoya,Costa Rica,9.738520,-85.013800
-CYZ,Cauayan AirportVertex,Cauayan,Philippines,16.929861,121.753036
-GVR,Governador Valadares AirportVertex,Governador Valadares,Brazil,-18.895200,-41.982200
-QBC,Bella Coola AirportVertex,Bella Coola,Canada,52.387500,-126.596000
+AKP,Anaktuvuk Pass Airport,Anaktuvuk Pass,United States,68.133600,-151.743000
+ANV,Anvik Airport,Anvik,United States,62.646700,-160.191000
+ATK,Atqasuk Edward Burnell Sr Memorial Airport,Atqasuk,United States,70.467300,-157.436000
+GAM,Gambell Airport,Gambell,United States,63.766800,-171.733000
+HPB,Hooper Bay Airport,Hooper Bay,United States,61.523900,-166.147000
+KAL,Kaltag Airport,Kaltag,United States,64.319100,-158.741000
+KSM,St Marys Airport,St Mary's,United States,62.060500,-163.302000
+KVL,Kivalina Airport,Kivalina,United States,67.736200,-164.563000
+MYU,Mekoryuk Airport,Mekoryuk,United States,60.371400,-166.271000
+PHO,Point Hope Airport,Point Hope,United States,68.348800,-166.799000
+RBY,Ruby Airport,Ruby,United States,64.727200,-155.470000
+SHH,Shishmaref Airport,Shishmaref,United States,66.249600,-166.089000
+SVA,Savoonga Airport,Savoonga,United States,63.686400,-170.493000
+WTK,Noatak Airport,Noatak,United States,67.566100,-162.975000
+ARC,Arctic Village Airport,Arctic Village,United States,68.114700,-145.579000
+FON,Arenal Airport,La Fortuna/San Carlos,Costa Rica,10.478000,-84.634500
+TMU,Tambor Airport,Nicoya,Costa Rica,9.738520,-85.013800
+CYZ,Cauayan Airport,Cauayan,Philippines,16.929861,121.753036
+GVR,Governador Valadares Airport,Governador Valadares,Brazil,-18.895200,-41.982200
+QBC,Bella Coola Airport,Bella Coola,Canada,52.387500,-126.596000
 HGR,Hagerstown Regional Richard A Henson Field,Hagerstown,United States,39.707900,-77.729500
-ACR,Araracuara AirportVertex,Araracuara,Colombia,-0.580000,-72.410000
-GOP,Gorakhpur AirportVertex,Gorakhpur,India,26.739708,83.449708
-SDP,Sand Point AirportVertex,Sand Point,United States,55.315000,-160.523000
-HMI,Hami AirportVertex,Hami,China,42.841400,93.669200
-GBT,Gorgan AirportVertex,Gorgan,Iran,36.909381,54.401339
-IIL,Ilam AirportVertex,Ilam,Iran,33.586606,46.404842
-PFQ,Parsabade Moghan AirportVertex,Parsabad,Iran,39.603606,47.881500
-LGQ,Nueva Loja AirportVertex,Lago Agrio,Ecuador,0.093056,-76.867500
-TCG,Tacheng AirportVertex,Tacheng,China,46.672500,83.340800
-MQM,Mardin AirportVertex,Mardin,Turkey,37.223300,40.631700
-DRG,Deering AirportVertex,Deering,United States,66.069600,-162.766000
-LEN,Leon AirportVertex,Leon,Spain,42.589000,-5.655556
-RGS,Burgos AirportVertex,Burgos,Spain,42.357628,-3.620764
-EGM,Sege AirportVertex,Sege,Solomon Islands,-8.578890,157.876000
-DHM,Kangra AirportVertex,Kangra,India,32.165100,76.263400
-IGG,Igiugig AirportVertex,Igiugig,United States,59.324000,-155.902000
-KVC,King Cove AirportVertex,King Cove,United States,55.116300,-162.266000
-PTH,Port Heiden AirportVertex,Port Heiden,United States,56.959100,-158.633000
-TOG,Togiak AirportVertex,Togiak Village,United States,59.052800,-160.397000
-EGN,Geneina AirportVertex,Geneina,Sudan,13.481700,22.467200
-LKH,Long Akah AirportVertex,Long Akah,Malaysia,3.300000,114.783000
-TGC,Tanjung Manis AirportVertex,Tanjung Manis,Malaysia,2.177840,111.202000
-WLH,Walaha AirportVertex,Walaha,Vanuatu,-15.412000,167.691000
-CHG,Chaoyang AirportVertex,Chaoyang,China,41.538100,120.435000
-SKT,Sialkot AirportVertex,Sialkot,Pakistan,32.535600,74.363900
-PDP,Capitan Corbeta C A Curbelo International AirportVertex,Punta del Este,Uruguay,-34.855139,-55.094278
-WVB,Walvis Bay AirportVertex,Walvis Bay,Namibia,-22.979900,14.645300
-AOE,Anadolu AirportVertex,Eskissehir,Turkey,39.809858,30.519378
-CKZ,Canakkale AirportVertex,Canakkale,Turkey,40.137722,26.426777
-MSR,Mus AirportVertex,Mus,Turkey,38.747769,41.661236
-SIC,Sinop AirportVertex,Sinop,Turkey,42.015800,35.066400
-TEQ,Tekirdag Corlu AirportVertex,Corlu,Turkey,41.138250,27.919094
-VQS,Vieques AirportVertex,Vieques Island,Puerto Rico,18.115800,-65.422700
-YIF,St Augustin AirportVertex,St-Augustin,Canada,51.211700,-58.658300
-HDM,Hamadan AirportVertex,Hamadan,Iran,34.869167,48.552500
-GFN,Grafton AirportVertex,Grafton,Australia,-29.759400,153.030000
-OAG,Orange AirportVertex,Orange,Australia,-33.381700,149.133000
-TRO,Taree AirportVertex,Taree,Australia,-31.888600,152.514000
-COQ,Choibalsan AirportVertex,Choibalsan,Mongolia,48.135700,114.646000
-ESC,Delta County AirportVertex,Escanaba,United States,45.722778,-87.093611
+ACR,Araracuara Airport,Araracuara,Colombia,-0.580000,-72.410000
+GOP,Gorakhpur Airport,Gorakhpur,India,26.739708,83.449708
+SDP,Sand Point Airport,Sand Point,United States,55.315000,-160.523000
+HMI,Hami Airport,Hami,China,42.841400,93.669200
+GBT,Gorgan Airport,Gorgan,Iran,36.909381,54.401339
+IIL,Ilam Airport,Ilam,Iran,33.586606,46.404842
+PFQ,Parsabade Moghan Airport,Parsabad,Iran,39.603606,47.881500
+LGQ,Nueva Loja Airport,Lago Agrio,Ecuador,0.093056,-76.867500
+TCG,Tacheng Airport,Tacheng,China,46.672500,83.340800
+MQM,Mardin Airport,Mardin,Turkey,37.223300,40.631700
+DRG,Deering Airport,Deering,United States,66.069600,-162.766000
+LEN,Leon Airport,Leon,Spain,42.589000,-5.655556
+RGS,Burgos Airport,Burgos,Spain,42.357628,-3.620764
+EGM,Sege Airport,Sege,Solomon Islands,-8.578890,157.876000
+DHM,Kangra Airport,Kangra,India,32.165100,76.263400
+IGG,Igiugig Airport,Igiugig,United States,59.324000,-155.902000
+KVC,King Cove Airport,King Cove,United States,55.116300,-162.266000
+PTH,Port Heiden Airport,Port Heiden,United States,56.959100,-158.633000
+TOG,Togiak Airport,Togiak Village,United States,59.052800,-160.397000
+EGN,Geneina Airport,Geneina,Sudan,13.481700,22.467200
+LKH,Long Akah Airport,Long Akah,Malaysia,3.300000,114.783000
+TGC,Tanjung Manis Airport,Tanjung Manis,Malaysia,2.177840,111.202000
+WLH,Walaha Airport,Walaha,Vanuatu,-15.412000,167.691000
+CHG,Chaoyang Airport,Chaoyang,China,41.538100,120.435000
+SKT,Sialkot Airport,Sialkot,Pakistan,32.535600,74.363900
+PDP,Capitan Corbeta C A Curbelo International Airport,Punta del Este,Uruguay,-34.855139,-55.094278
+WVB,Walvis Bay Airport,Walvis Bay,Namibia,-22.979900,14.645300
+AOE,Anadolu Airport,Eskissehir,Turkey,39.809858,30.519378
+CKZ,Canakkale Airport,Canakkale,Turkey,40.137722,26.426777
+MSR,Mus Airport,Mus,Turkey,38.747769,41.661236
+SIC,Sinop Airport,Sinop,Turkey,42.015800,35.066400
+TEQ,Tekirdag Corlu Airport,Corlu,Turkey,41.138250,27.919094
+VQS,Vieques Airport,Vieques Island,Puerto Rico,18.115800,-65.422700
+YIF,St Augustin Airport,St-Augustin,Canada,51.211700,-58.658300
+HDM,Hamadan Airport,Hamadan,Iran,34.869167,48.552500
+GFN,Grafton Airport,Grafton,Australia,-29.759400,153.030000
+OAG,Orange Airport,Orange,Australia,-33.381700,149.133000
+TRO,Taree Airport,Taree,Australia,-31.888600,152.514000
+COQ,Choibalsan Airport,Choibalsan,Mongolia,48.135700,114.646000
+ESC,Delta County Airport,Escanaba,United States,45.722778,-87.093611
 YAK,Yakutat,Yakutat,United States,59.301200,-139.393700
-CPX,Culebra AirportVertex,Culebra Island,Puerto Rico,18.312700,-65.303400
-MWA,Williamson Country Regional AirportVertex,Marion,United States,37.754957,-89.011094
-IMT,Ford AirportVertex,Iron Mountain,United States,45.818361,-88.114556
-MQT,Sawyer International AirportVertex,Marquette,United States,46.353611,-87.395278
-AET,Allakaket AirportVertex,Allakaket,United States,66.551900,-152.622200
-MTJ,Montrose Regional AirportVertex,Montrose CO,United States,38.509794,-107.894242
+CPX,Culebra Airport,Culebra Island,Puerto Rico,18.312700,-65.303400
+MWA,Williamson Country Regional Airport,Marion,United States,37.754957,-89.011094
+IMT,Ford Airport,Iron Mountain,United States,45.818361,-88.114556
+MQT,Sawyer International Airport,Marquette,United States,46.353611,-87.395278
+AET,Allakaket Airport,Allakaket,United States,66.551900,-152.622200
+MTJ,Montrose Regional Airport,Montrose CO,United States,38.509794,-107.894242
 RIW,Riverton Regional,Riverton WY,United States,43.064167,-108.459722
-PDT,Eastern Oregon Regional AirportVertex,Pendleton,United States,45.695000,-118.841389
+PDT,Eastern Oregon Regional Airport,Pendleton,United States,45.695000,-118.841389
 EAT,Pangborn Field,Wenatchee,United States,47.398000,-120.206000
 BNY,Bellona,Bellona,Solomon Islands,-11.302000,159.800000
 RMT,Rimatara,Rimatara,French Polynesia,-22.637253,-152.805192
-OHE,Heilongjiang Mohe AirportVertex,Mohe County,China,52.915000,122.427000
-JNG,Jining AirportVertex,Jining,China,35.417000,116.533000
-DRK,Drake Bay AirportVertex,Puntarenas,Costa Rica,8.718890,-83.641700
-AAT,Altay AirportVertex,Altay,China,47.866667,88.116667
+OHE,Heilongjiang Mohe Airport,Mohe County,China,52.915000,122.427000
+JNG,Jining Airport,Jining,China,35.417000,116.533000
+DRK,Drake Bay Airport,Puntarenas,Costa Rica,8.718890,-83.641700
+AAT,Altay Airport,Altay,China,47.866667,88.116667
 NZH,Manzhouli,Manzhouli,China,49.566667,117.329444
 WUA,Wuhai,Wuhai,China,39.794444,106.799444
 BRD,Brainerd Lakes Rgnl,Brainerd,United States,46.398308,-94.138078
-LWB,Greenbrier Valley AirportVertex,Lewisburg,United States,37.858333,-80.399444
-PGV,Pitt-Greenville AirportVertex,Greenville,United States,35.635278,-77.385278
-CYF,Chefornak AirportVertex,Chefornak,United States,60.149167,-164.285556
+LWB,Greenbrier Valley Airport,Lewisburg,United States,37.858333,-80.399444
+PGV,Pitt-Greenville Airport,Greenville,United States,35.635278,-77.385278
+CYF,Chefornak Airport,Chefornak,United States,60.149167,-164.285556
 BKG,Branson LLC,Branson,United States,36.531994,-93.200556
 TEN,Tongren,Tongren,China,27.884000,109.310000
 NBC,Begishevo,Nizhnekamsk,Russia,55.340000,52.060000
-UST,St. Augustine AirportVertex,St. Augustine AirportVertex,United States,29.959167,-81.339722
+UST,St. Augustine Airport,St. Augustine Airport,United States,29.959167,-81.339722
 STS,Charles M Schulz Sonoma Co,Santa Rosa,United States,38.508978,-122.812880
 ASE,Aspen Pitkin County Sardy Field,Aspen,United States,39.223200,-106.869000
 HHH,Hilton Head,Hilton Head,United States,32.216000,-80.752000
@@ -2783,236 +2783,236 @@ TVF,Thief River Falls,Thief River Falls,United States,48.065556,-96.185000
 CZH,Municipal,Corozal,Belize,18.382200,-88.411900
 GDZ,Gelendzik,Gelendzik,Russia,44.566667,38.016667
 GUC,Gunnison - Crested Butte,Gunnison,United States,38.533889,-106.933056
-PGD,Charlotte County-Punta Gorda AirportVertex,Punta Gorda,United States,26.919722,-81.990556
+PGD,Charlotte County-Punta Gorda Airport,Punta Gorda,United States,26.919722,-81.990556
 JHW,Chautauqua County-Jamestown,Jamestown,United States,42.153333,-79.258056
-SHD,Shenandoah Valley Regional AirportVertex,Weyers Cave,United States,38.263889,-78.896389
-DIK,Dickinson Theodore Roosevelt Regional AirportVertex,Dickinson,United States,46.797500,-102.801944
-SDY,Sidney-Richland Municipal AirportVertex,Sidney,United States,47.706944,-104.192500
-CDR,Chadron Municipal AirportVertex,Chadron,United States,42.837500,-103.095556
-AIA,Alliance Municipal AirportVertex,Alliance,United States,42.053333,-102.803889
-MCK,McCook Regional AirportVertex,McCook,United States,40.206389,-100.592222
-GDV,Dawson Community AirportVertex,Glendive,United States,47.138611,-104.807222
-OLF,LM Clayton AirportVertex,Wolf Point,United States,48.094444,-105.575000
-ALS,San Luis Valley Regional AirportVertex,Alamosa,United States,37.435000,-105.866667
+SHD,Shenandoah Valley Regional Airport,Weyers Cave,United States,38.263889,-78.896389
+DIK,Dickinson Theodore Roosevelt Regional Airport,Dickinson,United States,46.797500,-102.801944
+SDY,Sidney-Richland Municipal Airport,Sidney,United States,47.706944,-104.192500
+CDR,Chadron Municipal Airport,Chadron,United States,42.837500,-103.095556
+AIA,Alliance Municipal Airport,Alliance,United States,42.053333,-102.803889
+MCK,McCook Regional Airport,McCook,United States,40.206389,-100.592222
+GDV,Dawson Community Airport,Glendive,United States,47.138611,-104.807222
+OLF,LM Clayton Airport,Wolf Point,United States,48.094444,-105.575000
+ALS,San Luis Valley Regional Airport,Alamosa,United States,37.435000,-105.866667
 CNY,Canyonlands Field,Moab,United States,38.755000,-109.754722
-VEL,Vernal Regional AirportVertex,Vernal,United States,40.440833,-109.510000
-SOW,Show Low Regional AirportVertex,Show Low,United States,34.265556,-110.005556
-MMH,Mammoth Yosemite AirportVertex,Mammoth Lakes,United States,37.624049,-118.837772
-EMK,Emmonak AirportVertex,Emmonak,United States,62.786111,-164.490833
-UNK,Unalakleet AirportVertex,Unalakleet,United States,63.888333,-160.798889
-SHX,Shageluk AirportVertex,Shageluk,United States,62.692222,-159.569167
-CHU,Chuathbaluk AirportVertex,Chuathbaluk,United States,61.579167,-159.215556
-NUI,Nuiqsut AirportVertex,Nuiqsut,United States,70.210000,-151.005556
-EEK,Eek AirportVertex,Eek,United States,60.213611,-162.043889
-KUK,Kasigluk AirportVertex,Kasigluk,United States,60.873333,-162.524444
-KWT,Kwethluk AirportVertex,Kwethluk,United States,60.790278,-161.443611
-KWK,Kwigillingok AirportVertex,Kwigillingok,United States,59.876389,-163.168611
-MLL,Marshall Don Hunter Sr. AirportVertex,Marshall,United States,61.864642,-162.026111
-RSH,Russian Mission AirportVertex,Russian Mission,United States,61.775000,-161.319444
-WTL,Tuntutuliak AirportVertex,Tuntutuliak,United States,60.335278,-162.666944
-KLL,Levelock AirportVertex,Levelock,United States,59.128056,-156.858611
-HUS,Hughes AirportVertex,Hughes,United States,66.039167,-154.264722
-HSL,Huslia AirportVertex,Huslia,United States,65.697778,-156.351389
-NUL,Nulato AirportVertex,Nulato,United States,64.729444,-158.074167
-TAL,Tanana AirportVertex,Tanana,United States,65.179556,-152.075833
-VEE,Venetie AirportVertex,Venetie,United States,67.008611,-146.366389
-SHG,Shungnak AirportVertex,Shungnak,United States,66.888056,-157.162500
-KBC,Birch Creek AirportVertex,Brich Creek,United States,66.256708,-145.815319
-VIS,Visalia Municipal AirportVertex,Visalia,United States,36.318611,-119.392778
-MCE,Merced Municipal AirportVertex,Merced,United States,37.284722,-120.513889
+VEL,Vernal Regional Airport,Vernal,United States,40.440833,-109.510000
+SOW,Show Low Regional Airport,Show Low,United States,34.265556,-110.005556
+MMH,Mammoth Yosemite Airport,Mammoth Lakes,United States,37.624049,-118.837772
+EMK,Emmonak Airport,Emmonak,United States,62.786111,-164.490833
+UNK,Unalakleet Airport,Unalakleet,United States,63.888333,-160.798889
+SHX,Shageluk Airport,Shageluk,United States,62.692222,-159.569167
+CHU,Chuathbaluk Airport,Chuathbaluk,United States,61.579167,-159.215556
+NUI,Nuiqsut Airport,Nuiqsut,United States,70.210000,-151.005556
+EEK,Eek Airport,Eek,United States,60.213611,-162.043889
+KUK,Kasigluk Airport,Kasigluk,United States,60.873333,-162.524444
+KWT,Kwethluk Airport,Kwethluk,United States,60.790278,-161.443611
+KWK,Kwigillingok Airport,Kwigillingok,United States,59.876389,-163.168611
+MLL,Marshall Don Hunter Sr. Airport,Marshall,United States,61.864642,-162.026111
+RSH,Russian Mission Airport,Russian Mission,United States,61.775000,-161.319444
+WTL,Tuntutuliak Airport,Tuntutuliak,United States,60.335278,-162.666944
+KLL,Levelock Airport,Levelock,United States,59.128056,-156.858611
+HUS,Hughes Airport,Hughes,United States,66.039167,-154.264722
+HSL,Huslia Airport,Huslia,United States,65.697778,-156.351389
+NUL,Nulato Airport,Nulato,United States,64.729444,-158.074167
+TAL,Tanana Airport,Tanana,United States,65.179556,-152.075833
+VEE,Venetie Airport,Venetie,United States,67.008611,-146.366389
+SHG,Shungnak Airport,Shungnak,United States,66.888056,-157.162500
+KBC,Birch Creek Airport,Brich Creek,United States,66.256708,-145.815319
+VIS,Visalia Municipal Airport,Visalia,United States,36.318611,-119.392778
+MCE,Merced Municipal Airport,Merced,United States,37.284722,-120.513889
 TWB,Toowoomba,Toowoomba,Australia,-27.542778,151.916389
-HNH,Hoonah AirportVertex,Hoonah,United States,58.096111,-135.409722
+HNH,Hoonah Airport,Hoonah,United States,58.096111,-135.409722
 CGA,Craig Seaplane Base,Craig,United States,55.478889,-133.147778
 HYL,Hollis Seaplane Base,Hollis,United States,55.481667,-132.646111
 MTM,Metlakatla Seaplane Base,Metakatla,United States,55.131111,-131.578056
 KTB,Thorne Bay Seaplane Base,Thorne Bay,United States,55.688056,-132.536667
-KCQ,Chignik Lake AirportVertex,Chignik Lake,United States,56.255000,-158.775278
-EGX,Egegik AirportVertex,Egegik,United States,58.185556,-157.375556
-KCL,Chignik Lagoon AirportVertex,Chignik Lagoon,United States,56.311111,-158.534167
-KPV,Perryville AirportVertex,Perryville,United States,55.906667,-159.160833
-PIP,Pilot Point AirportVertex,Pilot Point,United States,57.585393,-157.571944
-WSN,South Naknek AirportVertex,South Naknek,United States,58.702222,-157.002500
-ABL,Ambler AirportVertex,Ambler,United States,67.106389,-157.857500
-BKC,Buckland AirportVertex,Buckland,United States,65.981667,-161.149167
-IAN,Bob Baker Memorial AirportVertex,Kiana,United States,66.975833,-160.436667
-OBU,Kobuk AirportVertex,Kobuk,United States,66.912222,-156.897222
-ORV,Robert Curtis Memorial AirportVertex,Noorvik,United States,66.817500,-161.022222
-WLK,Selawik AirportVertex,Selawik,United States,66.600000,-159.985833
-KTS,Brevig Mission AirportVertex,Brevig Mission,United States,65.331389,-166.465833
-ELI,Elim AirportVertex,Elim,United States,64.615000,-162.270556
-GLV,Golovin AirportVertex,Golovin,United States,64.550556,-163.007222
-TLA,Teller AirportVertex,Teller,United States,65.240278,-166.339444
-WAA,Wales AirportVertex,Wales,United States,65.622500,-168.095000
-WMO,White Mountain AirportVertex,White Mountain,United States,64.689167,-163.412778
-KKA,Koyuk Alfred Adams AirportVertex,Koyuk,United States,64.939444,-161.154167
-SMK,St. Michael AirportVertex,St. Michael,United States,63.490000,-162.110278
-SKK,Shaktoolik AirportVertex,Shaktoolik,United States,64.371111,-161.223889
-WBB,Stebbins AirportVertex,Stebbins,United States,63.515833,-162.278056
-TNC,Tin City LRRS AirportVertex,Tin City,United States,65.563056,-167.921667
-AUK,Alakanuk AirportVertex,Alakanuk,United States,62.680000,-164.660000
-SXP,Sheldon Point AirportVertex,Nunam Iqua,United States,62.520556,-164.847778
-KPN,Kipnuk AirportVertex,Kipnuk,United States,59.933056,-164.030556
-KFP,False Pass AirportVertex,False Pass,United States,54.847500,-163.410278
+KCQ,Chignik Lake Airport,Chignik Lake,United States,56.255000,-158.775278
+EGX,Egegik Airport,Egegik,United States,58.185556,-157.375556
+KCL,Chignik Lagoon Airport,Chignik Lagoon,United States,56.311111,-158.534167
+KPV,Perryville Airport,Perryville,United States,55.906667,-159.160833
+PIP,Pilot Point Airport,Pilot Point,United States,57.585393,-157.571944
+WSN,South Naknek Airport,South Naknek,United States,58.702222,-157.002500
+ABL,Ambler Airport,Ambler,United States,67.106389,-157.857500
+BKC,Buckland Airport,Buckland,United States,65.981667,-161.149167
+IAN,Bob Baker Memorial Airport,Kiana,United States,66.975833,-160.436667
+OBU,Kobuk Airport,Kobuk,United States,66.912222,-156.897222
+ORV,Robert Curtis Memorial Airport,Noorvik,United States,66.817500,-161.022222
+WLK,Selawik Airport,Selawik,United States,66.600000,-159.985833
+KTS,Brevig Mission Airport,Brevig Mission,United States,65.331389,-166.465833
+ELI,Elim Airport,Elim,United States,64.615000,-162.270556
+GLV,Golovin Airport,Golovin,United States,64.550556,-163.007222
+TLA,Teller Airport,Teller,United States,65.240278,-166.339444
+WAA,Wales Airport,Wales,United States,65.622500,-168.095000
+WMO,White Mountain Airport,White Mountain,United States,64.689167,-163.412778
+KKA,Koyuk Alfred Adams Airport,Koyuk,United States,64.939444,-161.154167
+SMK,St. Michael Airport,St. Michael,United States,63.490000,-162.110278
+SKK,Shaktoolik Airport,Shaktoolik,United States,64.371111,-161.223889
+WBB,Stebbins Airport,Stebbins,United States,63.515833,-162.278056
+TNC,Tin City LRRS Airport,Tin City,United States,65.563056,-167.921667
+AUK,Alakanuk Airport,Alakanuk,United States,62.680000,-164.660000
+SXP,Sheldon Point Airport,Nunam Iqua,United States,62.520556,-164.847778
+KPN,Kipnuk Airport,Kipnuk,United States,59.933056,-164.030556
+KFP,False Pass Airport,False Pass,United States,54.847500,-163.410278
 NLG,Nelson Lagoon,Nelson Lagoon,United States,56.007500,-161.160278
-KLW,Klawock AirportVertex,Klawock,United States,55.579167,-133.076111
-KWN,Quinhagak AirportVertex,Quinhagak,United States,59.755000,-161.845278
-KOT,Kotlik AirportVertex,Kotlik,United States,63.030556,-163.532778
-KYU,Koyukuk AirportVertex,Koyukuk,United States,64.875833,-157.730556
-SCM,Scammon Bay AirportVertex,Scammon Bay,United States,61.845278,-165.571389
-NUP,Nunapitchuk AirportVertex,Nunapitchuk,United States,60.905833,-162.439167
-KKH,Kongiganak AirportVertex,Kongiganak,United States,59.960833,-162.881111
-PQS,Pilot Station AirportVertex,Pilot Station,United States,61.934444,-162.899444
-AKI,Akiak AirportVertex,Akiak,United States,60.902778,-161.230556
-TLT,Tuluksak AirportVertex,Tuluksak,United States,61.096944,-160.969444
-KGX,Grayling AirportVertex,Grayling,United States,62.894444,-160.065000
-AIN,Wainwright AirportVertex,Wainwright,United States,70.638056,-159.994722
-CKD,Crooked Creek AirportVertex,Crooked Creek,United States,61.867778,-158.135000
-RDV,Red Devil AirportVertex,Red Devil,United States,61.788056,-157.350278
-SLQ,Sleetmute AirportVertex,Sleetmute,United States,61.700566,-157.165833
-SRV,Stony River 2 AirportVertex,Stony River,United States,61.787500,-156.591111
-HKB,Healy River AirportVertex,Healy,United States,63.867500,-148.968889
-STG,St. George AirportVertex,St. George,United States,56.577222,-169.663611
-YSO,Postville AirportVertex,Postville,Canada,54.910278,-59.785278
-YGV,Havre Saint-Pierre AirportVertex,Havre-Saint-Pierre,Canada,50.281944,-63.611389
-ZEL,Bella Bella AirportVertex,Bella Bella,Canada,52.139722,-128.063611
-DGA,Dangriga AirportVertex,Dangriga,Belize,16.966667,-88.216667
-PLJ,Placencia AirportVertex,Placencia,Belize,16.536944,-88.361667
-UYU,Uyuni AirportVertex,Uyuni,Bolivia,-20.466667,-66.833333
-RBQ,Rurrenabaque AirportVertex,Rerrenabaque,Bolivia,-14.427500,-67.498056
-RVE,Los Colonizadores AirportVertex,Saravena,Colombia,6.916667,-71.900000
-LCR,La Chorrera AirportVertex,La Chorrera,Colombia,-0.733333,-73.016667
+KLW,Klawock Airport,Klawock,United States,55.579167,-133.076111
+KWN,Quinhagak Airport,Quinhagak,United States,59.755000,-161.845278
+KOT,Kotlik Airport,Kotlik,United States,63.030556,-163.532778
+KYU,Koyukuk Airport,Koyukuk,United States,64.875833,-157.730556
+SCM,Scammon Bay Airport,Scammon Bay,United States,61.845278,-165.571389
+NUP,Nunapitchuk Airport,Nunapitchuk,United States,60.905833,-162.439167
+KKH,Kongiganak Airport,Kongiganak,United States,59.960833,-162.881111
+PQS,Pilot Station Airport,Pilot Station,United States,61.934444,-162.899444
+AKI,Akiak Airport,Akiak,United States,60.902778,-161.230556
+TLT,Tuluksak Airport,Tuluksak,United States,61.096944,-160.969444
+KGX,Grayling Airport,Grayling,United States,62.894444,-160.065000
+AIN,Wainwright Airport,Wainwright,United States,70.638056,-159.994722
+CKD,Crooked Creek Airport,Crooked Creek,United States,61.867778,-158.135000
+RDV,Red Devil Airport,Red Devil,United States,61.788056,-157.350278
+SLQ,Sleetmute Airport,Sleetmute,United States,61.700566,-157.165833
+SRV,Stony River 2 Airport,Stony River,United States,61.787500,-156.591111
+HKB,Healy River Airport,Healy,United States,63.867500,-148.968889
+STG,St. George Airport,St. George,United States,56.577222,-169.663611
+YSO,Postville Airport,Postville,Canada,54.910278,-59.785278
+YGV,Havre Saint-Pierre Airport,Havre-Saint-Pierre,Canada,50.281944,-63.611389
+ZEL,Bella Bella Airport,Bella Bella,Canada,52.139722,-128.063611
+DGA,Dangriga Airport,Dangriga,Belize,16.966667,-88.216667
+PLJ,Placencia Airport,Placencia,Belize,16.536944,-88.361667
+UYU,Uyuni Airport,Uyuni,Bolivia,-20.466667,-66.833333
+RBQ,Rurrenabaque Airport,Rerrenabaque,Bolivia,-14.427500,-67.498056
+RVE,Los Colonizadores Airport,Saravena,Colombia,6.916667,-71.900000
+LCR,La Chorrera Airport,La Chorrera,Colombia,-0.733333,-73.016667
 LMC,La Macarena,La Macarena,Colombia,2.179167,-73.787500
-VGZ,Villa Garzon AirportVertex,Villa Garzon,Colombia,0.978889,-76.605556
-CFB,Cabo Frio International AirportVertex,Cabo Frio,Brazil,-22.921667,-42.074167
-OPS,Sinop AirportVertex,Sinop,Brazil,-11.885000,-55.586000
-GRP,Gurupi AirportVertex,Gurupi,Brazil,-11.728889,-49.068889
-CMP,Campo Alegre AirportVertex,Santana do Araguaia,Brazil,-9.505000,-50.625000
-PIN,Julio Belem AirportVertex,Parintins,Brazil,-2.627778,-56.735833
-BRA,Barreiras AirportVertex,Barreiras,Brazil,-12.083333,-45.000000
-STZ,Confresa AirportVertex,Santa Terezinha,Brazil,-10.470000,-50.502778
-MQH,Minacu AirportVertex,Minacu,Brazil,-13.526944,-48.220556
-AUX,Araguaina AirportVertex,Araguaina,Brazil,-7.228333,-48.240833
-DOU,Dourados AirportVertex,Dourados,Brazil,-22.220833,-54.805833
-ROO,Rondonopolis AirportVertex,Rondonopolis,Brazil,-16.466667,-54.633333
-RVD,General leite de Castro AirportVertex,Rio Verde,Brazil,-17.790278,-50.918333
-AAX,Araxa AirportVertex,Araxa,Brazil,-19.563056,-46.960278
-CIZ,Coari AirportVertex,Coari,Brazil,-4.085000,-63.140833
-BAZ,Barcelos AirportVertex,Barcelos,Brazil,-0.975000,-62.923889
-JIJ,Jijiga AirportVertex,Jijiga,Ethiopia,9.359722,42.787500
-MRE,Mara Serena AirportVertex,Masai Mara,Kenya,-1.406111,35.008056
-NBE,Enfidha - Zine El Abidine Ben Ali International AirportVertex,Enfidha,Tunisia,36.075833,10.438611
-HTY,Hatay AirportVertex,Hatay,Turkey,36.362778,36.282222
-RVV,Raivavae AirportVertex,Raivavae,French Polynesia,-23.870000,-147.670000
+VGZ,Villa Garzon Airport,Villa Garzon,Colombia,0.978889,-76.605556
+CFB,Cabo Frio International Airport,Cabo Frio,Brazil,-22.921667,-42.074167
+OPS,Sinop Airport,Sinop,Brazil,-11.885000,-55.586000
+GRP,Gurupi Airport,Gurupi,Brazil,-11.728889,-49.068889
+CMP,Campo Alegre Airport,Santana do Araguaia,Brazil,-9.505000,-50.625000
+PIN,Julio Belem Airport,Parintins,Brazil,-2.627778,-56.735833
+BRA,Barreiras Airport,Barreiras,Brazil,-12.083333,-45.000000
+STZ,Confresa Airport,Santa Terezinha,Brazil,-10.470000,-50.502778
+MQH,Minacu Airport,Minacu,Brazil,-13.526944,-48.220556
+AUX,Araguaina Airport,Araguaina,Brazil,-7.228333,-48.240833
+DOU,Dourados Airport,Dourados,Brazil,-22.220833,-54.805833
+ROO,Rondonopolis Airport,Rondonopolis,Brazil,-16.466667,-54.633333
+RVD,General leite de Castro Airport,Rio Verde,Brazil,-17.790278,-50.918333
+AAX,Araxa Airport,Araxa,Brazil,-19.563056,-46.960278
+CIZ,Coari Airport,Coari,Brazil,-4.085000,-63.140833
+BAZ,Barcelos Airport,Barcelos,Brazil,-0.975000,-62.923889
+JIJ,Jijiga Airport,Jijiga,Ethiopia,9.359722,42.787500
+MRE,Mara Serena Airport,Masai Mara,Kenya,-1.406111,35.008056
+NBE,Enfidha - Zine El Abidine Ben Ali International Airport,Enfidha,Tunisia,36.075833,10.438611
+HTY,Hatay Airport,Hatay,Turkey,36.362778,36.282222
+RVV,Raivavae Airport,Raivavae,French Polynesia,-23.870000,-147.670000
 FUO,Foshan,Foshan,China,23.133333,113.283330
-ILD,Lleida-Alguaire AirportVertex,Lleida,Spain,41.727778,0.535833
-ULG,Olgii AirportVertex,Olgii,Mongolia,48.991667,89.919722
-BVV,Burevestnik AirportVertex,Iturup Island,Russia,44.920000,147.621667
-OHH,Okha AirportVertex,Okha,Russia,53.583333,142.933333
-NJF,Al Najaf International AirportVertex,Najaf,Iraq,31.991667,44.404167
-FUG,Fuyang AirportVertex,Fuyang,China,32.900000,115.816667
-LCX,Longyan AirportVertex,Longyan,China,25.674167,116.746389
-BSD,Baoshan AirportVertex,Baoshan,China,25.053333,99.168333
-ACX,Xingyi AirportVertex,Xingyi,China,25.088200,104.958700
-HZH,Liping AirportVertex,Liping,China,26.206000,109.039000
-HJJ,Zhijiang AirportVertex,Zhijiang,China,27.441389,109.699722
-LNJ,Lincang AirportVertex,Lincang,China,23.738333,100.025000
-WNH,Wenshan AirportVertex,Wenshan,China,23.375833,104.243056
-SJL,Sao Gabriel da Cachoeira AirportVertex,Sao Gabriel da Cachoeira,Brazil,-0.148056,-66.985800
-CKS,Carajas AirportVertex,Parauapebas,Brazil,-6.117810,-50.003500
+ILD,Lleida-Alguaire Airport,Lleida,Spain,41.727778,0.535833
+ULG,Olgii Airport,Olgii,Mongolia,48.991667,89.919722
+BVV,Burevestnik Airport,Iturup Island,Russia,44.920000,147.621667
+OHH,Okha Airport,Okha,Russia,53.583333,142.933333
+NJF,Al Najaf International Airport,Najaf,Iraq,31.991667,44.404167
+FUG,Fuyang Airport,Fuyang,China,32.900000,115.816667
+LCX,Longyan Airport,Longyan,China,25.674167,116.746389
+BSD,Baoshan Airport,Baoshan,China,25.053333,99.168333
+ACX,Xingyi Airport,Xingyi,China,25.088200,104.958700
+HZH,Liping Airport,Liping,China,26.206000,109.039000
+HJJ,Zhijiang Airport,Zhijiang,China,27.441389,109.699722
+LNJ,Lincang Airport,Lincang,China,23.738333,100.025000
+WNH,Wenshan Airport,Wenshan,China,23.375833,104.243056
+SJL,Sao Gabriel da Cachoeira Airport,Sao Gabriel da Cachoeira,Brazil,-0.148056,-66.985800
+CKS,Carajas Airport,Parauapebas,Brazil,-6.117810,-50.003500
 ITB,Cachimbo,Itaituba,Brazil,-4.244600,-56.003840
-PGU,Persian Gulf AirportVertex,Khalije Fars,Iran,27.379444,52.737500
-YES,Yasuj AirportVertex,Yasuj,Iran,30.700556,51.545000
-ULO,Ulaangom AirportVertex,Ulaangom,Mongolia,49.973333,92.079722
-DIW,Dickwella AirportVertex,Dickwella,Sri Lanka,5.966667,80.683333
-TJU,Kulob AirportVertex,Kulyab,Tajikistan,37.981667,69.799444
-RVT,Ravensthorpe AirportVertex,Ravensthorpe,Australia,-33.797222,120.208056
-PVU,Provo Municipal AirportVertex,Provo,United States,40.218056,-111.722222
-LAM,Los Alamos AirportVertex,Los Alamos,United States,35.879802,-106.269415
-RNA,Ulawa AirportVertex,Ulawa,Solomon Islands,-9.854722,161.979167
-CHY,Choiseul Bay AirportVertex,Choiseul Bay,Solomon Islands,-6.711944,156.396111
-NNB,Santa Ana AirportVertex,Santa Ana,Solomon Islands,-10.848056,162.454167
+PGU,Persian Gulf Airport,Khalije Fars,Iran,27.379444,52.737500
+YES,Yasuj Airport,Yasuj,Iran,30.700556,51.545000
+ULO,Ulaangom Airport,Ulaangom,Mongolia,49.973333,92.079722
+DIW,Dickwella Airport,Dickwella,Sri Lanka,5.966667,80.683333
+TJU,Kulob Airport,Kulyab,Tajikistan,37.981667,69.799444
+RVT,Ravensthorpe Airport,Ravensthorpe,Australia,-33.797222,120.208056
+PVU,Provo Municipal Airport,Provo,United States,40.218056,-111.722222
+LAM,Los Alamos Airport,Los Alamos,United States,35.879802,-106.269415
+RNA,Ulawa Airport,Ulawa,Solomon Islands,-9.854722,161.979167
+CHY,Choiseul Bay Airport,Choiseul Bay,Solomon Islands,-6.711944,156.396111
+NNB,Santa Ana Airport,Santa Ana,Solomon Islands,-10.848056,162.454167
 AGM,Tasiilaq,Angmagssalik,Greenland,65.612222,-37.618333
 ECP,Panama City-NW Florida Bea.,Panama City,United States,30.341700,-85.797300
-LTX,Cotopaxi International AirportVertex,Latacunga,Ecuador,-0.542500,-78.365700
-MYQ,Mysore AirportVertex,Mysore,India,12.307200,76.649700
+LTX,Cotopaxi International Airport,Latacunga,Ecuador,-0.542500,-78.365700
+MYQ,Mysore Airport,Mysore,India,12.307200,76.649700
 OAL,Marktoberdorf BF,Marktoberdorf,Germany,47.780000,10.627000
 ONQ,Zonguldak,Zonguldak,Turkey,41.506111,32.088611
-TCZ,Tengchong Tuofeng AirportVertex,Tengchong,China,24.938651,98.483591
-UKS,Belbek Sevastopol International AirportVertex,Sevastopol,Ukraine,44.691431,33.575670
+TCZ,Tengchong Tuofeng Airport,Tengchong,China,24.938651,98.483591
+UKS,Belbek Sevastopol International Airport,Sevastopol,Ukraine,44.691431,33.575670
 YUS,Yushu Batang,Yushu,China,32.825000,97.125000
 PYC,Playon Chico,Playon Chico,Panama,9.303333,-78.236111
-HIA,Huai An Lianshui AirportVertex,Huai An,China,33.777200,119.147800
+HIA,Huai An Lianshui Airport,Huai An,China,33.777200,119.147800
 PVE,El Porvenir,El Porvenir,Panama,9.559167,-78.971111
 NGQ,Gunsa,Shiquanhe,China,32.100270,80.052778
 PUE,Puerto Obaldia,Puerto Obaldia,Panama,8.683330,-77.533300
-UKA,Ukunda AirportVertex,Ukunda,Kenya,-4.296940,39.571400
-YZY,Mackenzie AirportVertex,Mackenzie British Columbia,Canada,55.299440,-123.083330
-ZHY,Zhongwei Xiangshan AirportVertex,Zhongwei,China,37.572800,105.154400
+UKA,Ukunda Airport,Ukunda,Kenya,-4.296940,39.571400
+YZY,Mackenzie Airport,Mackenzie British Columbia,Canada,55.299440,-123.083330
+ZHY,Zhongwei Xiangshan Airport,Zhongwei,China,37.572800,105.154400
 DWC,Dubai Al Maktoum,Dubai,United Arab Emirates,24.550560,55.103174
 AEB,Tianyang,Baise,China,23.720000,106.960000
 NYT,NAYPYITAW,NAYPYITAW,Burma,19.374000,96.121000
 RCE,Roche Harbor Seaplane Base,Roche Harbor,United States,48.608056,-123.159722
 FBS,Friday Harbor Seaplane Base,Friday Harbor,United States,48.537222,-123.009722
-IZA,Zona da Mata Regional AirportVertex,Juiz de Fora,Brazil,-21.513056,-43.173058
-NME,Nightmute AirportVertex,Nightmute,United States,60.471111,-164.700833
-OOK,Toksook Bay AirportVertex,Toksook Bay,United States,60.541389,-165.087222
-TNK,Tununak AirportVertex,Tununak,United States,60.575556,-165.271667
-WWT,Newtok AirportVertex,Newtok,United States,60.939167,-164.641111
-ACU,Achutupo AirportVertex,Achutupo,Panama,9.200000,-77.980000
-GHE,Garachine AirportVertex,Garachine,Panama,8.060000,-78.360000
-MPP,Mulatupo AirportVertex,Mulatupo,Panama,8.950000,-77.750000
+IZA,Zona da Mata Regional Airport,Juiz de Fora,Brazil,-21.513056,-43.173058
+NME,Nightmute Airport,Nightmute,United States,60.471111,-164.700833
+OOK,Toksook Bay Airport,Toksook Bay,United States,60.541389,-165.087222
+TNK,Tununak Airport,Tununak,United States,60.575556,-165.271667
+WWT,Newtok Airport,Newtok,United States,60.939167,-164.641111
+ACU,Achutupo Airport,Achutupo,Panama,9.200000,-77.980000
+GHE,Garachine Airport,Garachine,Panama,8.060000,-78.360000
+MPP,Mulatupo Airport,Mulatupo,Panama,8.950000,-77.750000
 OBY,Ittoqqortoormiit Heliport,Ittoqqortoormiit,Greenland,70.485278,-21.966667
-ZKG,Kegaska AirportVertex,Kegaska,Canada,50.195833,-61.265833
-YZZ,Trail AirportVertex,Trail,Canada,49.055556,-117.609167
-YAB,Arctic Bay AirportVertex,Arctic Bay,Canada,73.006389,-85.047222
+ZKG,Kegaska Airport,Kegaska,Canada,50.195833,-61.265833
+YZZ,Trail Airport,Trail,Canada,49.055556,-117.609167
+YAB,Arctic Bay Airport,Arctic Bay,Canada,73.006389,-85.047222
 HMB,Sohag International,Sohag,Egypt,26.341189,31.742983
-POJ,Patos de Minas AirportVertex,Patos de Minas,Brazil,-18.672778,-46.491111
+POJ,Patos de Minas Airport,Patos de Minas,Brazil,-18.672778,-46.491111
 JTC,Bauru-Arealva,Bauru,Brazil,-22.157778,-49.068333
-OIA,Ourilandia do Norte AirportVertex,Ourilandia do Norte,Brazil,-6.763056,-51.050000
-RDC,Redencao AirportVertex,Redencao,Brazil,-8.033333,-49.980000
-SXX,Sao Felix do Xingu AirportVertex,Sao Felix do Xingu,Brazil,-6.641389,-51.952222
-BYO,Bonito AirportVertex,Bointo,Brazil,-21.247222,-56.452500
-SXO,Sao Felix do Araguaia AirportVertex,Sao Felix do Araguaia,Brazil,-11.632500,-50.689444
-ERN,Amaury Feitosa Tomaz AirportVertex,Eirunepe,Brazil,-6.639444,-69.879722
-OLC,Senadora Eunice Micheles AirportVertex,Sao Paulo de Olivenca,Brazil,-3.465556,-68.918889
-IRZ,Tapuruquara AirportVertex,Santa Isabel do Rio Negro,Brazil,-0.416944,-65.033889
-GZP,Gazipasa AirportVertex,Alanya,Turkey,36.299300,32.301400
-ULH,Prince Abdul Majeed AirportVertex,Al-Ula,Saudi Arabia,26.636718,37.908018
-LOP,Lombok International AirportVertex,Praya,Indonesia,-8.757322,116.276675
-HDG,Hebei Handan AirportVertex,Handan,China,36.524000,114.430000
+OIA,Ourilandia do Norte Airport,Ourilandia do Norte,Brazil,-6.763056,-51.050000
+RDC,Redencao Airport,Redencao,Brazil,-8.033333,-49.980000
+SXX,Sao Felix do Xingu Airport,Sao Felix do Xingu,Brazil,-6.641389,-51.952222
+BYO,Bonito Airport,Bointo,Brazil,-21.247222,-56.452500
+SXO,Sao Felix do Araguaia Airport,Sao Felix do Araguaia,Brazil,-11.632500,-50.689444
+ERN,Amaury Feitosa Tomaz Airport,Eirunepe,Brazil,-6.639444,-69.879722
+OLC,Senadora Eunice Micheles Airport,Sao Paulo de Olivenca,Brazil,-3.465556,-68.918889
+IRZ,Tapuruquara Airport,Santa Isabel do Rio Negro,Brazil,-0.416944,-65.033889
+GZP,Gazipasa Airport,Alanya,Turkey,36.299300,32.301400
+ULH,Prince Abdul Majeed Airport,Al-Ula,Saudi Arabia,26.636718,37.908018
+LOP,Lombok International Airport,Praya,Indonesia,-8.757322,116.276675
+HDG,Hebei Handan Airport,Handan,China,36.524000,114.430000
 WMI,Warsaw Modlin,Warsaw,Poland,52.451111,20.651667
-JXA,Jixi AirportVertex,Jixi,China,45.306110,130.996670
+JXA,Jixi Airport,Jixi,China,45.306110,130.996670
 EYK,Beloyarsky,Beloyarsky,Russia,63.683056,66.683056
 ELL,Ellisras,Lephalale,South Africa,-23.666667,27.750000
 UMD,Uummannaq Heliport,Uummannaq,Greenland,70.404700,52.070200
 RLK,Bayannur,Bayannur,China,40.926389,107.738889
 PUM,Pomalaa,Pomalaa,Indonesia,-4.183333,121.616670
-RGK,Gorno-Altaysk AirportVertex,Gorno-Altaysk,Russia,51.966667,85.833333
-LLK,Lankaran International AirportVertex,Lankaran,Azerbaijan,38.746389,48.817778
-GBB,Qabala AirportVertex,Qabala,Azerbaijan,40.826667,47.712500
+RGK,Gorno-Altaysk Airport,Gorno-Altaysk,Russia,51.966667,85.833333
+LLK,Lankaran International Airport,Lankaran,Azerbaijan,38.746389,48.817778
+GBB,Qabala Airport,Qabala,Azerbaijan,40.826667,47.712500
 JIQ,Zhoubai,Qianjiang,China,29.515000,108.830000
 DEE,Mendeleevo,Yuzhno-Kurilsk,Russia,43.573900,145.410700
-NBS,Changbaishan AirportVertex,Baishan,China,42.088056,127.548889
+NBS,Changbaishan Airport,Baishan,China,42.088056,127.548889
 LUZ,Lublin,Lublin,Poland,51.239333,22.714083
-LLF,Yongzhou Lingling AirportVertex,Yongzhou,China,26.345556,111.612222
+LLF,Yongzhou Lingling Airport,Yongzhou,China,26.345556,111.612222
 TVS,Sannvhe,Tangshan,China,39.717444,118.002389
-YTY,Yangzhou Taizhou AirportVertex,Yangzhou,China,32.561700,119.715000
+YTY,Yangzhou Taizhou Airport,Yangzhou,China,32.561700,119.715000
 RHD,Termal,Rio Hondo,Argentina,-27.509946,-64.936666
-KGT,Kangding AirportVertex,Kangding,China,30.157500,101.734722
+KGT,Kangding Airport,Kangding,China,30.157500,101.734722
 HRI,Mattala Rajapaksa Intl.,Mattala,Sri Lanka,6.284467,81.124128
 XSB,Sir Bani Yas Island,Sir Bani Yas Island,United Arab Emirates,24.285608,52.578347
-ZDY,Dalma AirportVertex,Dalma Island,United Arab Emirates,24.503383,52.336053
-JGD,Jiagedaqi AirportVertex,Jiagedaqi District,China,50.375000,124.117000
-BFJ,Bijie Feixiong AirportVertex,Bijie,China,27.253000,105.426000
+ZDY,Dalma Airport,Dalma Island,United Arab Emirates,24.503383,52.336053
+JGD,Jiagedaqi Airport,Jiagedaqi District,China,50.375000,124.117000
+BFJ,Bijie Feixiong Airport,Bijie,China,27.253000,105.426000
 ULK,Lensk,Lensk,Russia,60.723000,114.825000
 IGD,Igdir,Igdir,Turkey,39.983056,43.866389
 GNY,Sanliurfa GAP,Sanliurfa,Turkey,37.450000,38.900000
 KZR,Zafer,Kutahya,Turkey,39.111389,30.130000
 BQB,Brusselton,Brusselton,Australia,-33.687222,115.400278
-YIC,Yichun Mingyueshan AirportVertex,Yichun,China,27.803300,114.308100
-THD,Tho Xuan AirportVertex,Thanh Hoa,Vietnam,19.901670,105.467780
+YIC,Yichun Mingyueshan Airport,Yichun,China,27.803300,114.308100
+THD,Tho Xuan Airport,Thanh Hoa,Vietnam,19.901670,105.467780
 MJU,Tampa Padang,Mamuju,Indonesia,-2.583333,119.033333
-GIU,Sigiriya AirportVertex,Sigiriya,Sri Lanka,7.572120,80.434120
+GIU,Sigiriya Airport,Sigiriya,Sri Lanka,7.572120,80.434120
 BGG,Bingol,Bingol,Turkey,38.861110,40.592500
 KFS,Uzunyazi,Kastamonu,Turkey,41.316944,33.796111
 DCY,Yading Daocheng,Daocheng,China,29.323100,100.053300
