@@ -31,7 +31,7 @@ void Menu::displayMainMenu() {
                  "0. Exit\n==> Enter your choice: ";
 
     std::string option;
-    std::cin >> option;
+    std::getline(std::cin, option);
     try{
         std::stoi(option);
     }catch (const std::invalid_argument& e){
@@ -60,9 +60,9 @@ void Menu::displayMainMenu() {
 
 void Menu::displayStatisticsMenu() {
     while(true){
-        std::cout << """==============================\n"
-                     "         Statistics\n"
-                     "==============================\n\n""";
+        std::cout << "\033[1;36m==============================\033[0m\n"
+                     "\033[1;36m      Statisticts\033[0m\n"
+                     "\033[1;36m==============================\033[0m\n\n";
         std::cout << "1.   Global Stats\n"
                      "2.  Airport Outbound Stats\n"
                      "3. City/Airline Stats\n"
@@ -75,7 +75,7 @@ void Menu::displayStatisticsMenu() {
                      "0.   Back to Main Menu\n==> Enter your choice:";
 
         std::string option;
-        std::cin >> option;
+        std::getline(std::cin, option);
 
         try{
             std::stoi(option);
@@ -134,7 +134,7 @@ void Menu::displayGlobalStats() {
     std::cout << "0. Back to Statistics Menu\n==> \033[1;34mAny key to continue:\033[0m ";
 
     std::string exitFlag;
-    std::cin >> exitFlag;
+    std::getline(std::cin, exitFlag);
 }
 
 void Menu::displayAirportOut() {
@@ -144,7 +144,7 @@ void Menu::displayAirportOut() {
                      "\033[1;36m==============================\033[0m\n";
         std::string airport;
         std::cout << "\033[1;33mEnter the name of the airport:\033[0m ";
-        std::cin >> airport;
+        std::getline(std::cin, airport);
 
         std::shared_ptr<AirportVertex> airport_ = this->controller->findAirportByName(airport);
         if (airport_ == nullptr) {
@@ -152,12 +152,12 @@ void Menu::displayAirportOut() {
             continue;
         }
 
-        std::cout << "1. Number of Flights Out of " << airport << ": " << this->controller->flightCountFromAirport(airport_->getAirportCode()) << std::endl;
+        std::cout << "Number of Flights Out of " << airport << ": " << this->controller->flightCountFromAirport(airport_->getAirportCode()) << std::endl;
 
-        std::cout << "2. Number of Airlines from " << airport << ": " << this->controller->distinctAirlinesInAirport(airport_->getAirportCode()) << std::endl;
-        std::cout << "0. Back to Statistics Menu\n \033[1;34mAny key to continue:\033[0m ";
+        std::cout << "Number of Airlines from " << airport << ": " << this->controller->distinctAirlinesInAirport(airport_->getAirportCode()) << std::endl;
+        std::cout << "\033[1;34mAny key to continue:\033[0m ";
         std::string option;
-        std::cin >> option;
+        std::getline(std::cin, option);
         return;
     }
 }
@@ -172,7 +172,7 @@ void Menu::displayCityAirlineStats() {
                      "0. Back to Statistics Menu\n\n"
                      "Enter your choice: ";
         std::string option;
-        std::cin >> option;
+        std::getline(std::cin, option);
 
         try{
             std::stoi(option);
@@ -205,7 +205,7 @@ void Menu::displayCountriesStats() {
         std::cout << "2. Number of different countries that you can go from a city.\n"
                      "0. Return to Statistics menu.\nYour choice: ";
         std::string option;
-        std::cin >> option;
+        std::getline(std::cin, option);
 
         try{
             std::stoi(option);
@@ -238,7 +238,7 @@ void Menu::displayDestinationStats() {
                      "\n\033[1;33mEnter the name of the airport:\033[0m ";
 
         std::string airport;
-        std::cin >> airport;
+        std::getline(std::cin, airport);
 
         std::shared_ptr<AirportVertex> vertex = this->controller->findAirportByName(airport);
         if (vertex == nullptr) {
@@ -252,7 +252,7 @@ void Menu::displayDestinationStats() {
 
         std::cout << "\n\033[1;34mAny key to continue:\033[0m ";
         std::string exitFlag;
-        std::cin >> exitFlag;
+        std::getline(std::cin, exitFlag);
         return;
     }
 }
@@ -265,7 +265,7 @@ void Menu::displayReachableDestinations() {
                      "\n\033[1;33mAirport to consult: \033[0m";
 
         std::string airport;
-        std::cin >> airport;
+        std::getline(std::cin, airport);
 
         std::shared_ptr<AirportVertex> airport_ = this->controller->findAirportByName(airport);
         if (airport_ == nullptr) {
@@ -275,7 +275,7 @@ void Menu::displayReachableDestinations() {
 
         std::string stops;
         std::cout << "\033[1;33mMaximum stops (lay-overs):\033[0m ";
-        std::cin >> stops;
+        std::getline(std::cin, stops);
 
         try {
             int maxLays = std::stoi(stops);
@@ -285,7 +285,7 @@ void Menu::displayReachableDestinations() {
 
             std::cout << "\n\033[1;34mAny key to continue:\033[0m ";
             std::string option;
-            std::cin >> option;
+            std::getline(std::cin, option);
             return;
         } catch (const std::invalid_argument& e) {
             std::cout << "\033[1;31mInvalid number of stops!\033[0m\n";
@@ -315,7 +315,7 @@ void Menu::displayMaximumtrip() {
 
         std::string exitFlag;
         std::cout << "\n\033[1;34mPress any key to continue...\033[0m";
-        std::cin >> exitFlag;
+        std::getline(std::cin, exitFlag);
         return;
     }
 }
@@ -327,7 +327,7 @@ void Menu::displayTopAirports() {
                      "\033[1;36m==============================\033[0m\n\n";
         std::cout << "Display how many airports: ";
         std::string k;
-        std::cin >> k;
+        std::getline(std::cin, k);
 
         try {
             int counter = 1;
@@ -337,7 +337,7 @@ void Menu::displayTopAirports() {
 
             std::string exitFlag;
             std::cout << "\033[1;34mAny key to continue...\033[0m";
-            std::cin >> exitFlag;
+            std::getline(std::cin, exitFlag);
             return;
         } catch (const std::invalid_argument &e) {
             std::cout << "\033[1;31mInvalid number!\033[0m\n";
@@ -363,7 +363,7 @@ void Menu::displayEssentialAirports() {
 
     std::string exitFlag;
     std::cout << "\033[1;34mAny key to continue...\033[0m";
-    std::cin >> exitFlag;
+    std::getline(std::cin, exitFlag);
     return;
 }
 
@@ -374,13 +374,13 @@ void Menu::displayFlightsPerCity() {
                  "City to consult: ";
 
     std::string city;
-    std::cin >> city;
+    std::getline(std::cin, city);
 
     std::cout << city << ": " << this->controller->flightsPerCity(city) << " flights\n";
 
     std::string exitFlag;
     std::cout << "\033[1;34mAny key to continue:\033[0m ";
-    std::cin >> exitFlag;
+    std::getline(std::cin, exitFlag);
 }
 
 void Menu::displayFlightsPerAirline() {
@@ -390,13 +390,13 @@ void Menu::displayFlightsPerAirline() {
                  "Airline to consult: ";
 
     std::string airline;
-    std::cin >> airline;
+    std::getline(std::cin, airline);
 
     std::cout << airline << ": " << this->controller->flightsPerAirline(airline) << " flights\n";
 
     std::string exitFlag;
     std::cout << "\033[1;34mAny key to continue:\033[0m ";
-    std::cin >> exitFlag;
+    std::getline(std::cin, exitFlag);
 }
 void Menu::displayCountriesAirport() {
     while (true) {
@@ -405,9 +405,10 @@ void Menu::displayCountriesAirport() {
                      "\033[1;36m====================================\033[0m\n\n"
                      "Airport to consult: ";
         std::string airport;
-        std::cin >> airport;
+        std::getline(std::cin, airport);
 
         std::shared_ptr<AirportVertex> airport_ = this->controller->findAirportByName(airport);
+
         if (airport_ == nullptr) {
             std::cout << "\033[1;31mInvalid airport!\033[0m\n";
             continue;
@@ -417,7 +418,7 @@ void Menu::displayCountriesAirport() {
 
         std::cout << "\033[1;34mAny key to continue:\033[0m\n";
         std::string option;
-        std::cin >> option;
+        std::getline(std::cin, option);
         return;
     }
 }
@@ -429,13 +430,13 @@ void Menu::displayCountriesCity() {
                      "\033[1;36m====================================\033[0m\n\n"
                      "City to consult: ";
         std::string city;
-        std::cin >> city;
+        std::getline(std::cin, city);
 
         std::cout << "From " << city << " you can fly to " << this->controller->distinctCountriesFromCity(city) << " different countries\n";
 
         std::cout << "\033[1;34mAny key to continue:\033[0m\n";
         std::string option;
-        std::cin >> option;
+        std::getline(std::cin, option);
         return;
     }
 }
@@ -469,7 +470,7 @@ void Menu::displayBestFlightOption() {
 
         std::string exitFlag;
         std::cout << "\033[1;34mAny key to continue..\033[0m";
-        std::cin >> exitFlag;
+        std::getline(std::cin, exitFlag);
         return;
     }
 }
@@ -482,7 +483,7 @@ std::vector<std::shared_ptr<AirportVertex>> Menu::getAirport() {
                  "3. City name\n"
                  "4. Coordinates\nEnter your option:";
     std::string option;
-    std::cin >> option;
+    std::getline(std::cin, option);
 
     try{
         std::stoi(option);
@@ -501,24 +502,24 @@ std::vector<std::shared_ptr<AirportVertex>> Menu::getAirport() {
     switch (std::stoi(option)) {
         case 1:
             std::cout << "Desired airport: ";
-            std::cin >> airportCode;
+            std::getline(std::cin, airportCode);
             result.push_back(this->controller->findAirportByCode(airportCode));
             return result;
         case 2:
             std::cout << "Desired airport: ";
-            std::cin >> airportName;
+            std::getline(std::cin, airportName);
             result.push_back(this->controller->findAirportByName(airportName));
             return result;
         case 3:
             std::cout << "Desired city: ";
-            std::cin >> cityName;
+            std::getline(std::cin, cityName);
             return this->controller->findAirportsInCity(cityName);
         case 4:
             try{
                 std::cout << "Latitude: ";
-                std::cin >> latitude;
+                std::getline(std::cin, latitude);
                 std::cout << "Longitude: ";
-                std::cin >> longitude;
+                std::getline(std::cin, longitude);
                 return this->controller->findAirportsNearPoint(std::stod(latitude), std::stod(longitude));
 
             } catch (const std::invalid_argument& e){
@@ -538,7 +539,7 @@ SearchFilter Menu::getFilters(){
         std::cout << "1. Limit number of distinct Airlines\n";
         std::cout << "2. Limit Airlines to use\n3. Limit both\n0. No Filters\nEnter your choice: ";
         std::string option;
-        std::cin >> option;
+        std::getline(std::cin, option);
 
 
         SearchFilter newFilter;
@@ -555,7 +556,7 @@ SearchFilter Menu::getFilters(){
         switch (std::stoi(option)) {
             case 1:
                 std::cout << "How many distinct airlines would you like to use? ";
-                std::cin >> limit;
+                std::getline(std::cin, limit);
                 try{
                     newFilter.limitAirlines = std::stoi(limit);
                     return newFilter;
@@ -567,7 +568,7 @@ SearchFilter Menu::getFilters(){
                 newFilter.filterAirlines = true;
                 while(true){
                     std::cout << "Enter the airline to add (-1 to end): ";
-                    std::cin >> airline;
+                    std::getline(std::cin, airline);
                     if(airline == "-1") break;
                     airlines.insert(airline);
                 }
@@ -575,7 +576,7 @@ SearchFilter Menu::getFilters(){
                 return newFilter;
             case 3:
                 std::cout << "How many distinct airlines would you like to use? ";
-                std::cin >> limit;
+                std::getline(std::cin, limit);
                 try{
                     newFilter.limitAirlines = std::stoi(limit);
                 } catch (const std::invalid_argument& e){
@@ -585,7 +586,7 @@ SearchFilter Menu::getFilters(){
                 newFilter.filterAirlines = true;
                 while(true){
                     std::cout << "Enter the airline to add (-1 to end): ";
-                    std::cin >> airline;
+                    std::getline(std::cin, airline);
                     if(airline == "-1") break;
                     airlines.insert(airline);
                 }
@@ -628,7 +629,7 @@ void Menu::displayBestFlightOptionFiltered() {
 
         std::string exitFlag;
         std::cout << "\033[1;34mAny key to continue..\033[0m";
-        std::cin >> exitFlag;
+        std::getline(std::cin, exitFlag);
         return;
     }
 }
