@@ -534,18 +534,21 @@ std::vector<std::shared_ptr<AirportVertex>> Menu::getAirport() {
 
 
 SearchFilter Menu::getFilters(){
+    SearchFilter newFilter;
+    std::string limit;
+    std::string city;
+    std::string airline;
+    std::unordered_set<std::string> airlines;
+    std::unordered_set<std::string> cities;
     while(true){
         std::cout << "\033[1;34mFilters to add:\033[0m\n";
         std::cout << "1. Limit number of distinct Airlines\n";
-        std::cout << "2. Limit Airlines to use\n3. Limit both\n0. No Filters\nEnter your choice: ";
+        std::cout << "2. Limit Airlines to use\n3. Add city to stop\n4. Clear Filters\n0. Search\nEnter your choice: ";
         std::string option;
         std::getline(std::cin, option);
 
 
-        SearchFilter newFilter;
-        std::string limit;
-        std::string airline;
-        std::unordered_set<std::string> airlines;
+
 
         try{
             std::stoi(option);
@@ -553,13 +556,15 @@ SearchFilter Menu::getFilters(){
             std::cout << "\033[1;31mInvalid option!\033[0m\n";
             continue;
         }
+
+
         switch (std::stoi(option)) {
             case 1:
                 std::cout << "How many distinct airlines would you like to use? ";
                 std::getline(std::cin, limit);
                 try{
                     newFilter.limitAirlines = std::stoi(limit);
-                    return newFilter;
+                    break;
                 } catch (const std::invalid_argument& e){
                     std::cout << "Enter a valid limit!\n";
                     break;
@@ -572,28 +577,27 @@ SearchFilter Menu::getFilters(){
                     if(airline == "-1") break;
                     airlines.insert(airline);
                 }
-                newFilter.airlinesToUse = airlines;
-                return newFilter;
+                break;
             case 3:
-                std::cout << "How many distinct airlines would you like to use? ";
-                std::getline(std::cin, limit);
-                try{
-                    newFilter.limitAirlines = std::stoi(limit);
-                } catch (const std::invalid_argument& e){
-                    std::cout << "Enter a valid limit!\n";
-                    break;
-                }
-                newFilter.filterAirlines = true;
+                newFilter.filterCities = true;
                 while(true){
-                    std::cout << "Enter the airline to add (-1 to end): ";
-                    std::getline(std::cin, airline);
-                    if(airline == "-1") break;
-                    airlines.insert(airline);
+                    std::cout << "Enter the city to add (-1 to end): ";
+                    std::getline(std::cin, city);
+                    if(city == "-1") break;
+                    cities.insert(city);
                 }
-                newFilter.airlinesToUse = airlines;
-                return newFilter;
+                break;
+            case 4:
+                newFilter.airlinesToUse.clear();
+                newFilter.limitAirlines = -1;
+                newFilter.filterAirlines = false;
+                newFilter.filterCities = false;
+                newFilter.citiesToStop.clear();
+                break;
             case 0:
-                return {};
+                newFilter.airlinesToUse = airlines;
+                newFilter.citiesToStop = cities;
+                return newFilter;
             default:
                 std::cout << "Invalid option!\n";
                 break;

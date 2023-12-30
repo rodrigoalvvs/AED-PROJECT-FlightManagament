@@ -23,7 +23,9 @@
 struct SearchFilter{
     int limitAirlines = -1; // -1 to use as many as necessary
     bool filterAirlines = false; // false to not filter the airlines
+    bool filterCities = false;
     std::unordered_set<std::string> airlinesToUse;
+    std::unordered_set<std::string> citiesToStop;
 };
 
 
@@ -97,12 +99,12 @@ public:
     std::vector< std::shared_ptr<AirportVertex>> findAirportsNearPoint(double latitude, double longitude);
     double computeDistance(double latitude, double longitude, std::shared_ptr<AirportVertex>);
 
-    std::vector<std::vector<Flight>> findBestFlightOption(std::shared_ptr<AirportVertex> source, std::shared_ptr<AirportVertex> destination, SearchFilter filter);
+
+    std::vector<std::vector<Flight>> findBestFlightOption(std::shared_ptr<AirportVertex> source, std::shared_ptr<AirportVertex> destination, SearchFilter filter, std::vector<std::vector<Flight>>& result);
 
 
-    std::vector<std::vector<Flight>> getPaths(const std::vector<std::shared_ptr<AirportVertex>>&, const std::vector<std::shared_ptr<AirportVertex>>&, SearchFilter filter);
+    std::vector<std::vector<Flight>> getPaths(const std::vector<std::shared_ptr<AirportVertex>> & sources,const std::vector<std::shared_ptr<AirportVertex>> & destinations,const  SearchFilter& filter);
 
-    std::vector<std::vector<Flight>> trimPaths(const std::vector<std::vector<Flight>>& paths, SearchFilter filter);
 
     // 5.
     bool inSet(std::unordered_set<std::string>, const std::string&);

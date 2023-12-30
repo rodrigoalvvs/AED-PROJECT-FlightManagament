@@ -445,13 +445,11 @@ double NetworkController::computeDistance(double latitude, double longitude, std
 }
 
 
-std::vector<std::vector<Flight>> NetworkController::findBestFlightOption(std::shared_ptr<AirportVertex> source, std::shared_ptr<AirportVertex> destination, SearchFilter filter) {
+std::vector<std::vector<Flight>> NetworkController::findBestFlightOption(std::shared_ptr<AirportVertex> source, std::shared_ptr<AirportVertex> destination, SearchFilter filter, std::vector<std::vector<Flight>>& result) {
 
     if(source == nullptr || destination == nullptr || (source == destination)) return {};
     this->network.resetFlags();
 
-
-    std::vector<std::vector<Flight>> result;
     std::queue<std::vector<Flight>> q;
 
 
@@ -480,7 +478,7 @@ std::vector<std::vector<Flight>> NetworkController::findBestFlightOption(std::sh
                 childPath.emplace_back(flight);
 
                 if(flight.getDestination() == destination){
-                    if((result.empty() || childPath.size() <= result.front().size()) ){
+                    if((result.empty() || childPath.size() <= result.front().size()) && this->checkFilters(childPath, filter)){
                         result.push_back(childPath);
                     }
                     continue;
@@ -511,7 +509,10 @@ bool NetworkController::inSet(std::unordered_set<std::string> set, const std::st
 bool NetworkController::checkFilters(const std::vector<Flight>& path,
                                      SearchFilter filter) {
     std::unordered_set<std::string> airlinesUsed;
+    std::unordered_set<std::string> citiesUsed;
     bool invalidRoute = false;
+    bool usedAllCities = true;
+
 
     for(Flight flight: path){
         // root element
@@ -519,44 +520,34 @@ bool NetworkController::checkFilters(const std::vector<Flight>& path,
 
         if(!this->inSet(filter.airlinesToUse, flight.getAirlineCode()) && filter.filterAirlines) invalidRoute = true;
         airlinesUsed.insert(flight.getAirlineCode());
+        if(this->inSet(filter.citiesToStop, flight.getDestination()->getCity())) citiesUsed.insert(flight.getDestination()->getCity());
     }
+
+    usedAllCities = citiesUsed.size() == filter.citiesToStop.size() || !(filter.filterCities);
 
     bool validNumber = airlinesUsed.size() <= filter.limitAirlines || filter.limitAirlines == -1;
-    return validNumber && !invalidRoute;
-}
 
-
-std::vector<std::vector<Flight>> NetworkController::trimPaths(const std::vector<std::vector<Flight>> &paths, SearchFilter filter) {
-    // Function to get rid of the paths that have more length than others
-    int minLength = INT32_MAX;
-    for(const std::vector<Flight>& path: paths){
-        if(path.size() < minLength) minLength = static_cast<int>(path.size());
-    }
-    std::vector<std::vector<Flight>> result;
-    for(const std::vector<Flight>& path: paths){
-        if(path.size() == minLength && this->checkFilters(path, filter)) result.push_back(path);
-    }
-    return result;
+    return validNumber && !invalidRoute && usedAllCities;
 }
 
 
 
 std::vector<std::vector<Flight>> NetworkController::getPaths(const std::vector<std::shared_ptr<AirportVertex>> & sources,
-                                                             const std::vector<std::shared_ptr<AirportVertex>> & destinations, SearchFilter filter) {
+                                                             const std::vector<std::shared_ptr<AirportVertex>> & destinations,const  SearchFilter& filter) {
     std::vector<std::vector<Flight>> paths;
 
     //  Get all possible paths from source/destination pair
     for(std::shared_ptr<AirportVertex> source:sources){
         for(std::shared_ptr<AirportVertex> destination: destinations){
-            for(const std::vector<Flight>& path: this->findBestFlightOption(source, destination, SearchFilter())){
-                paths.push_back(path);
-            }
+            this->findBestFlightOption(source, destination, filter, paths);
         }
     }
 
     // Function to get rid of the paths that have more length than others
-    return this->trimPaths(paths, filter);
+    return paths;
 }
+
+
 
 
 
