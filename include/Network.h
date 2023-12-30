@@ -19,6 +19,7 @@ private:
     int flightCount;
 
     std::unordered_map<std::string, std::shared_ptr<AirportVertex>> airportSet;
+
     std::unordered_map<std::string, std::shared_ptr<Airline>> airlineMap;
 
 public:

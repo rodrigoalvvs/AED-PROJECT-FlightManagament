@@ -16,4 +16,6 @@ add_executable(flightManagement main.cpp
         src/Network.cpp
         include/Airport.h
         src/Airport.cpp
+        include/Menu.h
+        src/Menu.cpp
 )

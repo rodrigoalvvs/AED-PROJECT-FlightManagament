@@ -52,14 +52,14 @@ public:
 
     // 3.iii
     int flightsPerCity(const std::string& city);
-
     int flightsPerAirline(const std::string& airline);
     void airlineDFS(std::shared_ptr<AirportVertex> vertex, int& counter, const std::string& match);
+
 
     // 3.iv
     int distinctCountriesFromAirport(const std::string& airportCode);
     int distinctCountriesFromCity(const std::string& city);
-    void distinctDFS(std::shared_ptr<AirportVertex> vertex, int& counter, const std::string& match);
+    int countDistinctCountries(const std::vector<std::shared_ptr<AirportVertex>>& airports);
 
     // 3.v
     int airportsReachable(const std::string& airportCode);
@@ -76,9 +76,8 @@ public:
     std::vector<std::shared_ptr<AirportVertex>> reachableWithNStops(const std::string& airportCode, int nStops);
     void reachableWithNStopsDFS(std::shared_ptr<AirportVertex> vertex, int& counter, int nStops, std::vector<std::shared_ptr<AirportVertex>>& reachable);
 
-    // 3.vii (NOT WORKING)
-    void maximumTripDFS(std::shared_ptr<AirportVertex> vertex, std::vector<std::string>& list);
-    std::vector<std::string> getMaximumTrip();
+    // 3.vii
+    std::pair<std::vector<std::pair<std::string, std::string>>, int> getLongestTripWithDistance();
 
     // 3.viii
     std::vector<std::pair<std::string, int>> topAirports(int k);
@@ -95,13 +94,19 @@ public:
     std::shared_ptr<AirportVertex> findAirportByCode(const std::string& code);
     std::shared_ptr<AirportVertex> findAirportByName(const std::string& name);
     std::vector<std::shared_ptr<AirportVertex>> findAirportsInCity(const std::string& city);
-    std::vector<std::pair<double, std::shared_ptr<AirportVertex>>> findAirportsNearPoint(double latitude, double longitude, int firstN);
+    std::vector< std::shared_ptr<AirportVertex>> findAirportsNearPoint(double latitude, double longitude);
     double computeDistance(double latitude, double longitude, std::shared_ptr<AirportVertex>);
-    std::vector<std::vector<std::pair<std::shared_ptr<AirportVertex>, std::string>>>  findBestFlightOption(std::shared_ptr<AirportVertex> source, std::shared_ptr<AirportVertex> destination, SearchFilter filter);
+
+    std::vector<std::vector<Flight>> findBestFlightOption(std::shared_ptr<AirportVertex> source, std::shared_ptr<AirportVertex> destination, SearchFilter filter);
+
+
+    std::vector<std::vector<Flight>> getPaths(const std::vector<std::shared_ptr<AirportVertex>>&, const std::vector<std::shared_ptr<AirportVertex>>&, SearchFilter filter);
+
+    std::vector<std::vector<Flight>> trimPaths(const std::vector<std::vector<Flight>>& paths, SearchFilter filter);
 
     // 5.
     bool inSet(std::unordered_set<std::string>, const std::string&);
-    bool checkFilters(std::vector<std::pair<std::shared_ptr<AirportVertex>, std::string>> path, SearchFilter filter);
+    bool checkFilters(const std::vector<Flight>& path, SearchFilter filter);
 
 };
 

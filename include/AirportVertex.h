@@ -7,6 +7,7 @@
 
 #include <string>
 #include <vector>
+#include <unordered_set>
 
 
 #include "Flight.h"
@@ -15,17 +16,17 @@
 
 class AirportVertex{
 private:
-    std::shared_ptr<Airport> airport;
+    Airport airport;
     std::vector<Flight> flights;
     int low;
     int num;
     bool visited;
 public:
     // Constructor
-    AirportVertex(std::shared_ptr<Airport> airport_);
+    AirportVertex(Airport);
 
     // Getter methods
-    const std::vector<Flight> &getFlights() const;
+    const  std::vector<Flight> &getFlights() const;
     const std::string& getAirportCode() const;
     const std::string& getCity() const;
     const std::string& getCountry() const;
@@ -36,8 +37,8 @@ public:
     void setNum(int num_);
 
     // Setter methods
-    void setFlights(const std::vector<Flight> &flights_);
-    void addFlight(const std::string& target, std::shared_ptr<AirportVertex> airline);
+    void setFlights(const std::vector<Flight>&);
+    void addFlight(std::shared_ptr<AirportVertex> airline, const std::string& target);
     int getLow() const;
     int getNum() const;
 
@@ -45,6 +46,7 @@ public:
     bool isVisited() const;
 
     int getDistinctCountries();
+    std::unordered_set<std::string> getDistinctCountriesSet();
 
 };
 
