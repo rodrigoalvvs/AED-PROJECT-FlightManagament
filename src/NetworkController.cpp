@@ -464,7 +464,14 @@ std::vector<std::vector<Flight>> NetworkController::findBestFlightOption(std::sh
         std::vector<Flight> rootPath = q.front();
         q.pop();
 
+
+        if(!result.empty() && rootPath.size() > result.front().size()){
+            continue;
+        }
+
         std::shared_ptr<AirportVertex> lastVertexVisited = rootPath.back().getDestination();
+
+
 
         for(Flight flight: lastVertexVisited->getFlights()){
 
@@ -481,9 +488,10 @@ std::vector<std::vector<Flight>> NetworkController::findBestFlightOption(std::sh
 
                 std::vector<Flight> newPath = childPath;
                 q.push(newPath);
-                flight.getDestination()->setVisited(true);
             }
         }
+        lastVertexVisited->setVisited(true);
+
     }
 
     return result;
