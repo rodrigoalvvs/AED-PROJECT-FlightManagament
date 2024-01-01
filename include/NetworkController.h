@@ -218,7 +218,7 @@ public:
      * @return A vector containing the reachable airports from the specified airport.
      *
      * @complexity
-     *     - Time Complexity: O(N), where N is the maximum number of stops.
+     *     - Time Complexity: O(V + E), where v is the total number of airports, and E the total number of flights.
      */
     std::vector<std::shared_ptr<AirportVertex>> reachableWithNStops(const std::string& airportCode, int nStops);
 
