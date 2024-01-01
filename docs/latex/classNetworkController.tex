@@ -192,9 +192,12 @@ Find articulation airports in the network.
 This function identifies articulation airports in the network using depth-\/first search (DFS). Articulation airports are critical points whose removal can increase the number of connected components in the network.
 
 \begin{DoxyReturn}{Returns}
-An unordered set of airport codes representing the articulation airports. 
+An unordered set of airport codes representing the articulation airports.
 \end{DoxyReturn}
-\mbox{\Hypertarget{classNetworkController_acab7a95b4560a5269523789b0032abfa}\label{classNetworkController_acab7a95b4560a5269523789b0032abfa}} 
+@complexity
+\begin{DoxyItemize}
+\item Time Complexity\+: O(V + E), where V is the number of vertices (airports) and E is the number of edges (flights) in the network. 
+\end{DoxyItemize}\mbox{\Hypertarget{classNetworkController_acab7a95b4560a5269523789b0032abfa}\label{classNetworkController_acab7a95b4560a5269523789b0032abfa}} 
 \index{NetworkController@{NetworkController}!checkFilters@{checkFilters}}
 \index{checkFilters@{checkFilters}!NetworkController@{NetworkController}}
 \doxysubsubsection{\texorpdfstring{checkFilters()}{checkFilters()}}
@@ -481,7 +484,10 @@ Finds airports near a specified geographical point (latitude, longitude).
 \hline
 \end{DoxyParams}
 \begin{DoxyReturn}{Returns}
-A vector of shared pointers to airports near the specified point. 
+A vector of shared pointers to airports near the specified point. @complexity
+\begin{DoxyItemize}
+\item Time Complexity\+: O(\+V $\ast$ log(\+V)), where V is the number of vertices (airports) in the network. 
+\end{DoxyItemize}
 \end{DoxyReturn}
 \mbox{\Hypertarget{classNetworkController_ad0e59c7854d864d5a255eb867fe5e6f2}\label{classNetworkController_ad0e59c7854d864d5a255eb867fe5e6f2}} 
 \index{NetworkController@{NetworkController}!findBestFlightOption@{findBestFlightOption}}
@@ -587,9 +593,12 @@ Get the longest trips with their distances in terms of stops.
 This function performs a breadth-\/first search from each airport to find the longest trip(s) in terms of stops (distance). It returns a pair containing a vector of longest trips, where each trip is represented by a pair of airport codes (source and destination)
 
 \begin{DoxyReturn}{Returns}
-A pair containing a vector of longest trips and the maximum number of stops. 
+A pair containing a vector of longest trips and the maximum number of stops.
 \end{DoxyReturn}
-\mbox{\Hypertarget{classNetworkController_aaa648e2637f1cb98ef18e1a017197dc6}\label{classNetworkController_aaa648e2637f1cb98ef18e1a017197dc6}} 
+@complexity
+\begin{DoxyItemize}
+\item Time complexity\+: O(V $\ast$ (V + E)), where V is the number of airports and E is the number of flights. 
+\end{DoxyItemize}\mbox{\Hypertarget{classNetworkController_aaa648e2637f1cb98ef18e1a017197dc6}\label{classNetworkController_aaa648e2637f1cb98ef18e1a017197dc6}} 
 \index{NetworkController@{NetworkController}!getPaths@{getPaths}}
 \index{getPaths@{getPaths}!NetworkController@{NetworkController}}
 \doxysubsubsection{\texorpdfstring{getPaths()}{getPaths()}}
@@ -719,9 +728,15 @@ Find the reachable airports from a specific airport.
 \hline
 \end{DoxyParams}
 \begin{DoxyReturn}{Returns}
-A vector containing the reachable airports from the specified airport. 
+A vector containing the reachable airports from the specified airport.
 \end{DoxyReturn}
-\mbox{\Hypertarget{classNetworkController_a2d5d7eb376ff77f23c081963ddd8ba8d}\label{classNetworkController_a2d5d7eb376ff77f23c081963ddd8ba8d}} 
+
+\begin{DoxyItemize}
+\item @complexity
+\begin{DoxyItemize}
+\item Time complexity\+: O(V $\ast$ (V + E)), where V is the number of airports and E is the number of flights. 
+\end{DoxyItemize}
+\end{DoxyItemize}\mbox{\Hypertarget{classNetworkController_a2d5d7eb376ff77f23c081963ddd8ba8d}\label{classNetworkController_a2d5d7eb376ff77f23c081963ddd8ba8d}} 
 \index{NetworkController@{NetworkController}!reachableDFS@{reachableDFS}}
 \index{reachableDFS@{reachableDFS}!NetworkController@{NetworkController}}
 \doxysubsubsection{\texorpdfstring{reachableDFS()}{reachableDFS()}}
@@ -756,9 +771,12 @@ Get the list of reachable airports from a specific airport with a maximum number
 \hline
 \end{DoxyParams}
 \begin{DoxyReturn}{Returns}
-A vector containing the reachable airports from the specified airport. 
+A vector containing the reachable airports from the specified airport.
 \end{DoxyReturn}
-\mbox{\Hypertarget{classNetworkController_af5eae6710bdaeb7b6a11d48537060e0b}\label{classNetworkController_af5eae6710bdaeb7b6a11d48537060e0b}} 
+@complexity
+\begin{DoxyItemize}
+\item Time Complexity\+: O(V + E), where v is the total number of airports, and E the total number of flights. 
+\end{DoxyItemize}\mbox{\Hypertarget{classNetworkController_af5eae6710bdaeb7b6a11d48537060e0b}\label{classNetworkController_af5eae6710bdaeb7b6a11d48537060e0b}} 
 \index{NetworkController@{NetworkController}!reachableWithNStopsDFS@{reachableWithNStopsDFS}}
 \index{reachableWithNStopsDFS@{reachableWithNStopsDFS}!NetworkController@{NetworkController}}
 \doxysubsubsection{\texorpdfstring{reachableWithNStopsDFS()}{reachableWithNStopsDFS()}}
@@ -797,9 +815,12 @@ This function retrieves the top airports based on the number of flights. It uses
 \hline
 \end{DoxyParams}
 \begin{DoxyReturn}{Returns}
-A vector of pairs where each pair contains the airport code and its corresponding number of flights, sorted by the number of flights in descending order. 
+A vector of pairs where each pair contains the airport code and its corresponding number of flights, sorted by the number of flights in descending order.
 \end{DoxyReturn}
-
+@complexity
+\begin{DoxyItemize}
+\item Time Complexity\+: O(\+V $\ast$ log(\+V)), where V is the number of vertices (airports) in the network. 
+\end{DoxyItemize}
 
 The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
 \item 
