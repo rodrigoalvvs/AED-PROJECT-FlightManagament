@@ -10,14 +10,7 @@ This C++ project implements a Flight Management System that allows users to anal
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
 - [Usage](#usage)
-- [Functionality](#functionality)
-  - [1. Data Loading](#1-data-loading)
-  - [2. Network Analysis](#2-network-analysis)
-  - [3. Flight Information](#3-flight-information)
-  - [4. Airport Search](#4-airport-search)
-  - [5. Flight Path Analysis](#5-flight-path-analysis)
 - [Contributing](#contributing)
-- [License](#license)
 
 
 ## Introduction
@@ -39,7 +32,8 @@ The Flight Management System is a C++ project that provides functionalities for 
 
 ### Prerequisites
 
-- C++ compiler
+- C++ compiler (minimum version: C++11)
+- CMake (minimum version: 3.22)
 
 ### Installation
 
@@ -59,6 +53,9 @@ cmake ..
 make
 ```
 
+
+## Usage
+
 After building the project, you can run the executable:
 
 ```bash
@@ -66,14 +63,12 @@ After building the project, you can run the executable:
 ```
 
 
+## Contributing
 
+This project was developed by:
 
-## Installation
+Rodrigo Alves (up202207478@fe.up.pt)
 
-Provide instructions on how to install and set up your project. Include any dependencies that need to be installed and any configuration steps.
+Nuno Mota (up202207549@fe.up.pt)
 
-```bash
-# Example installation steps
-git clone https://github.com/your-username/your-project.git
-cd your-project
-make
+Duarte Padrão (up202206479@fe.up.pt)
