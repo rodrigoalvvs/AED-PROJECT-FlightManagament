@@ -1,0 +1,92 @@
+\hypertarget{classFlight}{}\doxysection{Flight Class Reference}
+\label{classFlight}\index{Flight@{Flight}}
+
+
+Represents a flight between two airports.  
+
+
+
+
+{\ttfamily \#include $<$Flight.\+h$>$}
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classFlight_a8f07106dd7d7accfa7873c7e3c2cecd2}{Flight}} (std\+::shared\+\_\+ptr$<$ \mbox{\hyperlink{classAirportVertex}{Airport\+Vertex}} $>$ dest\+\_\+, const std\+::string \&air\+Code)
+\begin{DoxyCompactList}\small\item\em Constructor for the \mbox{\hyperlink{classFlight}{Flight}} class. \end{DoxyCompactList}\item 
+const std\+::string \& \mbox{\hyperlink{classFlight_a9cb9eb01874b928d59a33fcdda5ef3f2}{destination\+Code}} ()
+\begin{DoxyCompactList}\small\item\em Gets the destination code of the flight. \end{DoxyCompactList}\item 
+const std\+::string \& \mbox{\hyperlink{classFlight_aed0489a1a33bdbfb57b6849f782d3de6}{get\+Airline\+Code}} ()
+\begin{DoxyCompactList}\small\item\em Gets the airline code of the flight. \end{DoxyCompactList}\item 
+std\+::shared\+\_\+ptr$<$ \mbox{\hyperlink{classAirportVertex}{Airport\+Vertex}} $>$ \mbox{\hyperlink{classFlight_af49a7fa140ec2220625f808367d60ba1}{get\+Destination}} ()
+\begin{DoxyCompactList}\small\item\em Gets the destination airport vertex of the flight. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Represents a flight between two airports. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classFlight_a8f07106dd7d7accfa7873c7e3c2cecd2}\label{classFlight_a8f07106dd7d7accfa7873c7e3c2cecd2}} 
+\index{Flight@{Flight}!Flight@{Flight}}
+\index{Flight@{Flight}!Flight@{Flight}}
+\doxysubsubsection{\texorpdfstring{Flight()}{Flight()}}
+{\footnotesize\ttfamily Flight\+::\+Flight (\begin{DoxyParamCaption}\item[{std\+::shared\+\_\+ptr$<$ \mbox{\hyperlink{classAirportVertex}{Airport\+Vertex}} $>$}]{dest\+\_\+,  }\item[{const std\+::string \&}]{air\+Code }\end{DoxyParamCaption})}
+
+
+
+Constructor for the \mbox{\hyperlink{classFlight}{Flight}} class. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em dest\+\_\+} & The destination airport vertex. \\
+\hline
+{\em air\+Code} & The code of the airline for the flight. \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classFlight_a9cb9eb01874b928d59a33fcdda5ef3f2}\label{classFlight_a9cb9eb01874b928d59a33fcdda5ef3f2}} 
+\index{Flight@{Flight}!destinationCode@{destinationCode}}
+\index{destinationCode@{destinationCode}!Flight@{Flight}}
+\doxysubsubsection{\texorpdfstring{destinationCode()}{destinationCode()}}
+{\footnotesize\ttfamily const std\+::string\& Flight\+::destination\+Code (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Gets the destination code of the flight. 
+
+\begin{DoxyReturn}{Returns}
+A constant reference to the destination code. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classFlight_aed0489a1a33bdbfb57b6849f782d3de6}\label{classFlight_aed0489a1a33bdbfb57b6849f782d3de6}} 
+\index{Flight@{Flight}!getAirlineCode@{getAirlineCode}}
+\index{getAirlineCode@{getAirlineCode}!Flight@{Flight}}
+\doxysubsubsection{\texorpdfstring{getAirlineCode()}{getAirlineCode()}}
+{\footnotesize\ttfamily const std\+::string\& Flight\+::get\+Airline\+Code (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Gets the airline code of the flight. 
+
+\begin{DoxyReturn}{Returns}
+A constant reference to the airline code. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classFlight_af49a7fa140ec2220625f808367d60ba1}\label{classFlight_af49a7fa140ec2220625f808367d60ba1}} 
+\index{Flight@{Flight}!getDestination@{getDestination}}
+\index{getDestination@{getDestination}!Flight@{Flight}}
+\doxysubsubsection{\texorpdfstring{getDestination()}{getDestination()}}
+{\footnotesize\ttfamily std\+::shared\+\_\+ptr$<$\mbox{\hyperlink{classAirportVertex}{Airport\+Vertex}}$>$ Flight\+::get\+Destination (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Gets the destination airport vertex of the flight. 
+
+\begin{DoxyReturn}{Returns}
+A shared pointer to the destination airport vertex. 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+include/Flight.\+h\end{DoxyCompactItemize}

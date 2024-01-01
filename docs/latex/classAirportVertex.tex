@@ -1,0 +1,312 @@
+\hypertarget{classAirportVertex}{}\doxysection{Airport\+Vertex Class Reference}
+\label{classAirportVertex}\index{AirportVertex@{AirportVertex}}
+
+
+Represents a vertex in the flight network associated with an airport.  
+
+
+
+
+{\ttfamily \#include $<$Airport\+Vertex.\+h$>$}
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classAirportVertex_a69d8b193a84d6aed157e37131420c969}{Airport\+Vertex}} (\mbox{\hyperlink{classAirport}{Airport}} airport\+\_\+)
+\begin{DoxyCompactList}\small\item\em Default constructor for the \mbox{\hyperlink{classAirportVertex}{Airport\+Vertex}} class. \end{DoxyCompactList}\item 
+const std\+::vector$<$ \mbox{\hyperlink{classFlight}{Flight}} $>$ \& \mbox{\hyperlink{classAirportVertex_ad1dfea058c7450a88ce3bfc70d69634e}{get\+Flights}} () const
+\begin{DoxyCompactList}\small\item\em Gets the flights associated with the vertex. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classAirportVertex_a2efaff4ad543b853feb00c2a834e799d}{set\+Flights}} (const std\+::vector$<$ \mbox{\hyperlink{classFlight}{Flight}} $>$ \&flights\+\_\+)
+\begin{DoxyCompactList}\small\item\em Sets the flights associated with the vertex. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classAirportVertex_a93933c141066aee4a777f3abb4495cd7}{add\+Flight}} (std\+::shared\+\_\+ptr$<$ \mbox{\hyperlink{classAirportVertex}{Airport\+Vertex}} $>$ airline, const std\+::string \&target)
+\begin{DoxyCompactList}\small\item\em Adds a flight to the vertex. \end{DoxyCompactList}\item 
+const std\+::string \& \mbox{\hyperlink{classAirportVertex_a267f6b68c05b752ff5a5cd330ad780c8}{get\+Airport\+Code}} () const
+\begin{DoxyCompactList}\small\item\em Gets the airport code associated with the vertex. \end{DoxyCompactList}\item 
+const std\+::string \& \mbox{\hyperlink{classAirportVertex_abae5ba62c5257806470de8bbbdab15a4}{get\+City}} () const
+\begin{DoxyCompactList}\small\item\em Gets the city associated with the vertex. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classAirportVertex_a39ea840414e566a9b005deb1a5c0a0cf}{set\+Visited}} (bool visited\+\_\+)
+\begin{DoxyCompactList}\small\item\em Sets the visited flag for the vertex. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classAirportVertex_a0e61039c34e0fd288b153d5aad469cf6}{is\+Visited}} () const
+\begin{DoxyCompactList}\small\item\em Checks if the vertex has been visited. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classAirportVertex_aeb847f1d345011f9d2f57bbe0d1e7814}{get\+Distinct\+Countries}} ()
+\begin{DoxyCompactList}\small\item\em Gets the number of distinct countries connected to the vertex through flights. \end{DoxyCompactList}\item 
+std\+::unordered\+\_\+set$<$ std\+::string $>$ \mbox{\hyperlink{classAirportVertex_a8d45a3d5f840a970c2735359ee89ca33}{get\+Distinct\+Countries\+Set}} ()
+\begin{DoxyCompactList}\small\item\em Gets the set of distinct countries connected to the vertex through flights. \end{DoxyCompactList}\item 
+const std\+::string \& \mbox{\hyperlink{classAirportVertex_a289c7ee5f1feb608e504ce605b7e364a}{get\+Country}} () const
+\begin{DoxyCompactList}\small\item\em Gets the country associated with the vertex. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classAirportVertex_ac246749534f613f3676457437bb45a26}{set\+Low}} (int low\+\_\+)
+\begin{DoxyCompactList}\small\item\em Sets the low value for the vertex. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classAirportVertex_aafa616d4bdfd9ed6ce7cdc5b328825f4}{set\+Num}} (int num\+\_\+)
+\begin{DoxyCompactList}\small\item\em Sets the numerical value for the vertex. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classAirportVertex_aa68f98f697bc5d40c8575d7b62423735}{get\+Low}} () const
+\begin{DoxyCompactList}\small\item\em Gets the low value associated with the vertex. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classAirportVertex_ac22356f740a2414e666cfc51c71bff26}{get\+Num}} () const
+\begin{DoxyCompactList}\small\item\em Gets the numerical value associated with the vertex. \end{DoxyCompactList}\item 
+const std\+::string \& \mbox{\hyperlink{classAirportVertex_a9c2a0f4283231588f367c2bcbe0e22f0}{get\+Name}} () const
+\begin{DoxyCompactList}\small\item\em Gets the name associated with the vertex. \end{DoxyCompactList}\item 
+double \mbox{\hyperlink{classAirportVertex_adbb343874ef178076b2e5c8c33c5a2c0}{get\+Latitude}} () const
+\begin{DoxyCompactList}\small\item\em Gets the latitude associated with the vertex. \end{DoxyCompactList}\item 
+double \mbox{\hyperlink{classAirportVertex_a81fedb9367023739fcc6dd5354203432}{get\+Longitude}} () const
+\begin{DoxyCompactList}\small\item\em Gets the longitude associated with the vertex. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Represents a vertex in the flight network associated with an airport. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classAirportVertex_a69d8b193a84d6aed157e37131420c969}\label{classAirportVertex_a69d8b193a84d6aed157e37131420c969}} 
+\index{AirportVertex@{AirportVertex}!AirportVertex@{AirportVertex}}
+\index{AirportVertex@{AirportVertex}!AirportVertex@{AirportVertex}}
+\doxysubsubsection{\texorpdfstring{AirportVertex()}{AirportVertex()}}
+{\footnotesize\ttfamily Airport\+Vertex\+::\+Airport\+Vertex (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classAirport}{Airport}}}]{airport\+\_\+ }\end{DoxyParamCaption})}
+
+
+
+Default constructor for the \mbox{\hyperlink{classAirportVertex}{Airport\+Vertex}} class. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em airport\+\_\+} & The airport to associate with the vertex. \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classAirportVertex_a93933c141066aee4a777f3abb4495cd7}\label{classAirportVertex_a93933c141066aee4a777f3abb4495cd7}} 
+\index{AirportVertex@{AirportVertex}!addFlight@{addFlight}}
+\index{addFlight@{addFlight}!AirportVertex@{AirportVertex}}
+\doxysubsubsection{\texorpdfstring{addFlight()}{addFlight()}}
+{\footnotesize\ttfamily void Airport\+Vertex\+::add\+Flight (\begin{DoxyParamCaption}\item[{std\+::shared\+\_\+ptr$<$ \mbox{\hyperlink{classAirportVertex}{Airport\+Vertex}} $>$}]{airline,  }\item[{const std\+::string \&}]{target }\end{DoxyParamCaption})}
+
+
+
+Adds a flight to the vertex. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em airline} & The destination airport vertex. \\
+\hline
+{\em target} & The target of the flight. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classAirportVertex_a267f6b68c05b752ff5a5cd330ad780c8}\label{classAirportVertex_a267f6b68c05b752ff5a5cd330ad780c8}} 
+\index{AirportVertex@{AirportVertex}!getAirportCode@{getAirportCode}}
+\index{getAirportCode@{getAirportCode}!AirportVertex@{AirportVertex}}
+\doxysubsubsection{\texorpdfstring{getAirportCode()}{getAirportCode()}}
+{\footnotesize\ttfamily const std\+::string\& Airport\+Vertex\+::get\+Airport\+Code (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Gets the airport code associated with the vertex. 
+
+\begin{DoxyReturn}{Returns}
+A constant reference to the airport code. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classAirportVertex_abae5ba62c5257806470de8bbbdab15a4}\label{classAirportVertex_abae5ba62c5257806470de8bbbdab15a4}} 
+\index{AirportVertex@{AirportVertex}!getCity@{getCity}}
+\index{getCity@{getCity}!AirportVertex@{AirportVertex}}
+\doxysubsubsection{\texorpdfstring{getCity()}{getCity()}}
+{\footnotesize\ttfamily const std\+::string\& Airport\+Vertex\+::get\+City (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Gets the city associated with the vertex. 
+
+\begin{DoxyReturn}{Returns}
+A constant reference to the city. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classAirportVertex_a289c7ee5f1feb608e504ce605b7e364a}\label{classAirportVertex_a289c7ee5f1feb608e504ce605b7e364a}} 
+\index{AirportVertex@{AirportVertex}!getCountry@{getCountry}}
+\index{getCountry@{getCountry}!AirportVertex@{AirportVertex}}
+\doxysubsubsection{\texorpdfstring{getCountry()}{getCountry()}}
+{\footnotesize\ttfamily const std\+::string\& Airport\+Vertex\+::get\+Country (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Gets the country associated with the vertex. 
+
+\begin{DoxyReturn}{Returns}
+A constant reference to the country. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classAirportVertex_aeb847f1d345011f9d2f57bbe0d1e7814}\label{classAirportVertex_aeb847f1d345011f9d2f57bbe0d1e7814}} 
+\index{AirportVertex@{AirportVertex}!getDistinctCountries@{getDistinctCountries}}
+\index{getDistinctCountries@{getDistinctCountries}!AirportVertex@{AirportVertex}}
+\doxysubsubsection{\texorpdfstring{getDistinctCountries()}{getDistinctCountries()}}
+{\footnotesize\ttfamily int Airport\+Vertex\+::get\+Distinct\+Countries (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Gets the number of distinct countries connected to the vertex through flights. 
+
+\begin{DoxyReturn}{Returns}
+The number of distinct countries. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classAirportVertex_a8d45a3d5f840a970c2735359ee89ca33}\label{classAirportVertex_a8d45a3d5f840a970c2735359ee89ca33}} 
+\index{AirportVertex@{AirportVertex}!getDistinctCountriesSet@{getDistinctCountriesSet}}
+\index{getDistinctCountriesSet@{getDistinctCountriesSet}!AirportVertex@{AirportVertex}}
+\doxysubsubsection{\texorpdfstring{getDistinctCountriesSet()}{getDistinctCountriesSet()}}
+{\footnotesize\ttfamily std\+::unordered\+\_\+set$<$std\+::string$>$ Airport\+Vertex\+::get\+Distinct\+Countries\+Set (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Gets the set of distinct countries connected to the vertex through flights. 
+
+\begin{DoxyReturn}{Returns}
+The set of distinct countries. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classAirportVertex_ad1dfea058c7450a88ce3bfc70d69634e}\label{classAirportVertex_ad1dfea058c7450a88ce3bfc70d69634e}} 
+\index{AirportVertex@{AirportVertex}!getFlights@{getFlights}}
+\index{getFlights@{getFlights}!AirportVertex@{AirportVertex}}
+\doxysubsubsection{\texorpdfstring{getFlights()}{getFlights()}}
+{\footnotesize\ttfamily const std\+::vector$<$\mbox{\hyperlink{classFlight}{Flight}}$>$\& Airport\+Vertex\+::get\+Flights (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Gets the flights associated with the vertex. 
+
+\begin{DoxyReturn}{Returns}
+A constant reference to the vector of flights. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classAirportVertex_adbb343874ef178076b2e5c8c33c5a2c0}\label{classAirportVertex_adbb343874ef178076b2e5c8c33c5a2c0}} 
+\index{AirportVertex@{AirportVertex}!getLatitude@{getLatitude}}
+\index{getLatitude@{getLatitude}!AirportVertex@{AirportVertex}}
+\doxysubsubsection{\texorpdfstring{getLatitude()}{getLatitude()}}
+{\footnotesize\ttfamily double Airport\+Vertex\+::get\+Latitude (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Gets the latitude associated with the vertex. 
+
+\begin{DoxyReturn}{Returns}
+The latitude value. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classAirportVertex_a81fedb9367023739fcc6dd5354203432}\label{classAirportVertex_a81fedb9367023739fcc6dd5354203432}} 
+\index{AirportVertex@{AirportVertex}!getLongitude@{getLongitude}}
+\index{getLongitude@{getLongitude}!AirportVertex@{AirportVertex}}
+\doxysubsubsection{\texorpdfstring{getLongitude()}{getLongitude()}}
+{\footnotesize\ttfamily double Airport\+Vertex\+::get\+Longitude (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Gets the longitude associated with the vertex. 
+
+\begin{DoxyReturn}{Returns}
+The longitude value. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classAirportVertex_aa68f98f697bc5d40c8575d7b62423735}\label{classAirportVertex_aa68f98f697bc5d40c8575d7b62423735}} 
+\index{AirportVertex@{AirportVertex}!getLow@{getLow}}
+\index{getLow@{getLow}!AirportVertex@{AirportVertex}}
+\doxysubsubsection{\texorpdfstring{getLow()}{getLow()}}
+{\footnotesize\ttfamily int Airport\+Vertex\+::get\+Low (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Gets the low value associated with the vertex. 
+
+\begin{DoxyReturn}{Returns}
+The low value. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classAirportVertex_a9c2a0f4283231588f367c2bcbe0e22f0}\label{classAirportVertex_a9c2a0f4283231588f367c2bcbe0e22f0}} 
+\index{AirportVertex@{AirportVertex}!getName@{getName}}
+\index{getName@{getName}!AirportVertex@{AirportVertex}}
+\doxysubsubsection{\texorpdfstring{getName()}{getName()}}
+{\footnotesize\ttfamily const std\+::string\& Airport\+Vertex\+::get\+Name (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Gets the name associated with the vertex. 
+
+\begin{DoxyReturn}{Returns}
+A constant reference to the name. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classAirportVertex_ac22356f740a2414e666cfc51c71bff26}\label{classAirportVertex_ac22356f740a2414e666cfc51c71bff26}} 
+\index{AirportVertex@{AirportVertex}!getNum@{getNum}}
+\index{getNum@{getNum}!AirportVertex@{AirportVertex}}
+\doxysubsubsection{\texorpdfstring{getNum()}{getNum()}}
+{\footnotesize\ttfamily int Airport\+Vertex\+::get\+Num (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Gets the numerical value associated with the vertex. 
+
+\begin{DoxyReturn}{Returns}
+The numerical value. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classAirportVertex_a0e61039c34e0fd288b153d5aad469cf6}\label{classAirportVertex_a0e61039c34e0fd288b153d5aad469cf6}} 
+\index{AirportVertex@{AirportVertex}!isVisited@{isVisited}}
+\index{isVisited@{isVisited}!AirportVertex@{AirportVertex}}
+\doxysubsubsection{\texorpdfstring{isVisited()}{isVisited()}}
+{\footnotesize\ttfamily bool Airport\+Vertex\+::is\+Visited (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Checks if the vertex has been visited. 
+
+\begin{DoxyReturn}{Returns}
+True if the vertex has been visited, false otherwise. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classAirportVertex_a2efaff4ad543b853feb00c2a834e799d}\label{classAirportVertex_a2efaff4ad543b853feb00c2a834e799d}} 
+\index{AirportVertex@{AirportVertex}!setFlights@{setFlights}}
+\index{setFlights@{setFlights}!AirportVertex@{AirportVertex}}
+\doxysubsubsection{\texorpdfstring{setFlights()}{setFlights()}}
+{\footnotesize\ttfamily void Airport\+Vertex\+::set\+Flights (\begin{DoxyParamCaption}\item[{const std\+::vector$<$ \mbox{\hyperlink{classFlight}{Flight}} $>$ \&}]{flights\+\_\+ }\end{DoxyParamCaption})}
+
+
+
+Sets the flights associated with the vertex. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em flights\+\_\+} & The vector of flights to set. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classAirportVertex_ac246749534f613f3676457437bb45a26}\label{classAirportVertex_ac246749534f613f3676457437bb45a26}} 
+\index{AirportVertex@{AirportVertex}!setLow@{setLow}}
+\index{setLow@{setLow}!AirportVertex@{AirportVertex}}
+\doxysubsubsection{\texorpdfstring{setLow()}{setLow()}}
+{\footnotesize\ttfamily void Airport\+Vertex\+::set\+Low (\begin{DoxyParamCaption}\item[{int}]{low\+\_\+ }\end{DoxyParamCaption})}
+
+
+
+Sets the low value for the vertex. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em low\+\_\+} & The value to set for the low value. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classAirportVertex_aafa616d4bdfd9ed6ce7cdc5b328825f4}\label{classAirportVertex_aafa616d4bdfd9ed6ce7cdc5b328825f4}} 
+\index{AirportVertex@{AirportVertex}!setNum@{setNum}}
+\index{setNum@{setNum}!AirportVertex@{AirportVertex}}
+\doxysubsubsection{\texorpdfstring{setNum()}{setNum()}}
+{\footnotesize\ttfamily void Airport\+Vertex\+::set\+Num (\begin{DoxyParamCaption}\item[{int}]{num\+\_\+ }\end{DoxyParamCaption})}
+
+
+
+Sets the numerical value for the vertex. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em num\+\_\+} & The value to set for the numerical value. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classAirportVertex_a39ea840414e566a9b005deb1a5c0a0cf}\label{classAirportVertex_a39ea840414e566a9b005deb1a5c0a0cf}} 
+\index{AirportVertex@{AirportVertex}!setVisited@{setVisited}}
+\index{setVisited@{setVisited}!AirportVertex@{AirportVertex}}
+\doxysubsubsection{\texorpdfstring{setVisited()}{setVisited()}}
+{\footnotesize\ttfamily void Airport\+Vertex\+::set\+Visited (\begin{DoxyParamCaption}\item[{bool}]{visited\+\_\+ }\end{DoxyParamCaption})}
+
+
+
+Sets the visited flag for the vertex. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em visited\+\_\+} & The value to set for the visited flag. \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+include/Airport\+Vertex.\+h\end{DoxyCompactItemize}

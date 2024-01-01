@@ -1,0 +1,806 @@
+\hypertarget{classNetworkController}{}\doxysection{Network\+Controller Class Reference}
+\label{classNetworkController}\index{NetworkController@{NetworkController}}
+
+
+Manages operations and queries on the flight network.  
+
+
+
+
+{\ttfamily \#include $<$Network\+Controller.\+h$>$}
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classNetworkController_a8089074219437708520768772c7f0e41}{Network\+Controller}} ()
+\begin{DoxyCompactList}\small\item\em Constructs a \mbox{\hyperlink{classNetworkController}{Network\+Controller}} object. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classNetworkController_ab6b3c907f105756cc25b1b4b5be902c1}{load\+Data}} ()
+\begin{DoxyCompactList}\small\item\em Loads data into the network. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classNetworkController_a84b7f1a9ce0d86f04671352195d95b18}{load\+Flights}} ()
+\begin{DoxyCompactList}\small\item\em Loads flight data from a CSV file and adds flights to the network. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classNetworkController_a1b17d8188ab2813163d26f43a37b2381}{load\+Airports}} ()
+\begin{DoxyCompactList}\small\item\em Loads airport data from a CSV file and adds airports to the network. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classNetworkController_a04fa0fbe58a7f6973155a9a348ec112a}{load\+Airlines}} ()
+\begin{DoxyCompactList}\small\item\em Loads airline data from a CSV file and adds airlines to the network. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classNetworkController_ad35ecb24a955bcb061e61085d987a6f4}{airport\+Count}} ()
+\begin{DoxyCompactList}\small\item\em Get the total number of airports in the network. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classNetworkController_ad7d2d66d236ce55ba95ad3a4e215e709}{flight\+Count}} ()
+\begin{DoxyCompactList}\small\item\em Get the total number of flights in the network. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classNetworkController_ab3150eb45fd6d56c09c3acc8d064bf9f}{flight\+Count\+From\+Airport}} (const std\+::string \&airport\+Code) const
+\begin{DoxyCompactList}\small\item\em Get the total number of flights departing from a specific airport. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classNetworkController_a082b6a45da1c964fd841f1784c173bd6}{distinct\+Airlines\+In\+Airport}} (const std\+::string \&airport\+Code) const
+\begin{DoxyCompactList}\small\item\em Get the number of distinct airlines operating at a specific airport. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classNetworkController_ac71f1d59de2c6282846d377d17a50a51}{flights\+Per\+City}} (const std\+::string \&city)
+\begin{DoxyCompactList}\small\item\em Get the total number of flights in a specific city. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classNetworkController_a19a53fed2d84fc6ffbb5b7ae49d8c91f}{flights\+Per\+Airline}} (const std\+::string \&airline)
+\begin{DoxyCompactList}\small\item\em Get the total number of flights operated by a specific airline in the network. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classNetworkController_adab37fa9f944654081d2ad88db58b703}{airline\+DFS}} (std\+::shared\+\_\+ptr$<$ \mbox{\hyperlink{classAirportVertex}{Airport\+Vertex}} $>$ vertex, int \&counter, const std\+::string \&match)
+\begin{DoxyCompactList}\small\item\em Perform a depth-\/first search to count the flights for a specific airline. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classNetworkController_a1266a54f09d1d78e3bd8658cfdb2cab5}{distinct\+Countries\+From\+Airport}} (const std\+::string \&airport\+Code)
+\begin{DoxyCompactList}\small\item\em Get the number of distinct countries from a specific airport. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classNetworkController_a471f84ccf3e141af3939e6b13c638a14}{distinct\+Countries\+From\+City}} (const std\+::string \&city)
+\begin{DoxyCompactList}\small\item\em Get the number of distinct countries from all airports in a specific city. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classNetworkController_a68a7f08d22f57ab62e2fd30aeff7b7e4}{count\+Distinct\+Countries}} (const std\+::vector$<$ std\+::shared\+\_\+ptr$<$ \mbox{\hyperlink{classAirportVertex}{Airport\+Vertex}} $>$$>$ \&airports)
+\begin{DoxyCompactList}\small\item\em Count the number of distinct countries from a vector of airports. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classNetworkController_a48903a9aa181c0fa35407c6b8155e405}{airports\+Reachable}} (const std\+::string \&airport\+Code)
+\begin{DoxyCompactList}\small\item\em Get the number of reachable airports from a specific airport. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classNetworkController_adbdad2d3237dfb786f155c151633f0c1}{cities\+Reachable}} (const std\+::string \&airport\+Code)
+\begin{DoxyCompactList}\small\item\em Get the number of reachable cities from a specific airport. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classNetworkController_a2f4d253fcf5ad7348452c78a4fbb416b}{countries\+Reachable}} (const std\+::string \&airport\+Code)
+\begin{DoxyCompactList}\small\item\em Get the number of reachable countries from a specific airport. \end{DoxyCompactList}\item 
+std\+::vector$<$ std\+::shared\+\_\+ptr$<$ \mbox{\hyperlink{classAirportVertex}{Airport\+Vertex}} $>$ $>$ \mbox{\hyperlink{classNetworkController_a93bb9d6c3e0d17e5360095c6bcb63a0d}{reachable}} (const std\+::string \&airport\+Code)
+\begin{DoxyCompactList}\small\item\em Find the reachable airports from a specific airport. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classNetworkController_a2d5d7eb376ff77f23c081963ddd8ba8d}{reachable\+DFS}} (std\+::shared\+\_\+ptr$<$ \mbox{\hyperlink{classAirportVertex}{Airport\+Vertex}} $>$ vertex, std\+::vector$<$ std\+::shared\+\_\+ptr$<$ \mbox{\hyperlink{classAirportVertex}{Airport\+Vertex}} $>$$>$ \&\mbox{\hyperlink{classNetworkController_a93bb9d6c3e0d17e5360095c6bcb63a0d}{reachable}})
+\begin{DoxyCompactList}\small\item\em Depth-\/first search to find reachable airports from a given vertex. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classNetworkController_a7602c0dda3eec63e4023cdec32048734}{airports\+Reachable\+NStops}} (const std\+::string \&airport\+Code, int n\+Stops)
+\begin{DoxyCompactList}\small\item\em Get the number of reachable airports from a specific airport with a maximum number of stops. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classNetworkController_af77ade40a7098bde39d071562ff5f5a3}{cities\+Reachable\+NStops}} (const std\+::string \&airport\+Code, int n\+Stops)
+\begin{DoxyCompactList}\small\item\em Get the number of reachable cities from a specific airport with a maximum number of stops. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classNetworkController_a679cae61a12d786fdf648706c6628026}{countries\+Reachable\+NStops}} (const std\+::string \&airport\+Code, int n\+Stops)
+\begin{DoxyCompactList}\small\item\em Get the number of reachable countries from a specific airport with a maximum number of stops. \end{DoxyCompactList}\item 
+std\+::vector$<$ std\+::shared\+\_\+ptr$<$ \mbox{\hyperlink{classAirportVertex}{Airport\+Vertex}} $>$ $>$ \mbox{\hyperlink{classNetworkController_a1351a7d04947959445bb5492baf80e39}{reachable\+With\+NStops}} (const std\+::string \&airport\+Code, int n\+Stops)
+\begin{DoxyCompactList}\small\item\em Get the list of reachable airports from a specific airport with a maximum number of stops. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classNetworkController_af5eae6710bdaeb7b6a11d48537060e0b}{reachable\+With\+NStops\+DFS}} (std\+::shared\+\_\+ptr$<$ \mbox{\hyperlink{classAirportVertex}{Airport\+Vertex}} $>$ vertex, int \&counter, int n\+Stops, std\+::vector$<$ std\+::shared\+\_\+ptr$<$ \mbox{\hyperlink{classAirportVertex}{Airport\+Vertex}} $>$$>$ \&\mbox{\hyperlink{classNetworkController_a93bb9d6c3e0d17e5360095c6bcb63a0d}{reachable}})
+\begin{DoxyCompactList}\small\item\em Depth-\/first search to find reachable airports from a given vertex with a maximum number of stops. \end{DoxyCompactList}\item 
+std\+::pair$<$ std\+::vector$<$ std\+::pair$<$ std\+::string, std\+::string $>$ $>$, int $>$ \mbox{\hyperlink{classNetworkController_a9e04eac46e81fd3534e80c432de9ab7c}{get\+Longest\+Trip\+With\+Distance}} ()
+\begin{DoxyCompactList}\small\item\em Get the longest trips with their distances in terms of stops. \end{DoxyCompactList}\item 
+std\+::vector$<$ std\+::pair$<$ std\+::string, int $>$ $>$ \mbox{\hyperlink{classNetworkController_aee6bd4870e5208e34f7690943d1f7033}{top\+Airports}} (int k)
+\begin{DoxyCompactList}\small\item\em Get the top airports based on the number of flights. \end{DoxyCompactList}\item 
+std\+::unordered\+\_\+set$<$ std\+::string $>$ \mbox{\hyperlink{classNetworkController_a9a4aff26a656b396b7b1f80c60958d41}{articulation\+Airports}} ()
+\begin{DoxyCompactList}\small\item\em Find articulation airports in the network. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classNetworkController_ae52a287a6227b381b90163d90362dfff}{dfs\+\_\+art}} (std\+::shared\+\_\+ptr$<$ \mbox{\hyperlink{classAirportVertex}{Airport\+Vertex}} $>$ vertex, std\+::stack$<$ std\+::string $>$ \&s, std\+::unordered\+\_\+set$<$ std\+::string $>$ \&result, int \&i)
+\begin{DoxyCompactList}\small\item\em Perform depth-\/first search to identify articulation airports. \end{DoxyCompactList}\item 
+{\footnotesize template$<$class T $>$ }\\bool \mbox{\hyperlink{classNetworkController_aa783bb33772cdbc4ce36684a9cbd6447}{in\+Stack}} (std\+::stack$<$ T $>$ stack, T info)
+\begin{DoxyCompactList}\small\item\em Check if an element is present in the stack. \end{DoxyCompactList}\item 
+std\+::shared\+\_\+ptr$<$ \mbox{\hyperlink{classAirportVertex}{Airport\+Vertex}} $>$ \mbox{\hyperlink{classNetworkController_afb4e8e534f56b19c00ad3c777c10af42}{find\+Airport\+By\+Code}} (const std\+::string \&code)
+\begin{DoxyCompactList}\small\item\em Finds an airport vertex based on its airport code. \end{DoxyCompactList}\item 
+std\+::shared\+\_\+ptr$<$ \mbox{\hyperlink{classAirportVertex}{Airport\+Vertex}} $>$ \mbox{\hyperlink{classNetworkController_a79970ac86c5d801efa8f26f87176f862}{find\+Airport\+By\+Name}} (const std\+::string \&name)
+\begin{DoxyCompactList}\small\item\em Finds an airport vertex based on its name. \end{DoxyCompactList}\item 
+std\+::vector$<$ std\+::shared\+\_\+ptr$<$ \mbox{\hyperlink{classAirportVertex}{Airport\+Vertex}} $>$ $>$ \mbox{\hyperlink{classNetworkController_a45e66fef56a08a81881864483852dbf4}{find\+Airports\+In\+City}} (const std\+::string \&city)
+\begin{DoxyCompactList}\small\item\em Finds all airports located in a given city. \end{DoxyCompactList}\item 
+std\+::vector$<$ std\+::shared\+\_\+ptr$<$ \mbox{\hyperlink{classAirportVertex}{Airport\+Vertex}} $>$ $>$ \mbox{\hyperlink{classNetworkController_a7c276378be772e0340a29e7cf51704f5}{find\+Airports\+Near\+Point}} (double latitude, double longitude)
+\begin{DoxyCompactList}\small\item\em Finds airports near a specified geographical point (latitude, longitude). \end{DoxyCompactList}\item 
+double \mbox{\hyperlink{classNetworkController_ac653f3a8c2c90b8c2da5a64f30c38f82}{compute\+Distance}} (double latitude, double longitude, std\+::shared\+\_\+ptr$<$ \mbox{\hyperlink{classAirportVertex}{Airport\+Vertex}} $>$)
+\begin{DoxyCompactList}\small\item\em Computes the geographical distance between two points given their coordinates. \end{DoxyCompactList}\item 
+std\+::vector$<$ std\+::vector$<$ \mbox{\hyperlink{classFlight}{Flight}} $>$ $>$ \mbox{\hyperlink{classNetworkController_ad0e59c7854d864d5a255eb867fe5e6f2}{find\+Best\+Flight\+Option}} (std\+::shared\+\_\+ptr$<$ \mbox{\hyperlink{classAirportVertex}{Airport\+Vertex}} $>$ source, std\+::shared\+\_\+ptr$<$ \mbox{\hyperlink{classAirportVertex}{Airport\+Vertex}} $>$ destination, \mbox{\hyperlink{classSearchFilter}{Search\+Filter}} filter, std\+::vector$<$ std\+::vector$<$ \mbox{\hyperlink{classFlight}{Flight}} $>$$>$ \&result)
+\begin{DoxyCompactList}\small\item\em Finds the best flight options between two airports based on certain criteria, using breadth-\/first search. \end{DoxyCompactList}\item 
+std\+::vector$<$ std\+::vector$<$ \mbox{\hyperlink{classFlight}{Flight}} $>$ $>$ \mbox{\hyperlink{classNetworkController_aaa648e2637f1cb98ef18e1a017197dc6}{get\+Paths}} (const std\+::vector$<$ std\+::shared\+\_\+ptr$<$ \mbox{\hyperlink{classAirportVertex}{Airport\+Vertex}} $>$$>$ \&sources, const std\+::vector$<$ std\+::shared\+\_\+ptr$<$ \mbox{\hyperlink{classAirportVertex}{Airport\+Vertex}} $>$$>$ \&destinations, const \mbox{\hyperlink{classSearchFilter}{Search\+Filter}} \&filter)
+\begin{DoxyCompactList}\small\item\em Gets all possible flight paths between multiple source and destination airport pairs based on certain criteria. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classNetworkController_a535a7a95d8573f0d3ea1ef9e6625e0d5}{in\+Set}} (std\+::unordered\+\_\+set$<$ std\+::string $>$, const std\+::string \&)
+\begin{DoxyCompactList}\small\item\em Checks if a value is present in an unordered set. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classNetworkController_acab7a95b4560a5269523789b0032abfa}{check\+Filters}} (const std\+::vector$<$ \mbox{\hyperlink{classFlight}{Flight}} $>$ \&path, \mbox{\hyperlink{classSearchFilter}{Search\+Filter}} filter)
+\begin{DoxyCompactList}\small\item\em Checks if a flight path satisfies the given search filter criteria. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Manages operations and queries on the flight network. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classNetworkController_a8089074219437708520768772c7f0e41}\label{classNetworkController_a8089074219437708520768772c7f0e41}} 
+\index{NetworkController@{NetworkController}!NetworkController@{NetworkController}}
+\index{NetworkController@{NetworkController}!NetworkController@{NetworkController}}
+\doxysubsubsection{\texorpdfstring{NetworkController()}{NetworkController()}}
+{\footnotesize\ttfamily Network\+Controller\+::\+Network\+Controller (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Constructs a \mbox{\hyperlink{classNetworkController}{Network\+Controller}} object. 
+
+This constructor initializes a \mbox{\hyperlink{classNetworkController}{Network\+Controller}} object by creating a new \mbox{\hyperlink{classNetwork}{Network}} object and loading data into it using the {\ttfamily load\+Data} function. 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classNetworkController_adab37fa9f944654081d2ad88db58b703}\label{classNetworkController_adab37fa9f944654081d2ad88db58b703}} 
+\index{NetworkController@{NetworkController}!airlineDFS@{airlineDFS}}
+\index{airlineDFS@{airlineDFS}!NetworkController@{NetworkController}}
+\doxysubsubsection{\texorpdfstring{airlineDFS()}{airlineDFS()}}
+{\footnotesize\ttfamily void Network\+Controller\+::airline\+DFS (\begin{DoxyParamCaption}\item[{std\+::shared\+\_\+ptr$<$ \mbox{\hyperlink{classAirportVertex}{Airport\+Vertex}} $>$}]{vertex,  }\item[{int \&}]{counter,  }\item[{const std\+::string \&}]{match }\end{DoxyParamCaption})}
+
+
+
+Perform a depth-\/first search to count the flights for a specific airline. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em vertex} & The starting vertex for the DFS. \\
+\hline
+{\em counter} & Reference to the counter variable. \\
+\hline
+{\em match} & The airline code to match. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classNetworkController_ad35ecb24a955bcb061e61085d987a6f4}\label{classNetworkController_ad35ecb24a955bcb061e61085d987a6f4}} 
+\index{NetworkController@{NetworkController}!airportCount@{airportCount}}
+\index{airportCount@{airportCount}!NetworkController@{NetworkController}}
+\doxysubsubsection{\texorpdfstring{airportCount()}{airportCount()}}
+{\footnotesize\ttfamily int Network\+Controller\+::airport\+Count (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Get the total number of airports in the network. 
+
+\begin{DoxyReturn}{Returns}
+The number of airports. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classNetworkController_a48903a9aa181c0fa35407c6b8155e405}\label{classNetworkController_a48903a9aa181c0fa35407c6b8155e405}} 
+\index{NetworkController@{NetworkController}!airportsReachable@{airportsReachable}}
+\index{airportsReachable@{airportsReachable}!NetworkController@{NetworkController}}
+\doxysubsubsection{\texorpdfstring{airportsReachable()}{airportsReachable()}}
+{\footnotesize\ttfamily int Network\+Controller\+::airports\+Reachable (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{airport\+Code }\end{DoxyParamCaption})}
+
+
+
+Get the number of reachable airports from a specific airport. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em airport\+Code} & The code of the airport. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The number of reachable airports from the specified airport. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classNetworkController_a7602c0dda3eec63e4023cdec32048734}\label{classNetworkController_a7602c0dda3eec63e4023cdec32048734}} 
+\index{NetworkController@{NetworkController}!airportsReachableNStops@{airportsReachableNStops}}
+\index{airportsReachableNStops@{airportsReachableNStops}!NetworkController@{NetworkController}}
+\doxysubsubsection{\texorpdfstring{airportsReachableNStops()}{airportsReachableNStops()}}
+{\footnotesize\ttfamily int Network\+Controller\+::airports\+Reachable\+NStops (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{airport\+Code,  }\item[{int}]{n\+Stops }\end{DoxyParamCaption})}
+
+
+
+Get the number of reachable airports from a specific airport with a maximum number of stops. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em airport\+Code} & The code of the airport. \\
+\hline
+{\em n\+Stops} & The maximum number of stops allowed. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The number of reachable airports from the specified airport. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classNetworkController_a9a4aff26a656b396b7b1f80c60958d41}\label{classNetworkController_a9a4aff26a656b396b7b1f80c60958d41}} 
+\index{NetworkController@{NetworkController}!articulationAirports@{articulationAirports}}
+\index{articulationAirports@{articulationAirports}!NetworkController@{NetworkController}}
+\doxysubsubsection{\texorpdfstring{articulationAirports()}{articulationAirports()}}
+{\footnotesize\ttfamily std\+::unordered\+\_\+set$<$std\+::string$>$ Network\+Controller\+::articulation\+Airports (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Find articulation airports in the network. 
+
+This function identifies articulation airports in the network using depth-\/first search (DFS). Articulation airports are critical points whose removal can increase the number of connected components in the network.
+
+\begin{DoxyReturn}{Returns}
+An unordered set of airport codes representing the articulation airports. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classNetworkController_acab7a95b4560a5269523789b0032abfa}\label{classNetworkController_acab7a95b4560a5269523789b0032abfa}} 
+\index{NetworkController@{NetworkController}!checkFilters@{checkFilters}}
+\index{checkFilters@{checkFilters}!NetworkController@{NetworkController}}
+\doxysubsubsection{\texorpdfstring{checkFilters()}{checkFilters()}}
+{\footnotesize\ttfamily bool Network\+Controller\+::check\+Filters (\begin{DoxyParamCaption}\item[{const std\+::vector$<$ \mbox{\hyperlink{classFlight}{Flight}} $>$ \&}]{path,  }\item[{\mbox{\hyperlink{classSearchFilter}{Search\+Filter}}}]{filter }\end{DoxyParamCaption})}
+
+
+
+Checks if a flight path satisfies the given search filter criteria. 
+
+This function checks if a flight path satisfies the search filter criteria, including airlines to use, cities to stop in, limiting the number of airlines, and more.
+
+
+\begin{DoxyParams}{Parameters}
+{\em path} & The vector of flights representing the flight path. \\
+\hline
+{\em filter} & The search filter criteria. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+True if the flight path satisfies the filter criteria, false otherwise. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classNetworkController_adbdad2d3237dfb786f155c151633f0c1}\label{classNetworkController_adbdad2d3237dfb786f155c151633f0c1}} 
+\index{NetworkController@{NetworkController}!citiesReachable@{citiesReachable}}
+\index{citiesReachable@{citiesReachable}!NetworkController@{NetworkController}}
+\doxysubsubsection{\texorpdfstring{citiesReachable()}{citiesReachable()}}
+{\footnotesize\ttfamily int Network\+Controller\+::cities\+Reachable (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{airport\+Code }\end{DoxyParamCaption})}
+
+
+
+Get the number of reachable cities from a specific airport. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em airport\+Code} & The code of the airport. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The number of reachable cities from the specified airport. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classNetworkController_af77ade40a7098bde39d071562ff5f5a3}\label{classNetworkController_af77ade40a7098bde39d071562ff5f5a3}} 
+\index{NetworkController@{NetworkController}!citiesReachableNStops@{citiesReachableNStops}}
+\index{citiesReachableNStops@{citiesReachableNStops}!NetworkController@{NetworkController}}
+\doxysubsubsection{\texorpdfstring{citiesReachableNStops()}{citiesReachableNStops()}}
+{\footnotesize\ttfamily int Network\+Controller\+::cities\+Reachable\+NStops (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{airport\+Code,  }\item[{int}]{n\+Stops }\end{DoxyParamCaption})}
+
+
+
+Get the number of reachable cities from a specific airport with a maximum number of stops. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em airport\+Code} & The code of the airport. \\
+\hline
+{\em n\+Stops} & The maximum number of stops allowed. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The number of reachable cities from the specified airport. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classNetworkController_ac653f3a8c2c90b8c2da5a64f30c38f82}\label{classNetworkController_ac653f3a8c2c90b8c2da5a64f30c38f82}} 
+\index{NetworkController@{NetworkController}!computeDistance@{computeDistance}}
+\index{computeDistance@{computeDistance}!NetworkController@{NetworkController}}
+\doxysubsubsection{\texorpdfstring{computeDistance()}{computeDistance()}}
+{\footnotesize\ttfamily double Network\+Controller\+::compute\+Distance (\begin{DoxyParamCaption}\item[{double}]{latitude,  }\item[{double}]{longitude,  }\item[{std\+::shared\+\_\+ptr$<$ \mbox{\hyperlink{classAirportVertex}{Airport\+Vertex}} $>$}]{ }\end{DoxyParamCaption})}
+
+
+
+Computes the geographical distance between two points given their coordinates. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em latitude} & The latitude of the first point. \\
+\hline
+{\em longitude} & The longitude of the first point. \\
+\hline
+{\em second} & The second airport vertex. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The distance in kilometers between the two points. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classNetworkController_a68a7f08d22f57ab62e2fd30aeff7b7e4}\label{classNetworkController_a68a7f08d22f57ab62e2fd30aeff7b7e4}} 
+\index{NetworkController@{NetworkController}!countDistinctCountries@{countDistinctCountries}}
+\index{countDistinctCountries@{countDistinctCountries}!NetworkController@{NetworkController}}
+\doxysubsubsection{\texorpdfstring{countDistinctCountries()}{countDistinctCountries()}}
+{\footnotesize\ttfamily int Network\+Controller\+::count\+Distinct\+Countries (\begin{DoxyParamCaption}\item[{const std\+::vector$<$ std\+::shared\+\_\+ptr$<$ \mbox{\hyperlink{classAirportVertex}{Airport\+Vertex}} $>$$>$ \&}]{airports }\end{DoxyParamCaption})}
+
+
+
+Count the number of distinct countries from a vector of airports. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em airports} & The vector of airports. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The total number of distinct countries from the provided airports. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classNetworkController_a2f4d253fcf5ad7348452c78a4fbb416b}\label{classNetworkController_a2f4d253fcf5ad7348452c78a4fbb416b}} 
+\index{NetworkController@{NetworkController}!countriesReachable@{countriesReachable}}
+\index{countriesReachable@{countriesReachable}!NetworkController@{NetworkController}}
+\doxysubsubsection{\texorpdfstring{countriesReachable()}{countriesReachable()}}
+{\footnotesize\ttfamily int Network\+Controller\+::countries\+Reachable (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{airport\+Code }\end{DoxyParamCaption})}
+
+
+
+Get the number of reachable countries from a specific airport. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em airport\+Code} & The code of the airport. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The number of reachable countries from the specified airport. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classNetworkController_a679cae61a12d786fdf648706c6628026}\label{classNetworkController_a679cae61a12d786fdf648706c6628026}} 
+\index{NetworkController@{NetworkController}!countriesReachableNStops@{countriesReachableNStops}}
+\index{countriesReachableNStops@{countriesReachableNStops}!NetworkController@{NetworkController}}
+\doxysubsubsection{\texorpdfstring{countriesReachableNStops()}{countriesReachableNStops()}}
+{\footnotesize\ttfamily int Network\+Controller\+::countries\+Reachable\+NStops (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{airport\+Code,  }\item[{int}]{n\+Stops }\end{DoxyParamCaption})}
+
+
+
+Get the number of reachable countries from a specific airport with a maximum number of stops. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em airport\+Code} & The code of the airport. \\
+\hline
+{\em n\+Stops} & The maximum number of stops allowed. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The number of reachable countries from the specified airport. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classNetworkController_ae52a287a6227b381b90163d90362dfff}\label{classNetworkController_ae52a287a6227b381b90163d90362dfff}} 
+\index{NetworkController@{NetworkController}!dfs\_art@{dfs\_art}}
+\index{dfs\_art@{dfs\_art}!NetworkController@{NetworkController}}
+\doxysubsubsection{\texorpdfstring{dfs\_art()}{dfs\_art()}}
+{\footnotesize\ttfamily void Network\+Controller\+::dfs\+\_\+art (\begin{DoxyParamCaption}\item[{std\+::shared\+\_\+ptr$<$ \mbox{\hyperlink{classAirportVertex}{Airport\+Vertex}} $>$}]{vertex,  }\item[{std\+::stack$<$ std\+::string $>$ \&}]{s,  }\item[{std\+::unordered\+\_\+set$<$ std\+::string $>$ \&}]{result,  }\item[{int \&}]{i }\end{DoxyParamCaption})}
+
+
+
+Perform depth-\/first search to identify articulation airports. 
+
+This function is a helper function used by {\ttfamily \mbox{\hyperlink{classNetworkController_a9a4aff26a656b396b7b1f80c60958d41}{articulation\+Airports()}}} to perform depth-\/first search and identify articulation airports.
+
+
+\begin{DoxyParams}{Parameters}
+{\em vertex} & The current vertex being processed. \\
+\hline
+{\em s} & A stack used to keep track of visited vertices. \\
+\hline
+{\em result} & An unordered set to store the identified articulation airports. \\
+\hline
+{\em i} & A counter to assign unique numbers to vertices during DFS. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classNetworkController_a082b6a45da1c964fd841f1784c173bd6}\label{classNetworkController_a082b6a45da1c964fd841f1784c173bd6}} 
+\index{NetworkController@{NetworkController}!distinctAirlinesInAirport@{distinctAirlinesInAirport}}
+\index{distinctAirlinesInAirport@{distinctAirlinesInAirport}!NetworkController@{NetworkController}}
+\doxysubsubsection{\texorpdfstring{distinctAirlinesInAirport()}{distinctAirlinesInAirport()}}
+{\footnotesize\ttfamily int Network\+Controller\+::distinct\+Airlines\+In\+Airport (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{airport\+Code }\end{DoxyParamCaption}) const}
+
+
+
+Get the number of distinct airlines operating at a specific airport. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em airport\+Code} & The code of the airport. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The number of distinct airlines at the specified airport. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classNetworkController_a1266a54f09d1d78e3bd8658cfdb2cab5}\label{classNetworkController_a1266a54f09d1d78e3bd8658cfdb2cab5}} 
+\index{NetworkController@{NetworkController}!distinctCountriesFromAirport@{distinctCountriesFromAirport}}
+\index{distinctCountriesFromAirport@{distinctCountriesFromAirport}!NetworkController@{NetworkController}}
+\doxysubsubsection{\texorpdfstring{distinctCountriesFromAirport()}{distinctCountriesFromAirport()}}
+{\footnotesize\ttfamily int Network\+Controller\+::distinct\+Countries\+From\+Airport (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{airport\+Code }\end{DoxyParamCaption})}
+
+
+
+Get the number of distinct countries from a specific airport. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em airport\+Code} & The code of the airport. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The number of distinct countries from the specified airport. Returns -\/1 if the airport is not found. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classNetworkController_a471f84ccf3e141af3939e6b13c638a14}\label{classNetworkController_a471f84ccf3e141af3939e6b13c638a14}} 
+\index{NetworkController@{NetworkController}!distinctCountriesFromCity@{distinctCountriesFromCity}}
+\index{distinctCountriesFromCity@{distinctCountriesFromCity}!NetworkController@{NetworkController}}
+\doxysubsubsection{\texorpdfstring{distinctCountriesFromCity()}{distinctCountriesFromCity()}}
+{\footnotesize\ttfamily int Network\+Controller\+::distinct\+Countries\+From\+City (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{city }\end{DoxyParamCaption})}
+
+
+
+Get the number of distinct countries from all airports in a specific city. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em city} & The name of the city. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The number of distinct countries from all airports in the specified city. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classNetworkController_afb4e8e534f56b19c00ad3c777c10af42}\label{classNetworkController_afb4e8e534f56b19c00ad3c777c10af42}} 
+\index{NetworkController@{NetworkController}!findAirportByCode@{findAirportByCode}}
+\index{findAirportByCode@{findAirportByCode}!NetworkController@{NetworkController}}
+\doxysubsubsection{\texorpdfstring{findAirportByCode()}{findAirportByCode()}}
+{\footnotesize\ttfamily std\+::shared\+\_\+ptr$<$\mbox{\hyperlink{classAirportVertex}{Airport\+Vertex}}$>$ Network\+Controller\+::find\+Airport\+By\+Code (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{code }\end{DoxyParamCaption})}
+
+
+
+Finds an airport vertex based on its airport code. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em code} & The airport code. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+A shared pointer to the found airport vertex, or nullptr if not found. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classNetworkController_a79970ac86c5d801efa8f26f87176f862}\label{classNetworkController_a79970ac86c5d801efa8f26f87176f862}} 
+\index{NetworkController@{NetworkController}!findAirportByName@{findAirportByName}}
+\index{findAirportByName@{findAirportByName}!NetworkController@{NetworkController}}
+\doxysubsubsection{\texorpdfstring{findAirportByName()}{findAirportByName()}}
+{\footnotesize\ttfamily std\+::shared\+\_\+ptr$<$\mbox{\hyperlink{classAirportVertex}{Airport\+Vertex}}$>$ Network\+Controller\+::find\+Airport\+By\+Name (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{name }\end{DoxyParamCaption})}
+
+
+
+Finds an airport vertex based on its name. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em name} & The name of the airport. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+A shared pointer to the found airport vertex, or nullptr if not found. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classNetworkController_a45e66fef56a08a81881864483852dbf4}\label{classNetworkController_a45e66fef56a08a81881864483852dbf4}} 
+\index{NetworkController@{NetworkController}!findAirportsInCity@{findAirportsInCity}}
+\index{findAirportsInCity@{findAirportsInCity}!NetworkController@{NetworkController}}
+\doxysubsubsection{\texorpdfstring{findAirportsInCity()}{findAirportsInCity()}}
+{\footnotesize\ttfamily std\+::vector$<$std\+::shared\+\_\+ptr$<$\mbox{\hyperlink{classAirportVertex}{Airport\+Vertex}}$>$ $>$ Network\+Controller\+::find\+Airports\+In\+City (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{city }\end{DoxyParamCaption})}
+
+
+
+Finds all airports located in a given city. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em city} & The name of the city. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+A vector of shared pointers to airports in the specified city. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classNetworkController_a7c276378be772e0340a29e7cf51704f5}\label{classNetworkController_a7c276378be772e0340a29e7cf51704f5}} 
+\index{NetworkController@{NetworkController}!findAirportsNearPoint@{findAirportsNearPoint}}
+\index{findAirportsNearPoint@{findAirportsNearPoint}!NetworkController@{NetworkController}}
+\doxysubsubsection{\texorpdfstring{findAirportsNearPoint()}{findAirportsNearPoint()}}
+{\footnotesize\ttfamily std\+::vector$<$ std\+::shared\+\_\+ptr$<$\mbox{\hyperlink{classAirportVertex}{Airport\+Vertex}}$>$ $>$ Network\+Controller\+::find\+Airports\+Near\+Point (\begin{DoxyParamCaption}\item[{double}]{latitude,  }\item[{double}]{longitude }\end{DoxyParamCaption})}
+
+
+
+Finds airports near a specified geographical point (latitude, longitude). 
+
+
+\begin{DoxyParams}{Parameters}
+{\em latitude} & The latitude of the point. \\
+\hline
+{\em longitude} & The longitude of the point. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+A vector of shared pointers to airports near the specified point. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classNetworkController_ad0e59c7854d864d5a255eb867fe5e6f2}\label{classNetworkController_ad0e59c7854d864d5a255eb867fe5e6f2}} 
+\index{NetworkController@{NetworkController}!findBestFlightOption@{findBestFlightOption}}
+\index{findBestFlightOption@{findBestFlightOption}!NetworkController@{NetworkController}}
+\doxysubsubsection{\texorpdfstring{findBestFlightOption()}{findBestFlightOption()}}
+{\footnotesize\ttfamily std\+::vector$<$std\+::vector$<$\mbox{\hyperlink{classFlight}{Flight}}$>$ $>$ Network\+Controller\+::find\+Best\+Flight\+Option (\begin{DoxyParamCaption}\item[{std\+::shared\+\_\+ptr$<$ \mbox{\hyperlink{classAirportVertex}{Airport\+Vertex}} $>$}]{source,  }\item[{std\+::shared\+\_\+ptr$<$ \mbox{\hyperlink{classAirportVertex}{Airport\+Vertex}} $>$}]{destination,  }\item[{\mbox{\hyperlink{classSearchFilter}{Search\+Filter}}}]{filter,  }\item[{std\+::vector$<$ std\+::vector$<$ \mbox{\hyperlink{classFlight}{Flight}} $>$$>$ \&}]{result }\end{DoxyParamCaption})}
+
+
+
+Finds the best flight options between two airports based on certain criteria, using breadth-\/first search. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em source} & The source airport. \\
+\hline
+{\em destination} & The destination airport. \\
+\hline
+{\em filter} & The search filter criteria. \\
+\hline
+{\em result} & A vector to store the result paths. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+A vector of vectors of flights representing the best flight options. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classNetworkController_ad7d2d66d236ce55ba95ad3a4e215e709}\label{classNetworkController_ad7d2d66d236ce55ba95ad3a4e215e709}} 
+\index{NetworkController@{NetworkController}!flightCount@{flightCount}}
+\index{flightCount@{flightCount}!NetworkController@{NetworkController}}
+\doxysubsubsection{\texorpdfstring{flightCount()}{flightCount()}}
+{\footnotesize\ttfamily int Network\+Controller\+::flight\+Count (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Get the total number of flights in the network. 
+
+\begin{DoxyReturn}{Returns}
+The number of flights. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classNetworkController_ab3150eb45fd6d56c09c3acc8d064bf9f}\label{classNetworkController_ab3150eb45fd6d56c09c3acc8d064bf9f}} 
+\index{NetworkController@{NetworkController}!flightCountFromAirport@{flightCountFromAirport}}
+\index{flightCountFromAirport@{flightCountFromAirport}!NetworkController@{NetworkController}}
+\doxysubsubsection{\texorpdfstring{flightCountFromAirport()}{flightCountFromAirport()}}
+{\footnotesize\ttfamily int Network\+Controller\+::flight\+Count\+From\+Airport (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{airport\+Code }\end{DoxyParamCaption}) const}
+
+
+
+Get the total number of flights departing from a specific airport. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em airport\+Code} & The code of the airport. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The number of flights departing from the specified airport. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classNetworkController_a19a53fed2d84fc6ffbb5b7ae49d8c91f}\label{classNetworkController_a19a53fed2d84fc6ffbb5b7ae49d8c91f}} 
+\index{NetworkController@{NetworkController}!flightsPerAirline@{flightsPerAirline}}
+\index{flightsPerAirline@{flightsPerAirline}!NetworkController@{NetworkController}}
+\doxysubsubsection{\texorpdfstring{flightsPerAirline()}{flightsPerAirline()}}
+{\footnotesize\ttfamily int Network\+Controller\+::flights\+Per\+Airline (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{airline }\end{DoxyParamCaption})}
+
+
+
+Get the total number of flights operated by a specific airline in the network. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em airline} & The airline code. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The total number of flights operated by the specified airline. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classNetworkController_ac71f1d59de2c6282846d377d17a50a51}\label{classNetworkController_ac71f1d59de2c6282846d377d17a50a51}} 
+\index{NetworkController@{NetworkController}!flightsPerCity@{flightsPerCity}}
+\index{flightsPerCity@{flightsPerCity}!NetworkController@{NetworkController}}
+\doxysubsubsection{\texorpdfstring{flightsPerCity()}{flightsPerCity()}}
+{\footnotesize\ttfamily int Network\+Controller\+::flights\+Per\+City (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{city }\end{DoxyParamCaption})}
+
+
+
+Get the total number of flights in a specific city. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em city} & The name of the city. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The total number of flights in the specified city. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classNetworkController_a9e04eac46e81fd3534e80c432de9ab7c}\label{classNetworkController_a9e04eac46e81fd3534e80c432de9ab7c}} 
+\index{NetworkController@{NetworkController}!getLongestTripWithDistance@{getLongestTripWithDistance}}
+\index{getLongestTripWithDistance@{getLongestTripWithDistance}!NetworkController@{NetworkController}}
+\doxysubsubsection{\texorpdfstring{getLongestTripWithDistance()}{getLongestTripWithDistance()}}
+{\footnotesize\ttfamily std\+::pair$<$std\+::vector$<$std\+::pair$<$std\+::string, std\+::string$>$ $>$, int$>$ Network\+Controller\+::get\+Longest\+Trip\+With\+Distance (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Get the longest trips with their distances in terms of stops. 
+
+This function performs a breadth-\/first search from each airport to find the longest trip(s) in terms of stops (distance). It returns a pair containing a vector of longest trips, where each trip is represented by a pair of airport codes (source and destination)
+
+\begin{DoxyReturn}{Returns}
+A pair containing a vector of longest trips and the maximum number of stops. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classNetworkController_aaa648e2637f1cb98ef18e1a017197dc6}\label{classNetworkController_aaa648e2637f1cb98ef18e1a017197dc6}} 
+\index{NetworkController@{NetworkController}!getPaths@{getPaths}}
+\index{getPaths@{getPaths}!NetworkController@{NetworkController}}
+\doxysubsubsection{\texorpdfstring{getPaths()}{getPaths()}}
+{\footnotesize\ttfamily std\+::vector$<$std\+::vector$<$\mbox{\hyperlink{classFlight}{Flight}}$>$ $>$ Network\+Controller\+::get\+Paths (\begin{DoxyParamCaption}\item[{const std\+::vector$<$ std\+::shared\+\_\+ptr$<$ \mbox{\hyperlink{classAirportVertex}{Airport\+Vertex}} $>$$>$ \&}]{sources,  }\item[{const std\+::vector$<$ std\+::shared\+\_\+ptr$<$ \mbox{\hyperlink{classAirportVertex}{Airport\+Vertex}} $>$$>$ \&}]{destinations,  }\item[{const \mbox{\hyperlink{classSearchFilter}{Search\+Filter}} \&}]{filter }\end{DoxyParamCaption})}
+
+
+
+Gets all possible flight paths between multiple source and destination airport pairs based on certain criteria. 
+
+This function finds the best flight options between each source and destination pair using breadth-\/first search. The resulting paths are stored in a vector of vectors of flights.
+
+
+\begin{DoxyParams}{Parameters}
+{\em sources} & A vector of shared pointers to source airports. \\
+\hline
+{\em destinations} & A vector of shared pointers to destination airports. \\
+\hline
+{\em filter} & The search filter criteria. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+A vector of vectors of flights representing the possible flight paths. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classNetworkController_a535a7a95d8573f0d3ea1ef9e6625e0d5}\label{classNetworkController_a535a7a95d8573f0d3ea1ef9e6625e0d5}} 
+\index{NetworkController@{NetworkController}!inSet@{inSet}}
+\index{inSet@{inSet}!NetworkController@{NetworkController}}
+\doxysubsubsection{\texorpdfstring{inSet()}{inSet()}}
+{\footnotesize\ttfamily bool Network\+Controller\+::in\+Set (\begin{DoxyParamCaption}\item[{std\+::unordered\+\_\+set$<$ std\+::string $>$}]{,  }\item[{const std\+::string \&}]{ }\end{DoxyParamCaption})}
+
+
+
+Checks if a value is present in an unordered set. 
+
+This function checks if the given value is present in the provided unordered set.
+
+
+\begin{DoxyParams}{Parameters}
+{\em set} & The unordered set to check. \\
+\hline
+{\em value} & The value to check for in the set. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+True if the value is present in the set, false otherwise. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classNetworkController_aa783bb33772cdbc4ce36684a9cbd6447}\label{classNetworkController_aa783bb33772cdbc4ce36684a9cbd6447}} 
+\index{NetworkController@{NetworkController}!inStack@{inStack}}
+\index{inStack@{inStack}!NetworkController@{NetworkController}}
+\doxysubsubsection{\texorpdfstring{inStack()}{inStack()}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+bool Network\+Controller\+::in\+Stack (\begin{DoxyParamCaption}\item[{std\+::stack$<$ T $>$}]{stack,  }\item[{T}]{info }\end{DoxyParamCaption})}
+
+
+
+Check if an element is present in the stack. 
+
+This template function checks whether a given element is present in the provided stack.
+
+
+\begin{DoxyTemplParams}{Template Parameters}
+{\em T} & The type of elements in the stack. \\
+\hline
+\end{DoxyTemplParams}
+
+\begin{DoxyParams}{Parameters}
+{\em stack} & The stack to be checked. \\
+\hline
+{\em info} & The element to be checked for presence in the stack. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true if the element is found in the stack, false otherwise. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classNetworkController_a04fa0fbe58a7f6973155a9a348ec112a}\label{classNetworkController_a04fa0fbe58a7f6973155a9a348ec112a}} 
+\index{NetworkController@{NetworkController}!loadAirlines@{loadAirlines}}
+\index{loadAirlines@{loadAirlines}!NetworkController@{NetworkController}}
+\doxysubsubsection{\texorpdfstring{loadAirlines()}{loadAirlines()}}
+{\footnotesize\ttfamily void Network\+Controller\+::load\+Airlines (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Loads airline data from a CSV file and adds airlines to the network. 
+
+This function reads airline information from a CSV file and adds corresponding airlines to the network. The CSV file should have columns\+: code, name, callsign, and country. \mbox{\Hypertarget{classNetworkController_a1b17d8188ab2813163d26f43a37b2381}\label{classNetworkController_a1b17d8188ab2813163d26f43a37b2381}} 
+\index{NetworkController@{NetworkController}!loadAirports@{loadAirports}}
+\index{loadAirports@{loadAirports}!NetworkController@{NetworkController}}
+\doxysubsubsection{\texorpdfstring{loadAirports()}{loadAirports()}}
+{\footnotesize\ttfamily void Network\+Controller\+::load\+Airports (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Loads airport data from a CSV file and adds airports to the network. 
+
+This function reads airport information from a CSV file and adds corresponding airports to the network. The CSV file should have columns\+: code, name, city, country, latitude, and longitude. \mbox{\Hypertarget{classNetworkController_ab6b3c907f105756cc25b1b4b5be902c1}\label{classNetworkController_ab6b3c907f105756cc25b1b4b5be902c1}} 
+\index{NetworkController@{NetworkController}!loadData@{loadData}}
+\index{loadData@{loadData}!NetworkController@{NetworkController}}
+\doxysubsubsection{\texorpdfstring{loadData()}{loadData()}}
+{\footnotesize\ttfamily void Network\+Controller\+::load\+Data (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Loads data into the network. 
+
+This function is responsible for loading data into the network. It sequentially calls three functions\+: {\ttfamily load\+Airports}, {\ttfamily load\+Airlines}, and {\ttfamily load\+Flights} to populate the network with information about airports, airlines, and flights. \mbox{\Hypertarget{classNetworkController_a84b7f1a9ce0d86f04671352195d95b18}\label{classNetworkController_a84b7f1a9ce0d86f04671352195d95b18}} 
+\index{NetworkController@{NetworkController}!loadFlights@{loadFlights}}
+\index{loadFlights@{loadFlights}!NetworkController@{NetworkController}}
+\doxysubsubsection{\texorpdfstring{loadFlights()}{loadFlights()}}
+{\footnotesize\ttfamily void Network\+Controller\+::load\+Flights (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Loads flight data from a CSV file and adds flights to the network. 
+
+This function reads flight information from a CSV file and adds corresponding flights to the network. The CSV file should have columns\+: source, target, and airline. \mbox{\Hypertarget{classNetworkController_a93bb9d6c3e0d17e5360095c6bcb63a0d}\label{classNetworkController_a93bb9d6c3e0d17e5360095c6bcb63a0d}} 
+\index{NetworkController@{NetworkController}!reachable@{reachable}}
+\index{reachable@{reachable}!NetworkController@{NetworkController}}
+\doxysubsubsection{\texorpdfstring{reachable()}{reachable()}}
+{\footnotesize\ttfamily std\+::vector$<$std\+::shared\+\_\+ptr$<$\mbox{\hyperlink{classAirportVertex}{Airport\+Vertex}}$>$ $>$ Network\+Controller\+::reachable (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{airport\+Code }\end{DoxyParamCaption})}
+
+
+
+Find the reachable airports from a specific airport. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em airport\+Code} & The code of the airport. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+A vector containing the reachable airports from the specified airport. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classNetworkController_a2d5d7eb376ff77f23c081963ddd8ba8d}\label{classNetworkController_a2d5d7eb376ff77f23c081963ddd8ba8d}} 
+\index{NetworkController@{NetworkController}!reachableDFS@{reachableDFS}}
+\index{reachableDFS@{reachableDFS}!NetworkController@{NetworkController}}
+\doxysubsubsection{\texorpdfstring{reachableDFS()}{reachableDFS()}}
+{\footnotesize\ttfamily void Network\+Controller\+::reachable\+DFS (\begin{DoxyParamCaption}\item[{std\+::shared\+\_\+ptr$<$ \mbox{\hyperlink{classAirportVertex}{Airport\+Vertex}} $>$}]{vertex,  }\item[{std\+::vector$<$ std\+::shared\+\_\+ptr$<$ \mbox{\hyperlink{classAirportVertex}{Airport\+Vertex}} $>$$>$ \&}]{reachable }\end{DoxyParamCaption})}
+
+
+
+Depth-\/first search to find reachable airports from a given vertex. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em vertex} & The starting vertex for the DFS. \\
+\hline
+{\em reachable} & Vector to store the reachable airports. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classNetworkController_a1351a7d04947959445bb5492baf80e39}\label{classNetworkController_a1351a7d04947959445bb5492baf80e39}} 
+\index{NetworkController@{NetworkController}!reachableWithNStops@{reachableWithNStops}}
+\index{reachableWithNStops@{reachableWithNStops}!NetworkController@{NetworkController}}
+\doxysubsubsection{\texorpdfstring{reachableWithNStops()}{reachableWithNStops()}}
+{\footnotesize\ttfamily std\+::vector$<$std\+::shared\+\_\+ptr$<$\mbox{\hyperlink{classAirportVertex}{Airport\+Vertex}}$>$ $>$ Network\+Controller\+::reachable\+With\+NStops (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{airport\+Code,  }\item[{int}]{n\+Stops }\end{DoxyParamCaption})}
+
+
+
+Get the list of reachable airports from a specific airport with a maximum number of stops. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em airport\+Code} & The code of the airport. \\
+\hline
+{\em n\+Stops} & The maximum number of stops allowed. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+A vector containing the reachable airports from the specified airport. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classNetworkController_af5eae6710bdaeb7b6a11d48537060e0b}\label{classNetworkController_af5eae6710bdaeb7b6a11d48537060e0b}} 
+\index{NetworkController@{NetworkController}!reachableWithNStopsDFS@{reachableWithNStopsDFS}}
+\index{reachableWithNStopsDFS@{reachableWithNStopsDFS}!NetworkController@{NetworkController}}
+\doxysubsubsection{\texorpdfstring{reachableWithNStopsDFS()}{reachableWithNStopsDFS()}}
+{\footnotesize\ttfamily void Network\+Controller\+::reachable\+With\+NStops\+DFS (\begin{DoxyParamCaption}\item[{std\+::shared\+\_\+ptr$<$ \mbox{\hyperlink{classAirportVertex}{Airport\+Vertex}} $>$}]{vertex,  }\item[{int \&}]{counter,  }\item[{int}]{n\+Stops,  }\item[{std\+::vector$<$ std\+::shared\+\_\+ptr$<$ \mbox{\hyperlink{classAirportVertex}{Airport\+Vertex}} $>$$>$ \&}]{reachable }\end{DoxyParamCaption})}
+
+
+
+Depth-\/first search to find reachable airports from a given vertex with a maximum number of stops. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em vertex} & The starting vertex for the DFS. \\
+\hline
+{\em counter} & Reference to a counter for counting reachable airports. \\
+\hline
+{\em n\+Stops} & The maximum number of stops allowed. \\
+\hline
+{\em reachable} & Vector to store the reachable airports. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classNetworkController_aee6bd4870e5208e34f7690943d1f7033}\label{classNetworkController_aee6bd4870e5208e34f7690943d1f7033}} 
+\index{NetworkController@{NetworkController}!topAirports@{topAirports}}
+\index{topAirports@{topAirports}!NetworkController@{NetworkController}}
+\doxysubsubsection{\texorpdfstring{topAirports()}{topAirports()}}
+{\footnotesize\ttfamily std\+::vector$<$std\+::pair$<$std\+::string, int$>$ $>$ Network\+Controller\+::top\+Airports (\begin{DoxyParamCaption}\item[{int}]{k }\end{DoxyParamCaption})}
+
+
+
+Get the top airports based on the number of flights. 
+
+This function retrieves the top airports based on the number of flights. It uses a priority queue (max heap) to efficiently track the airports with the highest number of flights.
+
+
+\begin{DoxyParams}{Parameters}
+{\em k} & The number of top airports to retrieve. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+A vector of pairs where each pair contains the airport code and its corresponding number of flights, sorted by the number of flights in descending order. 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+include/Network\+Controller.\+h\end{DoxyCompactItemize}

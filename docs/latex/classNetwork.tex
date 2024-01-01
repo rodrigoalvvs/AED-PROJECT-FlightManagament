@@ -1,0 +1,240 @@
+\hypertarget{classNetwork}{}\doxysection{Network Class Reference}
+\label{classNetwork}\index{Network@{Network}}
+
+
+Represents a network of airports and airlines.  
+
+
+
+
+{\ttfamily \#include $<$Network.\+h$>$}
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classNetwork_a3cc2fb4f8fa4d507077e8da85ce5a1c8}\label{classNetwork_a3cc2fb4f8fa4d507077e8da85ce5a1c8}} 
+\mbox{\hyperlink{classNetwork_a3cc2fb4f8fa4d507077e8da85ce5a1c8}{Network}} ()
+\begin{DoxyCompactList}\small\item\em Constructor for the \mbox{\hyperlink{classNetwork}{Network}} class. \end{DoxyCompactList}\item 
+const std\+::unordered\+\_\+map$<$ std\+::string, std\+::shared\+\_\+ptr$<$ \mbox{\hyperlink{classAirportVertex}{Airport\+Vertex}} $>$ $>$ \& \mbox{\hyperlink{classNetwork_abde57b040bd1cf04c73ed77d600eefad}{get\+Airport\+Set}} () const
+\begin{DoxyCompactList}\small\item\em Gets the set of airports in the network. \end{DoxyCompactList}\item 
+const std\+::unordered\+\_\+map$<$ std\+::string, std\+::shared\+\_\+ptr$<$ \mbox{\hyperlink{classAirline}{Airline}} $>$ $>$ \& \mbox{\hyperlink{classNetwork_aa14b99a6fa798ea4c30db5f4fe1dec10}{get\+Airline\+Map}} () const
+\begin{DoxyCompactList}\small\item\em Gets the set of airlines in the network. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classNetwork_a83fcec572678ec22cc52acd62a903da5}{get\+Flight\+Count}} () const
+\begin{DoxyCompactList}\small\item\em Gets the total number of flights in the network. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classNetwork_a552bd3f3dfbcf1d0abf6f29a0855e723}\label{classNetwork_a552bd3f3dfbcf1d0abf6f29a0855e723}} 
+void \mbox{\hyperlink{classNetwork_a552bd3f3dfbcf1d0abf6f29a0855e723}{increase\+Flight\+Count}} ()
+\begin{DoxyCompactList}\small\item\em Increases the total number of flights in the network by 1. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classNetwork_a85de90ae925f120cd83dc888bf618431}{add\+Airport}} (std\+::shared\+\_\+ptr$<$ \mbox{\hyperlink{classAirportVertex}{Airport\+Vertex}} $>$ airport)
+\begin{DoxyCompactList}\small\item\em Adds an airport to the network. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classNetwork_af99fc696b6725522ae3a7ac6acd88d14}{add\+Airline}} (std\+::shared\+\_\+ptr$<$ \mbox{\hyperlink{classAirline}{Airline}} $>$ airline)
+\begin{DoxyCompactList}\small\item\em Adds an airline to the network. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classNetwork_a47c24b579117cfa3c092f4a0e888e375}{add\+Flight}} (const std\+::string \&source, const std\+::string \&target, const std\+::string \&airline)
+\begin{DoxyCompactList}\small\item\em Adds a flight between two airports in the network. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classNetwork_a539c61bd568c4be0a22927c0a70f04ee}\label{classNetwork_a539c61bd568c4be0a22927c0a70f04ee}} 
+void \mbox{\hyperlink{classNetwork_a539c61bd568c4be0a22927c0a70f04ee}{reset\+Flags}} ()
+\begin{DoxyCompactList}\small\item\em Resets the \textquotesingle{}visited\textquotesingle{} flag for all airports in the network. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classNetwork_a6dbf2a596f1b8ae9ab394bea7f95013d}{out\+Degree}} (const std\+::string \&airport\+Code) const
+\begin{DoxyCompactList}\small\item\em Gets the out-\/degree of a specific airport in the network. \end{DoxyCompactList}\item 
+std\+::shared\+\_\+ptr$<$ \mbox{\hyperlink{classAirportVertex}{Airport\+Vertex}} $>$ \mbox{\hyperlink{classNetwork_a530eeb9c2d2855682b89d1b3020f7a2a}{find\+Vertex}} (const std\+::string \&info)
+\begin{DoxyCompactList}\small\item\em Finds a specific airport vertex in the network by its code. \end{DoxyCompactList}\item 
+std\+::shared\+\_\+ptr$<$ \mbox{\hyperlink{classAirportVertex}{Airport\+Vertex}} $>$ \mbox{\hyperlink{classNetwork_a668dc6c0240fabaaa6fba8eb372b7fb5}{find\+Airport\+By\+Name}} (const std\+::string \&name)
+\begin{DoxyCompactList}\small\item\em Finds a specific airport vertex in the network by its name. \end{DoxyCompactList}\item 
+const std\+::vector$<$ \mbox{\hyperlink{classFlight}{Flight}} $>$ \& \mbox{\hyperlink{classNetwork_a85bad405c8b3f20a6d661e95819689e3}{get\+Flights\+From\+Airport}} (const std\+::string \&airport\+Code) const
+\begin{DoxyCompactList}\small\item\em Gets the vector of flights departing from a specific airport in the network. \end{DoxyCompactList}\item 
+std\+::vector$<$ std\+::shared\+\_\+ptr$<$ \mbox{\hyperlink{classAirportVertex}{Airport\+Vertex}} $>$ $>$ \mbox{\hyperlink{classNetwork_a4331086991e3a2b249e6212613a86ec3}{airports\+In\+City}} (const std\+::string \&city)
+\begin{DoxyCompactList}\small\item\em Finds all airports in a specific city. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Represents a network of airports and airlines. 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classNetwork_af99fc696b6725522ae3a7ac6acd88d14}\label{classNetwork_af99fc696b6725522ae3a7ac6acd88d14}} 
+\index{Network@{Network}!addAirline@{addAirline}}
+\index{addAirline@{addAirline}!Network@{Network}}
+\doxysubsubsection{\texorpdfstring{addAirline()}{addAirline()}}
+{\footnotesize\ttfamily bool Network\+::add\+Airline (\begin{DoxyParamCaption}\item[{std\+::shared\+\_\+ptr$<$ \mbox{\hyperlink{classAirline}{Airline}} $>$}]{airline }\end{DoxyParamCaption})}
+
+
+
+Adds an airline to the network. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em airline} & The \mbox{\hyperlink{classAirline}{Airline}} object to add. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+True if the airline was successfully added, false if the airline already exists. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classNetwork_a85de90ae925f120cd83dc888bf618431}\label{classNetwork_a85de90ae925f120cd83dc888bf618431}} 
+\index{Network@{Network}!addAirport@{addAirport}}
+\index{addAirport@{addAirport}!Network@{Network}}
+\doxysubsubsection{\texorpdfstring{addAirport()}{addAirport()}}
+{\footnotesize\ttfamily bool Network\+::add\+Airport (\begin{DoxyParamCaption}\item[{std\+::shared\+\_\+ptr$<$ \mbox{\hyperlink{classAirportVertex}{Airport\+Vertex}} $>$}]{airport }\end{DoxyParamCaption})}
+
+
+
+Adds an airport to the network. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em airport} & The \mbox{\hyperlink{classAirportVertex}{Airport\+Vertex}} object to add. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+True if the airport was successfully added, false if the airport already exists. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classNetwork_a47c24b579117cfa3c092f4a0e888e375}\label{classNetwork_a47c24b579117cfa3c092f4a0e888e375}} 
+\index{Network@{Network}!addFlight@{addFlight}}
+\index{addFlight@{addFlight}!Network@{Network}}
+\doxysubsubsection{\texorpdfstring{addFlight()}{addFlight()}}
+{\footnotesize\ttfamily void Network\+::add\+Flight (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{source,  }\item[{const std\+::string \&}]{target,  }\item[{const std\+::string \&}]{airline }\end{DoxyParamCaption})}
+
+
+
+Adds a flight between two airports in the network. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em source} & The code of the source airport. \\
+\hline
+{\em target} & The code of the target airport. \\
+\hline
+{\em airline} & The code of the airline for the flight. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classNetwork_a4331086991e3a2b249e6212613a86ec3}\label{classNetwork_a4331086991e3a2b249e6212613a86ec3}} 
+\index{Network@{Network}!airportsInCity@{airportsInCity}}
+\index{airportsInCity@{airportsInCity}!Network@{Network}}
+\doxysubsubsection{\texorpdfstring{airportsInCity()}{airportsInCity()}}
+{\footnotesize\ttfamily std\+::vector$<$std\+::shared\+\_\+ptr$<$\mbox{\hyperlink{classAirportVertex}{Airport\+Vertex}}$>$ $>$ Network\+::airports\+In\+City (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{city }\end{DoxyParamCaption})}
+
+
+
+Finds all airports in a specific city. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em city} & The name of the city. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+A vector of shared pointers to \mbox{\hyperlink{classAirportVertex}{Airport\+Vertex}} objects in the specified city. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classNetwork_a668dc6c0240fabaaa6fba8eb372b7fb5}\label{classNetwork_a668dc6c0240fabaaa6fba8eb372b7fb5}} 
+\index{Network@{Network}!findAirportByName@{findAirportByName}}
+\index{findAirportByName@{findAirportByName}!Network@{Network}}
+\doxysubsubsection{\texorpdfstring{findAirportByName()}{findAirportByName()}}
+{\footnotesize\ttfamily std\+::shared\+\_\+ptr$<$\mbox{\hyperlink{classAirportVertex}{Airport\+Vertex}}$>$ Network\+::find\+Airport\+By\+Name (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{name }\end{DoxyParamCaption})}
+
+
+
+Finds a specific airport vertex in the network by its name. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em name} & The name of the airport to find. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+A shared pointer to the \mbox{\hyperlink{classAirportVertex}{Airport\+Vertex}} if found, nullptr otherwise. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classNetwork_a530eeb9c2d2855682b89d1b3020f7a2a}\label{classNetwork_a530eeb9c2d2855682b89d1b3020f7a2a}} 
+\index{Network@{Network}!findVertex@{findVertex}}
+\index{findVertex@{findVertex}!Network@{Network}}
+\doxysubsubsection{\texorpdfstring{findVertex()}{findVertex()}}
+{\footnotesize\ttfamily std\+::shared\+\_\+ptr$<$\mbox{\hyperlink{classAirportVertex}{Airport\+Vertex}}$>$ Network\+::find\+Vertex (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{info }\end{DoxyParamCaption})}
+
+
+
+Finds a specific airport vertex in the network by its code. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em info} & The code of the airport to find. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+A shared pointer to the \mbox{\hyperlink{classAirportVertex}{Airport\+Vertex}} if found, nullptr otherwise. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classNetwork_aa14b99a6fa798ea4c30db5f4fe1dec10}\label{classNetwork_aa14b99a6fa798ea4c30db5f4fe1dec10}} 
+\index{Network@{Network}!getAirlineMap@{getAirlineMap}}
+\index{getAirlineMap@{getAirlineMap}!Network@{Network}}
+\doxysubsubsection{\texorpdfstring{getAirlineMap()}{getAirlineMap()}}
+{\footnotesize\ttfamily const std\+::unordered\+\_\+map$<$std\+::string, std\+::shared\+\_\+ptr$<$\mbox{\hyperlink{classAirline}{Airline}}$>$ $>$\& Network\+::get\+Airline\+Map (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Gets the set of airlines in the network. 
+
+\begin{DoxyReturn}{Returns}
+A constant reference to the map of airline codes to \mbox{\hyperlink{classAirline}{Airline}} objects. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classNetwork_abde57b040bd1cf04c73ed77d600eefad}\label{classNetwork_abde57b040bd1cf04c73ed77d600eefad}} 
+\index{Network@{Network}!getAirportSet@{getAirportSet}}
+\index{getAirportSet@{getAirportSet}!Network@{Network}}
+\doxysubsubsection{\texorpdfstring{getAirportSet()}{getAirportSet()}}
+{\footnotesize\ttfamily const std\+::unordered\+\_\+map$<$std\+::string, std\+::shared\+\_\+ptr$<$\mbox{\hyperlink{classAirportVertex}{Airport\+Vertex}}$>$ $>$\& Network\+::get\+Airport\+Set (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Gets the set of airports in the network. 
+
+\begin{DoxyReturn}{Returns}
+A constant reference to the map of airport codes to \mbox{\hyperlink{classAirportVertex}{Airport\+Vertex}} objects. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classNetwork_a83fcec572678ec22cc52acd62a903da5}\label{classNetwork_a83fcec572678ec22cc52acd62a903da5}} 
+\index{Network@{Network}!getFlightCount@{getFlightCount}}
+\index{getFlightCount@{getFlightCount}!Network@{Network}}
+\doxysubsubsection{\texorpdfstring{getFlightCount()}{getFlightCount()}}
+{\footnotesize\ttfamily int Network\+::get\+Flight\+Count (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Gets the total number of flights in the network. 
+
+\begin{DoxyReturn}{Returns}
+The total number of flights. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classNetwork_a85bad405c8b3f20a6d661e95819689e3}\label{classNetwork_a85bad405c8b3f20a6d661e95819689e3}} 
+\index{Network@{Network}!getFlightsFromAirport@{getFlightsFromAirport}}
+\index{getFlightsFromAirport@{getFlightsFromAirport}!Network@{Network}}
+\doxysubsubsection{\texorpdfstring{getFlightsFromAirport()}{getFlightsFromAirport()}}
+{\footnotesize\ttfamily const std\+::vector$<$\mbox{\hyperlink{classFlight}{Flight}}$>$\& Network\+::get\+Flights\+From\+Airport (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{airport\+Code }\end{DoxyParamCaption}) const}
+
+
+
+Gets the vector of flights departing from a specific airport in the network. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em airport\+Code} & The code of the airport. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+A constant reference to the vector of \mbox{\hyperlink{classFlight}{Flight}} objects. Returns an empty vector if the airport does not exist in the network. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classNetwork_a6dbf2a596f1b8ae9ab394bea7f95013d}\label{classNetwork_a6dbf2a596f1b8ae9ab394bea7f95013d}} 
+\index{Network@{Network}!outDegree@{outDegree}}
+\index{outDegree@{outDegree}!Network@{Network}}
+\doxysubsubsection{\texorpdfstring{outDegree()}{outDegree()}}
+{\footnotesize\ttfamily int Network\+::out\+Degree (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{airport\+Code }\end{DoxyParamCaption}) const}
+
+
+
+Gets the out-\/degree of a specific airport in the network. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em airport\+Code} & The code of the airport. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The out-\/degree of the airport (number of outgoing flights). Returns -\/1 if the airport does not exist in the network. 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+include/Network.\+h\end{DoxyCompactItemize}

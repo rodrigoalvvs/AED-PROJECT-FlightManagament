@@ -131,7 +131,7 @@ void Menu::displayGlobalStats() {
 
     std::cout << "1. Total Number of Airports: " << this->controller->airportCount() << std::endl;
     std::cout << "2. Total Number of Flights: " << this->controller->flightCount() << std::endl;
-    std::cout << "0. Back to Statistics Menu\n==> \033[1;34mAny key to continue:\033[0m ";
+    std::cout << "==>\033[1;34mAny key to continue:\033[0m ";
 
     std::string exitFlag;
     std::getline(std::cin, exitFlag);
@@ -262,7 +262,7 @@ void Menu::displayReachableDestinations() {
         std::cout << "\033[1;36m==============================\033[0m\n"
                      "\033[1;36m   Reachable Destinations\033[0m\n"
                      "\033[1;36m==============================\033[0m\n"
-                     "\n\033[1;33mAirport to consult: \033[0m";
+                     "\n\033[1;33mName of the airport to consult: \033[0m";
 
         std::string airport;
         std::getline(std::cin, airport);
@@ -360,7 +360,7 @@ void Menu::displayEssentialAirports() {
     }
 
     std::cout << std::endl;
-
+    std::cout << counter << " Airports are essential to our network!"<< std::endl;
     std::string exitFlag;
     std::cout << "\033[1;34mAny key to continue...\033[0m";
     std::getline(std::cin, exitFlag);
@@ -501,12 +501,12 @@ std::vector<std::shared_ptr<AirportVertex>> Menu::getAirport() {
 
     switch (std::stoi(option)) {
         case 1:
-            std::cout << "Desired airport: ";
+            std::cout << "Desired airport code: ";
             std::getline(std::cin, airportCode);
             result.push_back(this->controller->findAirportByCode(airportCode));
             return result;
         case 2:
-            std::cout << "Desired airport: ";
+            std::cout << "Desired airport name: ";
             std::getline(std::cin, airportName);
             result.push_back(this->controller->findAirportByName(airportName));
             return result;
@@ -563,40 +563,32 @@ SearchFilter Menu::getFilters(){
                 std::cout << "How many distinct airlines would you like to use? ";
                 std::getline(std::cin, limit);
                 try{
-                    newFilter.limitAirlines = std::stoi(limit);
+                    newFilter.setAirlineLimit(std::stoi(limit));
                     break;
                 } catch (const std::invalid_argument& e){
                     std::cout << "Enter a valid limit!\n";
                     break;
                 }
             case 2:
-                newFilter.filterAirlines = true;
                 while(true){
                     std::cout << "Enter the airline to add (-1 to end): ";
                     std::getline(std::cin, airline);
                     if(airline == "-1") break;
-                    airlines.insert(airline);
+                    newFilter.addAirline(airline);
                 }
                 break;
             case 3:
-                newFilter.filterCities = true;
                 while(true){
                     std::cout << "Enter the city to add (-1 to end): ";
                     std::getline(std::cin, city);
                     if(city == "-1") break;
-                    cities.insert(city);
+                    newFilter.addCity(city);
                 }
                 break;
             case 4:
-                newFilter.airlinesToUse.clear();
-                newFilter.limitAirlines = -1;
-                newFilter.filterAirlines = false;
-                newFilter.filterCities = false;
-                newFilter.citiesToStop.clear();
+                newFilter.clearFilter();
                 break;
             case 0:
-                newFilter.airlinesToUse = airlines;
-                newFilter.citiesToStop = cities;
                 return newFilter;
             default:
                 std::cout << "Invalid option!\n";

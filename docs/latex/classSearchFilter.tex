@@ -1,0 +1,157 @@
+\hypertarget{classSearchFilter}{}\doxysection{Search\+Filter Class Reference}
+\label{classSearchFilter}\index{SearchFilter@{SearchFilter}}
+
+
+Represents a set of filters for flight search operations.  
+
+
+
+
+{\ttfamily \#include $<$Search\+Filter.\+h$>$}
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classSearchFilter_a2ec1f468e2f112abd22bed8e2dec5473}\label{classSearchFilter_a2ec1f468e2f112abd22bed8e2dec5473}} 
+\mbox{\hyperlink{classSearchFilter_a2ec1f468e2f112abd22bed8e2dec5473}{Search\+Filter}} ()
+\begin{DoxyCompactList}\small\item\em Default constructor for the \mbox{\hyperlink{classSearchFilter}{Search\+Filter}} class. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classSearchFilter_a59ff08b627018a9845542b41ceb5e56b}\label{classSearchFilter_a59ff08b627018a9845542b41ceb5e56b}} 
+void \mbox{\hyperlink{classSearchFilter_a59ff08b627018a9845542b41ceb5e56b}{clear\+Filter}} ()
+\begin{DoxyCompactList}\small\item\em Clears all filters in the \mbox{\hyperlink{classSearchFilter}{Search\+Filter}} object. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classSearchFilter_a10cd8f16ac549d6a1ef54eb65b6363c3}{set\+Airline\+Limit}} (int limit)
+\begin{DoxyCompactList}\small\item\em Sets the limit on the number of distinct airlines to be used in the search. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classSearchFilter_aa13c86042b970f8bf72038a4d78d9f9a}{add\+Airline}} (const std\+::string \&airline)
+\begin{DoxyCompactList}\small\item\em Adds an airline to the set of airlines to be used as a filter. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classSearchFilter_a9b299b6f2e1ccfb85bac7310840165d2}{add\+City}} (const std\+::string \&city)
+\begin{DoxyCompactList}\small\item\em Adds a city to the set of cities to be used as a filter. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classSearchFilter_adf5dd5423e2093bf050ee40de16010ee}{get\+Limit\+Airlines}} () const
+\begin{DoxyCompactList}\small\item\em Gets the limit on the number of airlines to be used in the search. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classSearchFilter_afdcd5b6a88ad52300c12c4d20905dec3}{get\+Filter\+Airlines}} () const
+\begin{DoxyCompactList}\small\item\em Checks if the airline filter is active. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classSearchFilter_aad1606be8340620466e25fa5c585f0dd}{get\+Filter\+Cities}} () const
+\begin{DoxyCompactList}\small\item\em Checks if the city filter is active. \end{DoxyCompactList}\item 
+const std\+::unordered\+\_\+set$<$ std\+::string $>$ \& \mbox{\hyperlink{classSearchFilter_ac680bc26b6a792a7bbc9c3929d2d5dfa}{get\+Airlines}} () const
+\begin{DoxyCompactList}\small\item\em Gets the set of airlines to be used as a filter. \end{DoxyCompactList}\item 
+const std\+::unordered\+\_\+set$<$ std\+::string $>$ \& \mbox{\hyperlink{classSearchFilter_a8478a90f2b6871c1db7043919f7afa41}{get\+Cities}} () const
+\begin{DoxyCompactList}\small\item\em Gets the set of cities to be used as a filter. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Represents a set of filters for flight search operations. 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classSearchFilter_aa13c86042b970f8bf72038a4d78d9f9a}\label{classSearchFilter_aa13c86042b970f8bf72038a4d78d9f9a}} 
+\index{SearchFilter@{SearchFilter}!addAirline@{addAirline}}
+\index{addAirline@{addAirline}!SearchFilter@{SearchFilter}}
+\doxysubsubsection{\texorpdfstring{addAirline()}{addAirline()}}
+{\footnotesize\ttfamily void Search\+Filter\+::add\+Airline (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{airline }\end{DoxyParamCaption})}
+
+
+
+Adds an airline to the set of airlines to be used as a filter. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em airline} & The name of the airline to be added. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classSearchFilter_a9b299b6f2e1ccfb85bac7310840165d2}\label{classSearchFilter_a9b299b6f2e1ccfb85bac7310840165d2}} 
+\index{SearchFilter@{SearchFilter}!addCity@{addCity}}
+\index{addCity@{addCity}!SearchFilter@{SearchFilter}}
+\doxysubsubsection{\texorpdfstring{addCity()}{addCity()}}
+{\footnotesize\ttfamily void Search\+Filter\+::add\+City (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{city }\end{DoxyParamCaption})}
+
+
+
+Adds a city to the set of cities to be used as a filter. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em city} & The name of the city to be added. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classSearchFilter_ac680bc26b6a792a7bbc9c3929d2d5dfa}\label{classSearchFilter_ac680bc26b6a792a7bbc9c3929d2d5dfa}} 
+\index{SearchFilter@{SearchFilter}!getAirlines@{getAirlines}}
+\index{getAirlines@{getAirlines}!SearchFilter@{SearchFilter}}
+\doxysubsubsection{\texorpdfstring{getAirlines()}{getAirlines()}}
+{\footnotesize\ttfamily const std\+::unordered\+\_\+set$<$std\+::string$>$\& Search\+Filter\+::get\+Airlines (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Gets the set of airlines to be used as a filter. 
+
+\begin{DoxyReturn}{Returns}
+The set of airlines. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classSearchFilter_a8478a90f2b6871c1db7043919f7afa41}\label{classSearchFilter_a8478a90f2b6871c1db7043919f7afa41}} 
+\index{SearchFilter@{SearchFilter}!getCities@{getCities}}
+\index{getCities@{getCities}!SearchFilter@{SearchFilter}}
+\doxysubsubsection{\texorpdfstring{getCities()}{getCities()}}
+{\footnotesize\ttfamily const std\+::unordered\+\_\+set$<$std\+::string$>$\& Search\+Filter\+::get\+Cities (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Gets the set of cities to be used as a filter. 
+
+\begin{DoxyReturn}{Returns}
+The set of cities. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classSearchFilter_afdcd5b6a88ad52300c12c4d20905dec3}\label{classSearchFilter_afdcd5b6a88ad52300c12c4d20905dec3}} 
+\index{SearchFilter@{SearchFilter}!getFilterAirlines@{getFilterAirlines}}
+\index{getFilterAirlines@{getFilterAirlines}!SearchFilter@{SearchFilter}}
+\doxysubsubsection{\texorpdfstring{getFilterAirlines()}{getFilterAirlines()}}
+{\footnotesize\ttfamily bool Search\+Filter\+::get\+Filter\+Airlines (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Checks if the airline filter is active. 
+
+\begin{DoxyReturn}{Returns}
+True if the airline filter is active, false otherwise. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classSearchFilter_aad1606be8340620466e25fa5c585f0dd}\label{classSearchFilter_aad1606be8340620466e25fa5c585f0dd}} 
+\index{SearchFilter@{SearchFilter}!getFilterCities@{getFilterCities}}
+\index{getFilterCities@{getFilterCities}!SearchFilter@{SearchFilter}}
+\doxysubsubsection{\texorpdfstring{getFilterCities()}{getFilterCities()}}
+{\footnotesize\ttfamily bool Search\+Filter\+::get\+Filter\+Cities (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Checks if the city filter is active. 
+
+\begin{DoxyReturn}{Returns}
+True if the city filter is active, false otherwise. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classSearchFilter_adf5dd5423e2093bf050ee40de16010ee}\label{classSearchFilter_adf5dd5423e2093bf050ee40de16010ee}} 
+\index{SearchFilter@{SearchFilter}!getLimitAirlines@{getLimitAirlines}}
+\index{getLimitAirlines@{getLimitAirlines}!SearchFilter@{SearchFilter}}
+\doxysubsubsection{\texorpdfstring{getLimitAirlines()}{getLimitAirlines()}}
+{\footnotesize\ttfamily int Search\+Filter\+::get\+Limit\+Airlines (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Gets the limit on the number of airlines to be used in the search. 
+
+\begin{DoxyReturn}{Returns}
+The limit on the number of airlines. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classSearchFilter_a10cd8f16ac549d6a1ef54eb65b6363c3}\label{classSearchFilter_a10cd8f16ac549d6a1ef54eb65b6363c3}} 
+\index{SearchFilter@{SearchFilter}!setAirlineLimit@{setAirlineLimit}}
+\index{setAirlineLimit@{setAirlineLimit}!SearchFilter@{SearchFilter}}
+\doxysubsubsection{\texorpdfstring{setAirlineLimit()}{setAirlineLimit()}}
+{\footnotesize\ttfamily void Search\+Filter\+::set\+Airline\+Limit (\begin{DoxyParamCaption}\item[{int}]{limit }\end{DoxyParamCaption})}
+
+
+
+Sets the limit on the number of distinct airlines to be used in the search. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em limit} & The limit on the number of airlines. \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+include/Search\+Filter.\+h\end{DoxyCompactItemize}

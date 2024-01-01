@@ -9,6 +9,7 @@
 #include <stack>
 #include <set>
 
+
 NetworkController::NetworkController() {
     Network network1;
     this->network = network1;
@@ -276,8 +277,6 @@ void NetworkController::reachableWithNStopsDFS(std::shared_ptr<AirportVertex> ve
             }
         }
     }
-
-
 }
 
 std::vector<std::shared_ptr<AirportVertex>> NetworkController::reachableWithNStops(const std::string &airportCode, int nStops) {
@@ -390,11 +389,7 @@ std::shared_ptr<AirportVertex> NetworkController::findAirportByName(const std::s
 }
 
 std::vector<std::shared_ptr<AirportVertex>> NetworkController::findAirportsInCity(const std::string &city) {
-    std::vector<std::shared_ptr<AirportVertex>> airportsInCity;
-    for(const auto& pair: this->network.getAirportSet()){
-        if(pair.second->getCity() == city) airportsInCity.push_back(pair.second);
-    }
-    return airportsInCity;
+    return this->network.airportsInCity(city);
 }
 
 std::vector<std::shared_ptr<AirportVertex>>
@@ -463,7 +458,7 @@ std::vector<std::vector<Flight>> NetworkController::findBestFlightOption(std::sh
         q.pop();
 
 
-        if(!result.empty() && rootPath.size() > result.front().size()){
+        if(!result.empty() && rootPath.size() >= result.front().size()){
             continue;
         }
 
@@ -472,7 +467,6 @@ std::vector<std::vector<Flight>> NetworkController::findBestFlightOption(std::sh
 
 
         for(Flight flight: lastVertexVisited->getFlights()){
-
             if(!flight.getDestination()->isVisited()){
                 std::vector<Flight> childPath = rootPath;
                 childPath.emplace_back(flight);
@@ -483,7 +477,6 @@ std::vector<std::vector<Flight>> NetworkController::findBestFlightOption(std::sh
                     }
                     continue;
                 }
-
                 std::vector<Flight> newPath = childPath;
                 q.push(newPath);
             }
@@ -491,7 +484,6 @@ std::vector<std::vector<Flight>> NetworkController::findBestFlightOption(std::sh
         lastVertexVisited->setVisited(true);
 
     }
-
     return result;
 }
 
@@ -518,14 +510,16 @@ bool NetworkController::checkFilters(const std::vector<Flight>& path,
         // root element
         if(flight.getAirlineCode().empty()) continue;
 
-        if(!this->inSet(filter.airlinesToUse, flight.getAirlineCode()) && filter.filterAirlines) invalidRoute = true;
+        if(!this->inSet(filter.getAirlines(), flight.getAirlineCode()) && filter.getFilterAirlines()) invalidRoute = true;
+
         airlinesUsed.insert(flight.getAirlineCode());
-        if(this->inSet(filter.citiesToStop, flight.getDestination()->getCity())) citiesUsed.insert(flight.getDestination()->getCity());
+
+        if(this->inSet(filter.getCities(), flight.getDestination()->getCity())) citiesUsed.insert(flight.getDestination()->getCity());
     }
 
-    usedAllCities = citiesUsed.size() == filter.citiesToStop.size() || !(filter.filterCities);
+    usedAllCities = citiesUsed.size() == filter.getCities().size() || !(filter.getFilterCities());
 
-    bool validNumber = airlinesUsed.size() <= filter.limitAirlines || filter.limitAirlines == -1;
+    bool validNumber = airlinesUsed.size() <= filter.getLimitAirlines() || filter.getLimitAirlines() == -1;
 
     return validNumber && !invalidRoute && usedAllCities;
 }

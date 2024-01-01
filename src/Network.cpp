@@ -27,6 +27,12 @@ bool Network::addAirline(std::shared_ptr<Airline> airline) {
 
 bool Network::addAirport(std::shared_ptr<AirportVertex> airport) {
     if(this->airportSet.find(airport->getAirportCode()) != this->airportSet.end()){return false;}
+
+    if(this->cityMap.find(airport->getCity()) == this->cityMap.end()){
+        this->cityMap.emplace(airport->getCity(), std::vector<std::shared_ptr<AirportVertex>>());
+    }
+
+    this->cityMap.find(airport->getCity())->second.push_back(airport);
     this->airportSet.emplace(airport->getAirportCode(), airport);
     return true;
 }
@@ -68,13 +74,8 @@ const std::vector<Flight> &Network::getFlightsFromAirport(const std::string &air
 }
 
 std::vector<std::shared_ptr<AirportVertex>> Network::airportsInCity(const std::string &city) {
-    std::vector<std::shared_ptr<AirportVertex>> airportsVector;
-    for(std::pair<std::string, std::shared_ptr<AirportVertex>> airportVertex: this->airportSet){
-        if(airportVertex.second->getCity() == city){
-            airportsVector.push_back(airportVertex.second);
-        }
-    }
-    return airportsVector;
+    if(this->cityMap.find(city) == this->cityMap.end()) return {};
+    return this->cityMap.find(city)->second;
 }
 
 void Network::resetFlags() {

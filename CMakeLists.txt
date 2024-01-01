@@ -18,4 +18,6 @@ add_executable(flightManagement main.cpp
         src/Airport.cpp
         include/Menu.h
         src/Menu.cpp
+        include/SearchFilter.h
+        src/SearchFilter.cpp
 )
