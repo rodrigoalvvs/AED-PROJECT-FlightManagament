@@ -292,7 +292,7 @@ std::vector<std::shared_ptr<AirportVertex>> NetworkController::reachableWithNSto
 
 
 int NetworkController::airportsReachableNStops(const std::string &airportCode, int nStops) {
-    return static_cast<int>(this->reachableWithNStops(airportCode, nStops).size());
+    return static_cast<int>(this->reachableWithNStops(airportCode, nStops).size() - 1);
 }
 
 int NetworkController::citiesReachableNStops(const std::string &airportCode, int nStops) {
@@ -301,7 +301,7 @@ int NetworkController::citiesReachableNStops(const std::string &airportCode, int
     for(const std::shared_ptr<AirportVertex>& vertex: reachable){
         cities.insert(vertex->getCity());
     }
-    return static_cast<int>(cities.size());
+    return static_cast<int>(cities.size() - 1);
 }
 
 int NetworkController::countriesReachableNStops(const std::string &airportCode, int nStops) {
@@ -310,7 +310,7 @@ int NetworkController::countriesReachableNStops(const std::string &airportCode, 
     for(const std::shared_ptr<AirportVertex>& vertex: reachable){
         countries.insert(vertex->getCountry());
     }
-    return static_cast<int>(countries.size());
+    return static_cast<int>(countries.size() - 1);
 }
 
 std::vector<std::pair<std::string, int>> NetworkController::topAirports(int k){
