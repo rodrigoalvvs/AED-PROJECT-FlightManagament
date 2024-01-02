@@ -269,7 +269,7 @@ void NetworkController::reachableWithNStopsDFS(std::shared_ptr<AirportVertex> ve
     vertex->setVisited(true);
     reachable.push_back(vertex);
 
-    if(nStops >= 0){
+    if(nStops > 0){
         for(Flight flight: vertex->getFlights()){
             if(!flight.getDestination()->isVisited()){
                 counter += 1;

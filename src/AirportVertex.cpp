@@ -47,10 +47,11 @@ bool AirportVertex::isVisited() const {
 
 int AirportVertex::getDistinctCountries() {
     std::unordered_set<std::string> countries;
+    countries.insert(this->getCountry());
     for(Flight flight: this->flights){
         countries.insert(flight.getDestination()->getCountry());
     }
-    return static_cast<int>(countries.size());
+    return static_cast<int>(countries.size() - 1);
 }
 
 std::unordered_set<std::string> AirportVertex::getDistinctCountriesSet(){
