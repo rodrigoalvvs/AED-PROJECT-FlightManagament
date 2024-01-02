@@ -30,12 +30,6 @@ public:
     Flight(std::shared_ptr<AirportVertex> dest_, const std::string &airCode);
 
     /**
-     * @brief Gets the destination code of the flight.
-     * @return A constant reference to the destination code.
-     */
-    const std::string &destinationCode();
-
-    /**
      * @brief Gets the airline code of the flight.
      * @return A constant reference to the airline code.
      */

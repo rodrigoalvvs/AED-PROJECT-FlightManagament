@@ -11,9 +11,6 @@ Flight::Flight(std::shared_ptr<AirportVertex> dest_, const std::string& airCode)
     this->airlineCode = airCode;
 }
 
-const std::string &Flight::destinationCode(){
-    return nullptr;
-}
 
 const std::string& Flight::getAirlineCode() {
     return this->airlineCode;

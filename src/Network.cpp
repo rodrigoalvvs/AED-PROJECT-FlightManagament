@@ -68,8 +68,9 @@ int Network::outDegree(const std::string &airportCode) const {
     return this->airportSet.find(airportCode)->second->getFlights().size();
 }
 
-const std::vector<Flight> &Network::getFlightsFromAirport(const std::string &airportCode) const{
-    if(this->airportSet.find(airportCode) == this->airportSet.end()) return {};
+const std::vector<Flight>& Network::getFlightsFromAirport(const std::string &airportCode) const{
+    static const std::vector<Flight> emptyFlightVector;
+    if(this->airportSet.find(airportCode) == this->airportSet.end()) return emptyFlightVector;
     return this->airportSet.find(airportCode)->second->getFlights();
 }
 
