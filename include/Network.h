@@ -117,6 +117,8 @@ public:
      * @return A set of shared pointers to AirportVertex objects in the specified city.
      */
     std::vector<std::shared_ptr<AirportVertex>> airportsInCity(const std::string &city);
+
+    void clearData();
 };
 
 #endif //FLIGHTMANAGEMENT_NETWORK_H

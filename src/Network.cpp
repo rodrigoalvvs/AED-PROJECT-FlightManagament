@@ -93,3 +93,10 @@ std::shared_ptr<AirportVertex> Network::findAirportByName(const std::string &nam
     }
     return nullptr;
 }
+
+void Network::clearData() {
+    this->flightCount = 0;
+    this->airportSet.clear();
+    this->airlineMap.clear();
+    this->cityMap.clear();
+}

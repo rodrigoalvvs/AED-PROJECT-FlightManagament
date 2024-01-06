@@ -122,10 +122,18 @@ int NetworkController::distinctAirlinesInAirport(const std::string &airportCode)
 }
 
 int NetworkController::flightsPerCity(const std::string &city) {
-    std::vector<std::shared_ptr<AirportVertex>> airportsInCity = this->network.airportsInCity(city);
     int count = 0;
-    for(const std::shared_ptr<AirportVertex>& airport: airportsInCity){
-        count += static_cast<int>(airport->getFlights().size());
+
+    for(const std::pair<std::string, std::shared_ptr<AirportVertex>> vertexPair: this->network.getAirportSet()){
+        if(vertexPair.second->getCity() == city){
+            count += static_cast<int>(vertexPair.second->getFlights().size());
+            continue;
+        }
+        for(Flight flight: vertexPair.second->getFlights()){
+            if(flight.getDestination()->getCity() == city){
+                count++;
+            }
+        }
     }
     return count;
 }
@@ -163,7 +171,6 @@ int NetworkController::distinctCountriesFromAirport(const std::string &airportCo
 }
 
 
-
 int NetworkController::countDistinctCountries(const std::vector<std::shared_ptr<AirportVertex>>& airports){
     std::unordered_set<std::string> countriesSet;
 
@@ -184,7 +191,6 @@ int NetworkController::distinctCountriesFromCity(const std::string &city) {
 std::pair<std::vector<std::pair<std::string, std::string>>, int> NetworkController::getLongestTripWithDistance() {
     std::vector<std::pair<std::string, std::string>> longestTrips;
     int maxStops = 0;
-
     for (const auto& vertexPair : network.getAirportSet()) {
         std::shared_ptr<AirportVertex> source = vertexPair.second;
         network.resetFlags();
@@ -263,30 +269,32 @@ void NetworkController::reachableDFS(std::shared_ptr<AirportVertex> vertex ,std:
     }
 }
 
-
-
-void NetworkController::reachableWithNStopsDFS(std::shared_ptr<AirportVertex> vertex, int &counter, int nStops, std::vector<std::shared_ptr<AirportVertex>>& reachable) {
-    vertex->setVisited(true);
-    reachable.push_back(vertex);
-
-    if(nStops > 0){
-        for(Flight flight: vertex->getFlights()){
-            if(!flight.getDestination()->isVisited()){
-                counter += 1;
-                this->reachableWithNStopsDFS(flight.getDestination(), counter, nStops - 1, reachable);
-            }
-        }
-    }
-}
-
 std::vector<std::shared_ptr<AirportVertex>> NetworkController::reachableWithNStops(const std::string &airportCode, int nStops) {
     this->network.resetFlags();
     std::shared_ptr<AirportVertex> source = this->network.findVertex(airportCode);
     if(source == nullptr) return {};
 
-    int counter = 0;
     std::vector<std::shared_ptr<AirportVertex>> reachable;
-    this->reachableWithNStopsDFS(source, counter, nStops, reachable);
+    std::queue<std::pair<std::shared_ptr<AirportVertex>, int>> q;
+
+    q.emplace(source, 0);
+    source->setVisited(true);
+
+    while(!q.empty()){
+
+        std::pair<std::shared_ptr<AirportVertex>,int> front = q.front();
+        reachable.push_back(front.first);
+        q.pop();
+
+        if(front.second >= nStops) continue;
+        for(Flight flight: front.first->getFlights()){
+            if(!flight.getDestination()->isVisited()){
+                q.emplace(flight.getDestination(), front.second + 1);
+                flight.getDestination()->setVisited(true);
+            }
+        }
+    }
+
     return reachable;
 }
 
@@ -328,19 +336,34 @@ std::vector<std::pair<std::string, int>> NetworkController::topAirports(int k){
     return result;
 }
 
+void NetworkController::transformUndirected() {
+    for(std::pair<std::string, std::shared_ptr<AirportVertex>> v : this->network.getAirportSet()){
+        std::vector<Flight> flightsOut = v.second->getFlights();
+        for(Flight flight: flightsOut){
+            flight.getDestination()->addFlight(v.second, flight.getAirlineCode());
+        }
+    }
+}
+
 std::unordered_set<std::string> NetworkController::articulationAirports() {
     std::unordered_set<std::string> res;
     std::stack<std::string> s;
+    this->transformUndirected();
     int i = 0;
     this->network.resetFlags();
 
-    for(const std::pair<std::string, std::shared_ptr<AirportVertex>>& v : this->network.getAirportSet()){
+    for(const std::pair<std::string, std::shared_ptr<AirportVertex>>& v : this->network.getAirportSet() ){
         if(!v.second->isVisited()){
             dfs_art(v.second, s, res, i);
         }
     }
+
+    this->network.clearData();
+    this->loadData();
+
     return res;
 }
+
 
 void NetworkController::dfs_art(std::shared_ptr<AirportVertex> vertex, std::stack<std::string> &s,
                                 std::unordered_set<std::string> &result, int &i) {
@@ -540,6 +563,7 @@ std::vector<std::vector<Flight>> NetworkController::getPaths(const std::vector<s
     // Function to get rid of the paths that have more length than others
     return paths;
 }
+
 
 
 

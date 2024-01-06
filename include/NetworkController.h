@@ -46,7 +46,6 @@ public:
      */
     void loadData();
 
-
     /**
     * @brief Loads flight data from a CSV file and adds flights to the network.
     *
@@ -222,15 +221,6 @@ public:
      */
     std::vector<std::shared_ptr<AirportVertex>> reachableWithNStops(const std::string& airportCode, int nStops);
 
-    /**
-     * @brief Depth-first search to find reachable airports from a given vertex with a maximum number of stops.
-     * @param vertex The starting vertex for the DFS.
-     * @param counter Reference to a counter for counting reachable airports.
-     * @param nStops The maximum number of stops allowed.
-     * @param reachable Vector to store the reachable airports.
-     */
-    void reachableWithNStopsDFS(std::shared_ptr<AirportVertex> vertex, int& counter, int nStops, std::vector<std::shared_ptr<AirportVertex>>& reachable);
-
     // 3.vii
     /**
      * @brief Get the longest trips with their distances in terms of stops.
@@ -280,6 +270,7 @@ public:
      */
     std::unordered_set<std::string> articulationAirports();
 
+    void transformUndirected();
 
     /**
      * @brief Perform depth-first search to identify articulation airports.
@@ -394,6 +385,7 @@ public:
      * @return True if the flight path satisfies the filter criteria, false otherwise.
      */
     bool checkFilters(const std::vector<Flight>& path, SearchFilter filter);
+
 
 };
 

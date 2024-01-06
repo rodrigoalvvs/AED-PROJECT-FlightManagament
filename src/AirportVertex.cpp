@@ -25,8 +25,8 @@ AirportVertex::AirportVertex(Airport airport_) : airport(std::move(airport_)) {
     this->low = INT16_MAX;
 }
 
-void AirportVertex::addFlight(std::shared_ptr<AirportVertex> airline, const std::string& target) {
-    this->flights.emplace_back(airline, target);
+void AirportVertex::addFlight(std::shared_ptr<AirportVertex> target, const std::string& airline) {
+    this->flights.emplace_back(target, airline);
 }
 
 const std::string &AirportVertex::getAirportCode() const {

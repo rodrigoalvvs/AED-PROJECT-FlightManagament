@@ -49,7 +49,7 @@ public:
      * @param airline The destination airport vertex.
      * @param target The target of the flight.
      */
-    void addFlight(std::shared_ptr<AirportVertex> airline, const std::string &target);
+    void addFlight(std::shared_ptr<AirportVertex> target, const std::string &airline);
 
     /**
      * @brief Gets the airport code associated with the vertex.
